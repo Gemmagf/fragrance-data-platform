@@ -8,20 +8,20 @@ export default function ValuePage() {
   return (
     <>
       <PageHeader
-        title="What I would bring to LUZI"
-        subtitle="Each thing the role needs, what I have done that matches it, and where to see the evidence in this case."
+        title="What I would bring as Data Engineer"
+        subtitle="Each responsibility of the role, what I have done that matches it, and where to see the evidence in this case."
         owner="Prepared by Gemma Garcia de la Fuente"
         sla="Updated with this case"
         action="Start a conversation about the first 90 days"
       />
 
       <section className="mt-8 space-y-3">
-        <h2 className="text-xl font-semibold tracking-tight">Needs of the role, matched to my experience</h2>
+        <h2 className="text-xl font-semibold tracking-tight">Responsibilities of the role, matched to my experience</h2>
         <div className="grid gap-4">
           {VALUE_ROWS.map((row, i) => (
             <article key={row.need} className="grid gap-4 rounded-lg border border-border bg-background p-5 md:grid-cols-[1fr_1.4fr_1fr]">
               <div>
-                <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Need {i + 1}</span>
+                <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Responsibility {i + 1}</span>
                 <h3 className="mt-1 font-semibold">{row.need}</h3>
               </div>
               <div>
@@ -53,7 +53,8 @@ export default function ValuePage() {
       <section className="mt-10 space-y-4">
         <h2 className="text-xl font-semibold tracking-tight">The first 90 days</h2>
         <p className="text-sm text-muted-foreground">
-          I would not arrive with answers. I would arrive to listen, verify, and then propose a plan that fits LUZI.
+          The first month is about getting a real pipeline running, not about slides. Each phase ends with something the
+          team can check.
         </p>
         <div className="grid gap-4 md:grid-cols-3">
           {FIRST_90_DAYS.map((p) => (
@@ -72,21 +73,24 @@ export default function ValuePage() {
         <Card title="Why this combination fits the role">
           <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed">
             <li>
-              <strong>I have owned data products end to end.</strong> As product owner, I led the vision, development and
-              delivery of a risk data-quality product, and managed a cross-functional team of five through agile cycles.
-              That is the core of a BA role that builds a function.
+              <strong>I build pipelines that can be tested and redeployed.</strong> I refactored production Python pipelines
+              for scalability, testing and deployment, and this case follows the same discipline.
             </li>
             <li>
-              <strong>I already think in decisions.</strong> Every page in this case names an owner, a refresh schedule and
-              the decision it should drive. I would apply the same discipline to LUZI from the first week.
+              <strong>Quality is built in, not checked afterwards.</strong> Contracts, a quality gate and a run log stop a bad
+              load before it reaches a report.
             </li>
             <li>
-              <strong>I design for the people who decide.</strong> The BRD says a perfumer always signs off a formula. This
-              case follows the same principle: the tools rank and quantify, and people decide.
+              <strong>I connect the platform to the people who use it.</strong> I have led a data-quality product and a
+              validation engine, and run agile delivery with business teams.
             </li>
             <li>
-              <strong>I can work in the company&apos;s languages.</strong> Native Catalan and Spanish, fluent English and
-              French, and German at an intermediate level. That matters for a Swiss company with teams in several regions.
+              <strong>I can serve Power BI from a clean model.</strong> I led a Tableau-to-Power-BI migration, and the
+              metrics catalogue is designed to become the semantic layer.
+            </li>
+            <li>
+              <strong>I work across languages.</strong> Native Catalan and Spanish, fluent English and French, and German at an
+              intermediate level, which matters for a Swiss team.
             </li>
           </ul>
         </Card>

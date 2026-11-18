@@ -1,6 +1,6 @@
 # LUZI-style Data & Analytics Case (simulated)
 
-A portfolio case built around the **Business Analyst** role at a mid-size Swiss fragrance-compound manufacturer. It takes the BRD ("LUZI AG — Data & Analytics BRD") and turns it into a working, testable slice of the platform: a simulated world, a bronze→silver→gold pipeline with data-quality controls, the analyses the BRD prioritises, a static Next.js dashboard, a UAT plan and the business-analysis documents that sit in front of it.
+A portfolio case for the **Data Engineer** role (Microsoft Fabric, pipelines, data quality, semantic layer) at a mid-size Swiss fragrance-compound manufacturer. It builds a working, testable data platform on a simulated business: source connectors, bronze-silver-gold layers, data contracts, a quality gate, a metrics catalogue and dashboards that read the gold tables.
 
 > **Everything here is simulated.** Customers, suppliers, raw materials, formulas, prices and sales are invented to mirror the shape of the business. Nothing comes from LUZI AG's real systems or data. The planted business logic (win drivers, price elasticity, circular premium, regulatory limits) is known to the test suite, so each analysis can be checked against an answer.
 
@@ -16,19 +16,19 @@ sections, each answering one business question in plain language, plus a glossar
 invented to behave like a real fragrance business. Nothing here is LUZI AG's data. The logic is built in on purpose, so
 the analyses can be checked against a known answer.
 
-**What I would bring:** a Business Analyst who connects data work to decisions. The mapping between each need of the
+**What I would bring:** a Data Engineer who builds pipelines that are tested and redeployable, puts quality checks inside the pipeline, and serves Power BI from one clean model. The mapping to each responsibility of the role, with the gaps stated, is on the *What I would bring* page.
 role and my experience is on the *What I bring* page, including the gaps I have and how I would close them.
 
 ## What it demonstrates against the job
 
 | Role requirement (posting) | Where it is evidenced |
 |---|---|
-| Structured process and data analysis as the foundation | `src/luzi_case/pipeline.py` (bronze→silver→gold, reconciliations, DQ report) |
-| Build BI capabilities mid-term | Dashboard pages mapped to the BRD's 12-dashboard suite, each with owner, SLA, primary action |
-| Test newly developed functionality | `tests/test_case.py` (15 tests) and `docs/03_uat_and_training_plan.md` |
-| Train and support users | Training plan, support model and "how to read this chart" captions in the dashboard |
-| Chemicals / industrial manufacturing context | Formulas, raw materials, IFRA limits, standard cost roll-up, supplier concentration |
-| Versatile, steps into varied tasks | BA analysis, data engineering, analytics, UAT and training all in one repo |
+| Build and maintain the data platform | `src/luzi_case/pipeline.py` (bronze→silver→gold), `run_all` with a run log, `docs/06` Fabric plan |
+| Build pipelines from ERP and databases | `src/luzi_case/connectors.py` for SQL Server, MySQL and c-tree (tested on SQLite; live servers not yet tested) |
+| ETL / ELT and medallion architecture | `src/luzi_case/pipeline.py`, 22 automated tests in `tests/test_case.py` |
+| Data quality and governance | `contracts/silver_contracts.yml`, `src/luzi_case/gate.py` (quality gate), `metrics/metrics.yml` |
+| Semantic models and Power BI | Metrics catalogue with one definition per KPI; gold tables feed the dashboards; Power BI plan in `docs/06` |
+| Versatile, works with business teams | Product-owner delivery, a cross-language web application, plain-language guidance for every page |
 
 Full mapping, with gaps stated honestly: [`docs/01_role_fit_analysis.md`](docs/01_role_fit_analysis.md).
 

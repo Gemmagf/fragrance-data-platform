@@ -22,11 +22,11 @@ export default function StartPage() {
   return (
     <>
       <section className="pb-8">
-        <p className="text-xs font-semibold uppercase tracking-wide text-accent">Business Analyst case</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-accent">Data Engineer case</p>
         <h1 className="mt-2 text-4xl font-semibold tracking-tight">How data can help a fragrance manufacturer decide faster</h1>
         <p className="mt-4 max-w-3xl text-base leading-relaxed text-muted-foreground">
-          This is a working example of how I would approach the Business Analyst role at LUZI. It turns the questions in
-          LUZI&apos;s Data &amp; Analytics brief into tested analyses and dashboards, each one explained in plain language.
+          This is a working example of the data platform I would build for LUZI: sources, pipelines, quality gates and a
+          metrics layer, feeding the dashboards the business uses. Each part is explained in plain language.
         </p>
         <div className="mt-5 max-w-3xl rounded-lg border border-accent/40 bg-accent/10 p-4 text-sm">
           <strong>About the data.</strong> Everything here is simulated. Customers, suppliers, formulas and sales are
@@ -93,7 +93,7 @@ export default function StartPage() {
       </section>
 
       <section className="mt-10">
-        <Card title="How the work is organised" subtitle="The same four steps every business analyst repeats, on any data project.">
+        <Card title="How the work is organised" subtitle="The four stages every data platform goes through, from source to decision.">
           <ol className="grid gap-4 md:grid-cols-4">
             {STEPS.map((s) => (
               <li key={s.n} className="rounded-lg bg-muted p-4">

@@ -1,16 +1,16 @@
 # 03 — UAT plan, training and support
 
-The BRD asks the BA to "organise and conduct tests of newly developed functionality" and to "train and support users". This document is the plan. The automated part of the testing is in `tests/test_case.py`; the business part is the UAT script below.
+This document is the test and training plan for the data platform and the dashboards built on it. The automated part of the testing is in `tests/test_case.py`; the business part is the UAT script below.
 
 ## 1. Test levels
 
 | Level | What it checks | Where | Who |
 |---|---|---|---|
-| Data contract | Keys unique, labels valid, formulas balance, joins resolve | `tests/test_case.py` | BA, data engineer |
-| Recovery of truth | Analyses recover the planted effects within their CI | `tests/test_case.py` | BA |
+| Data contract | Keys unique, labels valid, formulas balance, joins resolve | `tests/test_case.py` | Data engineer |
+| Recovery of truth | Analyses recover the planted effects within their CI | `tests/test_case.py` | Data engineer |
 | Data quality | Planted dirt is detected; high-severity rules pass after cleaning | `gold/dq_report.csv` | Data steward |
 | UAT | Business users confirm each page answers its question | Section 3 below | Named business owner per page |
-| Dashboard build and render | Production build passes; every page renders with no console errors | `npm run build` and browser check (see §4) | BA |
+| Dashboard build and render | Production build passes; every page renders with no console errors | `npm run build` and browser check (see §4) | Data engineer |
 
 ## 2. Automated test results (current run)
 

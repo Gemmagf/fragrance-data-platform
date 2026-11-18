@@ -1,43 +1,37 @@
-# 01 — Role fit: what the posting asks, what the BRD implies, how this case answers
+# 01 — Role fit: Data Engineer (Microsoft Fabric)
 
-Source: LUZI job posting "Business Analyst, 80–100%, Dietlikon HQ" and the Data & Analytics BRD in this repo's parent folder.
+Source: the Data Engineer posting for a Microsoft Fabric role (100%), with pipelines from Abacus / c-tree, MS SQL Server and MySQL.
 
-## 1. What the posting asks (explicit)
+## 1. What the role asks for
 
-| # | Requirement | Reading |
-|---|---|---|
-| R1 | 3+ years as BA in consulting, industrial manufacturing, chemicals or similar | Experience gate. This case does not replace it; it shows the method in a comparable sector. |
-| R2 | Structured process and data analysis as the foundation | Needs a repeatable way to go from raw source to decision. |
-| R3 | Build business-intelligence capabilities in the team mid-term | Expect to design the first BI layer, not only use one. |
-| R4 | Organise and conduct tests of newly developed functionality | Acceptance criteria, test design and UAT, not just "looks right". |
-| R5 | Train and support users | Documentation, training and support model. |
-| R6 | Versatile; prepared to step into varied tasks | Breadth across domains (R&D, ops, commercial, finance, sustainability). |
+| # | Responsibility |
+|---|---|
+| R1 | Build and maintain the central data platform on Microsoft Fabric and OneLake |
+| R2 | Build pipelines from Abacus / c-tree, MS SQL Server and MySQL |
+| R3 | ETL / ELT processes and the medallion architecture (bronze, silver, gold) |
+| R4 | Semantic models and Power BI reports |
+| R5 | Work with business teams and contribute to data governance |
 
-## 2. What the BRD implies (inferred, to be verified in the first 30 days)
+## 2. Coverage
 
-- **Build the house, not run it.** "Build BI capabilities mid-term" means the seat is seeding a function. Scope will grow. → Phased roadmap (BRD §14) and a case that is deliberately small but end-to-end.
-- **Chemistry and manufacturing fluency.** Formulas, raw materials, supplier concentration, IFRA limits, standard cost. → The simulated world is built from formula-level data, not from sales data alone.
-- **Product-owner flavour.** Running UAT and driving adoption is the closest part of the role to a product owner's job. → UAT plan with acceptance criteria and sign-off (`03_uat_and_training_plan.md`).
-- **Stakeholders by domain.** R&D, operations, commercial, finance and sustainability each need different answers. → Dashboard pages organised by owner, not by data source.
-- **Regulatory and sustainability pressure.** IFRA amendments and customer disclosure requests are now part of the job. → IFRA what-if simulation and a sustainability ledger.
-
-## 3. Coverage: how the case answers each requirement
-
-| Requirement | Evidence in the repo | Strength | Gap stated honestly |
+| Responsibility | Status | Evidence | Gap |
 |---|---|---|---|
-| R1 (experience) | Not applicable | — | This case cannot prove years of BA practice. |
-| R2 (process and data) | `pipeline.py`: silver rules, DQ report with raw vs after-cleaning counts; `simulate.py` injects realistic dirt (duplicates, key whitespace, label variants, missing values) | Strong | Only CSV and pandas. Production would be dbt + a warehouse. |
-| R3 (BI capability) | Six dashboard pages mapped to the BRD suite, each with owner, refresh SLA and primary action | Medium-strong | Dashboards are a static Next.js site (same stack as the shoe-retail app), not Power BI; no row-level security. |
-| R4 (testing) | 15 tests: data contracts plus recovery of the planted truth (elasticities, premium, win drivers, single-source flags, IFRA breaches) | Strong | Tests check the case's own logic, not a real system's integration. |
-| R5 (training and support) | `03_uat_and_training_plan.md`: training plan per audience and support model | Medium | Not yet delivered to real users. |
-| R6 (breadth) | Covers commercial, R&D, operations, finance, sustainability in one model | Medium-strong | Depth is limited to what the BRD prioritises. |
+| R1 | Partly built | Three-layer platform, one repeatable build, run log; Fabric plan in `06` | Not deployed to Fabric |
+| R2 | Partly built | Connectors for SQL Server, MySQL, c-tree; load log per table | Not tested against live servers |
+| R3 | Built | Medallion pipeline, 22 automated tests | Python, not yet Fabric notebooks |
+| R4 | Partly built | Metrics catalogue; gold tables feed the dashboards | No Power BI semantic model yet |
+| R5 | Partly built | Data contracts, quality gate, data-quality report, run log | No Purview catalogue or access control |
 
-## 4. What I would verify first in the role (first 30 days)
+## 3. Experience that supports the role
 
-1. Which ERP is actually in use (SAP Business One, Business Central, or Abacus) and what the export rights are.
-2. Whether the formulation system has an API or only file exports. This decides the ingestion design.
-3. How "won" is recorded: at the customer decision, at the first order, or at the first shipment. The win-rate definition in this case assumes the decision date.
-4. Whether the CRM and ERP customer keys really differ, and how many accounts are duplicated.
-5. Which IFRA amendments are live, and who currently owns the response.
+- Refactored production Python data pipelines for scalability, testing and deployment readiness.
+- Led the vision and delivery of a risk data-quality product and a statistical validation engine.
+- Led a Tableau-to-Power-BI migration across a risk function.
+- Strong in SQL and Python; brought many data sources together into one set of dashboards.
 
-Those five points are the first items in the stakeholder interview guide, not assumptions to defend.
+## 4. What I would verify first
+
+1. Which Abacus version runs at LUZI, and how it can be read (ODBC, export or API).
+2. Whether c-tree has a driver I can use from Fabric or from a gateway.
+3. Which Fabric capacity and licences are available, and who owns the workspace.
+4. The refresh needs of each domain, which decide whether the first pipelines run daily or nightly.

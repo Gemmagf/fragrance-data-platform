@@ -136,7 +136,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
       "Look at the 'After cleaning' column first. Anything above zero in a high-severity check needs an owner to fix it at the source.",
     forLuzi:
       "A dashboard is only as good as its data. The BRD sets a clear rule: no number goes to the Steering Committee with an open high-severity issue. This page makes that rule visible.",
-    decision: "Data owners fix problems at the source. The BA tracks the open items until they are closed.",
+    decision: "Data owners fix problems at the source. The data team tracks the open items until they are closed.",
     limit:
       "The checks cover this case's data only. A real project would add checks on every source system.",
     owner: "Domain data stewards; monitored by Head of BI",
@@ -190,87 +190,84 @@ export type ValueRow = {
 
 export const VALUE_ROWS: ValueRow[] = [
   {
-    need: "Turn raw data into a reliable process, not one-off spreadsheets",
+    need: "Build and run a central data platform on Microsoft Fabric and OneLake",
     bring:
-      "Product owner of a risk data-quality product and of a statistical validation engine at UBS. I designed data models for governance and automated manual reporting.",
-    proof: "A repeatable pipeline from raw exports to clean, checked tables, with data contracts, a quality gate and a data-quality report showing every issue found and fixed.",
-    proofHref: "/data-quality",
-  },
-  {
-    need: "Build a BI capability that grows over time, with clear owners",
-    bring:
-      "Led the Tableau-to-Power-BI migration across a risk function. I know how to choose the KPIs a team really uses, and how to make a dashboard someone acts on.",
-    proof: "Six dashboards, each with a named owner, a refresh schedule and the decision it should drive.",
-    proofHref: "/executive",
-  },
-  {
-    need: "Test new functionality and make sure it does what users need",
-    bring:
-      "Ran full agile cycles as product owner, with a cross-functional team of five (IT and business). Cut project time by half on the tools I owned.",
+      "Built and refactored production Python data pipelines for scalability, testing and deployment readiness. Designed data models that improve governance and usability.",
     proof:
-      "A UAT script of 13 business test cases, each linked to an acceptance criterion, plus 15 automated tests. Both are in the project repository (docs/ and tests/).",
-    proofHref: "",
-  },
-  {
-    need: "Train and support users so they actually adopt the tools",
-    bring:
-      "Translated complex model outputs into recommendations for senior stakeholders. Mentored an intern for 18 months. Presented insights to senior stakeholders at Google.",
-    proof: "Explanations written for non-technical readers on every page, and a training and support plan by role.",
-    proofHref: "/",
-  },
-  {
-    need: "Understand a manufacturing and consumer-goods business",
-    bring:
-      "Sixteen months as a data scientist at KH Lloreda (KH-7), a consumer-goods company: regression-based sales forecasting, marketing-mix analysis and ROI work to guide spending.",
-    proof: "Pricing, win-rate and raw-material analyses built on a formula-level model of the business.",
-    proofHref: "/pricing",
-  },
-  {
-    need: "Build and maintain data pipelines and a central platform",
-    bring:
-      "Refactored production Python data pipelines for scalability, testing and deployment readiness. Strong in SQL, Python and Power BI, and used to building the data model behind a dashboard.",
-    proof:
-      "A three-layer pipeline (bronze, silver, gold) with automated checks, and a plan for the same structure on Microsoft Fabric.",
+      "A three-layer platform (bronze, silver, gold) with one repeatable build and a run log of every load. A Fabric deployment plan that says exactly what is tested and what is not.",
     proofHref: "/platform",
   },
   {
-    need: "Be prepared to step into varied tasks, and work across languages",
+    need: "Build pipelines from ERP and operational databases (Abacus, SQL Server, MySQL)",
     bring:
-      "Native Catalan and Spanish, fluent English and French, intermediate German. Comfortable moving between finance, commercial, operations and sustainability topics.",
-    proof: "A full case built end to end, from business analysis to working dashboard, in a single repository.",
-    proofHref: "/",
+      "Strong in SQL and Python. Brought together many data sources (CRM, search, media, marketplace) into one set of dashboards at KH Lloreda.",
+    proof:
+      "Source connectors for SQL Server, MySQL and c-tree, which extract tables into bronze and log every load. Tested against SQLite; live servers are not yet tested.",
+    proofHref: "/platform",
+  },
+  {
+    need: "ETL / ELT processes and the medallion architecture",
+    bring:
+      "Refactored production pipelines so they can be tested and redeployed. Automated manual reporting, which removed repeated work for the teams that used it.",
+    proof:
+      "Bronze to silver to gold, with 22 automated tests. The pipeline is a set of plain steps, so each one can be read, tested and replaced.",
+    proofHref: "/platform",
+  },
+  {
+    need: "Data quality, validation and governance",
+    bring:
+      "Led the vision and delivery of a risk data-quality product, and a statistical validation engine, at UBS. Experienced in anomaly detection and validation methods.",
+    proof:
+      "Data contracts for every silver table (owner, key, types, allowed values), a quality gate that stops a bad load, and a data-quality report with raw and cleaned counts.",
+    proofHref: "/data-quality",
+  },
+  {
+    need: "Semantic models and Power BI reports",
+    bring:
+      "Power BI specialist. Led the Tableau-to-Power-BI migration across a risk function. Designs KPIs and dashboards that teams use to decide.",
+    proof:
+      "A metrics catalogue that defines each number once, with its owner, source and page. Dashboards read the gold tables, so the same definition is used everywhere.",
+    proofHref: "/platform",
+  },
+  {
+    need: "Work with business teams and deliver with them",
+    bring:
+      "Product owner of two data tools, managing a cross-functional team of five through agile cycles, and cutting project time by half. Translated complex model outputs for senior stakeholders.",
+    proof:
+      "Every dashboard has a named owner, a refresh schedule and the decision it supports. Every external figure is cited, with its status, on the Sources page.",
+    proofHref: "/sources",
   },
 ];
 
 export const VALUE_GAP = {
-  gap: "My experience as a business analyst with a formal title is shorter than the 3+ years the posting asks for. My strongest evidence is as a product owner and data scientist, plus a consumer-goods company background.",
+  gap: "I have not yet run a pipeline on Microsoft Fabric or against a live ERP. My CV lists Python, SQL and Power BI, but no Spark or Fabric work. The Fabric parts of this case are a plan, not a deployment.",
   close:
-    "I would close the gap in the first 30 days by building the stakeholder map, asking for an ERP super-user as an early contact, and checking the five assumptions listed in the role-fit analysis before proposing any change.",
+    "In the first month I would set up a Fabric workspace, get read-only access to one ERP extract, and ask a senior data engineer to review the first pipeline before it goes live.",
 };
 
 export const FIRST_90_DAYS = [
   {
-    phase: "Days 1–30: Listen",
+    phase: "Days 1–30: Set up and connect",
     items: [
-      "Interview R&D, operations, commercial, finance and sustainability leads.",
-      "Map the systems that matter: the ERP, the formulation system, the CRM.",
-      "Confirm how a won brief, a shipment and a price change are recorded.",
+      "Create the Fabric workspace and the bronze, silver and gold Lakehouses, with roles for each domain.",
+      "Get read-only access to the ERP and confirm table names, refresh needs and owners.",
+      "Connect the first source and load it into bronze, with the load log running from day one.",
     ],
   },
   {
-    phase: "Days 31–60: Verify",
+    phase: "Days 31–60: First pipeline end to end",
     items: [
-      "Test each assumption in this case against real LUZI data, and keep or drop it.",
-      "Set up the first real data load for one domain, with its data-quality checks.",
-      "Agree the owner, refresh schedule and primary action for each dashboard.",
+      "Move one domain (ERP orders) from bronze to silver to gold, with data contracts and the quality gate.",
+      "Alert the data owner when a check fails, and track the open items until they are closed.",
+      "Run the same checks in Fabric as in this case, and compare the results.",
     ],
   },
   {
-    phase: "Days 61–90: Commit",
+    phase: "Days 61–90: Serve and hand over",
     items: [
-      "Return to the Steering Committee with a LUZI-specific version of this plan.",
-      "Propose a 12-month roadmap, not a 24-month one, because the second year is hard to predict.",
-      "Hand over training material and a support route to the first users.",
+      "Build the semantic model on the gold tables, using the metrics catalogue, and the first Power BI reports.",
+      "Write a runbook: how a load runs, what a failure looks like, who is called.",
+      "Propose the next domains, with the effort and risk of each, for the team to decide.",
     ],
   },
 ];
@@ -333,7 +330,7 @@ export const PLATFORM_TASKS: PlatformTask[] = [
     gap: "No Power BI model exists yet. The catalogue is a file, not yet a semantic model in Fabric. The dashboards are a web application, not Power BI.",
   },
   {
-    task: "Work with Business Analysts and contribute to data governance",
+    task: "Work with business teams and contribute to data governance",
     status: "partial",
     caseEvidence:
       "Requirements, user stories with acceptance criteria, a KPI dictionary, a UAT plan, a data-quality report with named owners, data contracts that name an owner and sensitivity for every table, and a run log of every load.",

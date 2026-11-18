@@ -6,7 +6,7 @@ import { SimulatedBanner } from "@/components/SimulatedBanner";
 export const metadata: Metadata = {
   title: "LUZI-style Data & Analytics (simulated)",
   description:
-    "Business Analyst case: simulated fragrance-compound business with pipeline, analyses and dashboard. Not LUZI AG's real data.",
+    "Data Engineer case: a Microsoft Fabric-ready data platform for a fragrance manufacturer, with pipelines, data contracts, quality gates and dashboards. Simulated data.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

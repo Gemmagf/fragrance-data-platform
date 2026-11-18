@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getSource } from "@/lib/sources";
 
 /**
@@ -10,7 +11,7 @@ export function Citations({ ids }: { ids: string[] }) {
       <h3 className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Data behind this page</h3>
       <p className="mt-2 leading-relaxed">
         The customers, ingredients, formulas, prices and sales shown here are <strong>simulated</strong>. See{" "}
-        <a href="/sources/" className="font-medium underline underline-offset-2">Sources &amp; method</a> for how they were built.
+        <Link href="/sources" className="font-medium underline underline-offset-2">Sources &amp; method</Link> for how they were built.
       </p>
       {ids.length > 0 && (
         <ul className="mt-3 space-y-2">

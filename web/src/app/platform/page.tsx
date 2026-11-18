@@ -18,7 +18,7 @@ export default function PlatformPage() {
       <PageHeader
         title="Data platform and engineering"
         subtitle="How the data moves from source systems to decisions, and how each data-engineering responsibility of the role is covered in this case."
-        owner="Data engineering with the Business Analysts"
+        owner="Data engineering with the business owners"
         sla="Daily load, with checks at every layer"
         action="Keep every layer traceable, from the decision back to the raw source"
       />

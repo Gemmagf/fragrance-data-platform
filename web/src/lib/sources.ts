@@ -111,7 +111,7 @@ export const SOURCES: Source[] = [
   },
   {
     id: "C1",
-    title: "Author's Business Analyst brief (BRD)",
+    title: "LUZI Data & Analytics brief (author's draft)",
     publisher: "Gemma Garcia de la Fuente",
     url: "",
     kind: "author material",
