@@ -1,0 +1,183 @@
+{
+  "exec": {
+    "ltm_revenue_chf": 102079323.715,
+    "prior_revenue_chf": 66726908.773,
+    "revenue_growth_pct": 0.5298074733578069,
+    "ltm_gross_margin_pct": 0.44002410625211,
+    "ltm_win_rate": 0.2772727272727273,
+    "ltm_briefs": 233,
+    "top10_customer_share": 0.43258056694503055,
+    "circular_revenue_share": 0.09188708466748681,
+    "active_customers_ltm": 60
+  },
+  "win_drivers": [
+    {
+      "term": "family_match",
+      "logit_coef": 1.020837534481911,
+      "ci_low": 0.7475491850149054,
+      "ci_high": 1.2941258839489165,
+      "p_value": 2.45722098206133e-13,
+      "odds_ratio": 2.7755183831239294,
+      "n_decided": 1264
+    },
+    {
+      "term": "days_over_2",
+      "logit_coef": -0.11707635335691488,
+      "ci_low": -0.3317112669268022,
+      "ci_high": 0.0975585602129724,
+      "p_value": 0.2850261861979224,
+      "odds_ratio": 0.8895172729406531,
+      "n_decided": 1264
+    },
+    {
+      "term": "iter_over_4",
+      "logit_coef": -0.1088989206103815,
+      "ci_low": -0.2613781601678762,
+      "ci_high": 0.04358031894711317,
+      "p_value": 0.1615780842076694,
+      "odds_ratio": 0.8968210630426094,
+      "n_decided": 1264
+    },
+    {
+      "term": "price_pct_over_target",
+      "logit_coef": -8.341899342824552,
+      "ci_low": -10.960478083172585,
+      "ci_high": -5.723320602476519,
+      "p_value": 4.2712825474394307e-10,
+      "odds_ratio": 0.00023831926281415262,
+      "n_decided": 1264
+    },
+    {
+      "term": "tier_A",
+      "logit_coef": 0.500292038700979,
+      "ci_low": 0.17478819166891452,
+      "ci_high": 0.8257958857330436,
+      "p_value": 0.0025917353216981715,
+      "odds_ratio": 1.6492028314320626,
+      "n_decided": 1264
+    },
+    {
+      "term": "tier_C",
+      "logit_coef": -0.039786142085043934,
+      "ci_low": -0.37189945176454553,
+      "ci_high": 0.29232716759445765,
+      "p_value": 0.8143658363729704,
+      "odds_ratio": 0.9609949335510107,
+      "n_decided": 1264
+    }
+  ],
+  "cycle_time": [
+    {
+      "stage": "Brief received -> first sample",
+      "n": 1400,
+      "median_days": 1.0,
+      "p75_days": 1.0,
+      "share_of_median_days": 0.013888888888888888
+    },
+    {
+      "stage": "Sampling rounds (first -> submitted)",
+      "n": 1400,
+      "median_days": 13.0,
+      "p75_days": 19.0,
+      "share_of_median_days": 0.18055555555555555
+    },
+    {
+      "stage": "Customer decision (submitted -> decision)",
+      "n": 1326,
+      "median_days": 18.0,
+      "p75_days": 23.0,
+      "share_of_median_days": 0.25
+    },
+    {
+      "stage": "Ship lead (decision -> shipped, won only)",
+      "n": 404,
+      "median_days": 40.0,
+      "p75_days": 51.0,
+      "share_of_median_days": 0.5555555555555556
+    }
+  ],
+  "elasticity": [
+    {
+      "tier": "A",
+      "elasticity": -0.5527167345811264,
+      "ci_low": -0.9340719455892079,
+      "ci_high": -0.17136152357304474,
+      "n_obs": 1419,
+      "r_squared": 0.9854833582999899
+    },
+    {
+      "tier": "B",
+      "elasticity": -1.107524591925193,
+      "ci_low": -1.3211488137122425,
+      "ci_high": -0.8939003701381436,
+      "n_obs": 3379,
+      "r_squared": 0.9912309111236641
+    },
+    {
+      "tier": "C",
+      "elasticity": -1.6633091538896965,
+      "ci_low": -2.069039238591497,
+      "ci_high": -1.257579069187896,
+      "n_obs": 819,
+      "r_squared": 0.9916338624776224
+    }
+  ],
+  "repricing": {
+    "price_increase_pct": 0.04,
+    "ltm_revenue_chf": 102079323.715,
+    "ltm_gross_margin_pct": 0.44002410625211,
+    "gm_uplift_chf": 2150830.428988165,
+    "gm_uplift_bps": 210.70186896938782,
+    "gm_pct_after": 0.46147329280161153
+  },
+  "circular_premium": {
+    "premium_pct": 0.06024099698512231,
+    "premium_ci_low": 0.05884385595788255,
+    "premium_ci_high": 0.061639981535407395,
+    "n_orders_circular": 577,
+    "n_orders_total": 5617
+  },
+  "ifra_whatif": {
+    "rm_code": "RM-026",
+    "new_limit_pct": 0.05,
+    "formulas_in_use": 38,
+    "formulas_breaching": 38,
+    "revenue_at_risk_ltm_chf": 1295097.4049999998,
+    "avg_excess_pct": 0.08473684210526314,
+    "substitution_candidates": 23
+  },
+  "single_source_rms": 12,
+  "rm_count": 60,
+  "top_stress": [
+    {
+      "supplier_id": "SUP-02",
+      "supplier_name": "Supplier 02",
+      "country": "FR",
+      "category": "natural",
+      "otif_pct": 94.8,
+      "single_source_rms": 3,
+      "revenue_exposed_ltm_chf": 41801570.643,
+      "revenue_at_risk_8w_chf": 6431010.868153846
+    },
+    {
+      "supplier_id": "SUP-15",
+      "supplier_name": "Supplier 15",
+      "country": "IN",
+      "category": "synthetic",
+      "otif_pct": 95.2,
+      "single_source_rms": 1,
+      "revenue_exposed_ltm_chf": 31011288.755,
+      "revenue_at_risk_8w_chf": 4770967.500769231
+    },
+    {
+      "supplier_id": "SUP-06",
+      "supplier_name": "Supplier 06",
+      "country": "CN",
+      "category": "natural",
+      "otif_pct": 83.8,
+      "single_source_rms": 2,
+      "revenue_exposed_ltm_chf": 27133087.17,
+      "revenue_at_risk_8w_chf": 4174321.103076923
+    }
+  ]
+}

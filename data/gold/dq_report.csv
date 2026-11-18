@@ -1,0 +1,14 @@
+table,check,failures_raw,failures_after_cleaning,action,severity
+crm_briefs,brief_id unique,28,0,drop exact re-export rows (keep first),high
+crm_briefs,crm_id exists in customer master (raw key),44,0,trim and upper-case keys before join,high
+crm_briefs,response_hours present,67,67,kept as null; excluded from response-time model,medium
+crm_briefs,"outcome in {won, lost, open, no_decision} (exact label)",97,0,normalise label case and whitespace,high
+crm_customers,customer names in standard case,2,0,title-case names,low
+customer_crosswalk,secondary ERP accounts (duplicate-account risk),3,3,kept out of joins; flagged to Sales Ops for account merge,medium
+formulation_lines,rm_code exists in RM master,326,0,upper-case codes before join,high
+formulation_lines,formula percentages sum to 100 (+/-0.05),0,0,flag formulas that do not balance,high
+erp_sales_orders,unit price present,29,29,kept; excluded from revenue and margin,medium
+erp_sales_orders,quantity positive (returns flagged),28,28,returns kept with is_return flag; excluded from volume-elasticity model,medium
+erp_sales_orders,customer resolves to CRM master,0,0,join through primary crosswalk,high
+erp_sales_orders,compound resolves to formula,0,0,none expected,high
+rm_price_feed,prices present and positive,0,0,none expected,high

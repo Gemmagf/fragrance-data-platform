@@ -1,0 +1,15 @@
+perfumer_id,perfumer_name,specialisation_1,specialisation_2,load_weight
+PF-01,Perfumer 01,Oriental,Green,0.9254335910218127
+PF-02,Perfumer 02,Gourmand,Aromatic,0.5218337875087093
+PF-03,Perfumer 03,Floral,Woody,1.1217061933157977
+PF-04,Perfumer 04,Fresh,Green,1.4049686367244671
+PF-05,Perfumer 05,Citrus,Aromatic,0.7187691385585309
+PF-06,Perfumer 06,Oriental,Green,1.343160562762129
+PF-07,Perfumer 07,Green,Floral,1.2385128227744233
+PF-08,Perfumer 08,Oriental,Gourmand,0.8200340634115795
+PF-09,Perfumer 09,Aromatic,Oriental,1.3013255470924483
+PF-10,Perfumer 10,Gourmand,Citrus,0.9331918836136331
+PF-11,Perfumer 11,Floral,Aromatic,0.9792450595283587
+PF-12,Perfumer 12,Floral,Citrus,1.3857291926845683
+PF-13,Perfumer 13,Woody,Citrus,1.4352689187949654
+PF-14,Perfumer 14,Floral,Green,1.4268303082298641

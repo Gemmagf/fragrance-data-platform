@@ -1,0 +1,26 @@
+supplier_id,supplier_name,country,category,otif_pct
+SUP-01,Supplier 01,CH,natural,87.7
+SUP-02,Supplier 02,FR,natural,94.8
+SUP-03,Supplier 03,DE,natural,80.8
+SUP-04,Supplier 04,NL,natural,84.4
+SUP-05,Supplier 05,IN,natural,97.7
+SUP-06,Supplier 06,CN,natural,83.8
+SUP-07,Supplier 07,US,natural,82.4
+SUP-08,Supplier 08,MA,natural,95.0
+SUP-09,Supplier 09,BG,synthetic,86.7
+SUP-10,Supplier 10,ID,synthetic,96.2
+SUP-11,Supplier 11,CH,synthetic,96.0
+SUP-12,Supplier 12,FR,synthetic,77.8
+SUP-13,Supplier 13,DE,synthetic,83.4
+SUP-14,Supplier 14,NL,synthetic,85.7
+SUP-15,Supplier 15,IN,synthetic,95.2
+SUP-16,Supplier 16,CN,synthetic,89.5
+SUP-17,Supplier 17,US,synthetic,93.4
+SUP-18,Supplier 18,MA,synthetic,91.5
+SUP-19,Supplier 19,BG,solvent,97.9
+SUP-20,Supplier 20,ID,solvent,97.0
+SUP-21,Supplier 21,CH,solvent,83.3
+SUP-22,Supplier 22,FR,solvent,98.2
+SUP-23,Supplier 23,DE,solvent,82.8
+SUP-24,Supplier 24,NL,solvent,86.6
+SUP-25,Supplier 25,IN,solvent,93.6
