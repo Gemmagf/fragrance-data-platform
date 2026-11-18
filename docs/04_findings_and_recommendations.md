@@ -34,7 +34,7 @@ Method: log(quantity) on log(unit price), with compound and month fixed effects,
 |---|---|---|
 | A | CHF 0.91M | +299 |
 | B | CHF 1.10M | +195 |
-| C | CHF 0.14M | +91 |
+| C | CHF 0.14M | +90 |
 | **Total** | **CHF 2.15M** | **+211** |
 
 The BRD target is +50 bps through selective repricing. A blanket 4% gives +211 bps **before churn**. The gap is a reason to target, not a reason to be pleased. Once churn is modelled (using the flight-risk early-warning in BRD use case 7, not built here), the uplift will shrink, and tier C is where that risk concentrates.
@@ -93,13 +93,13 @@ The silver layer cleans every planted issue, and the DQ report shows the counts 
 | Issue | Raw count | After cleaning |
 |---|---|---|
 | Duplicate brief rows | 28 | 0 |
-| CRM keys with stray whitespace or lower case | 27 | 0 |
-| Brief outcome labels such as "WON " | 82 | 0 |
-| Formula RM codes in lower case | 356 | 0 |
-| Customer names in inconsistent case | 6 | 0 |
-| Briefs with no response time | 62 | 62 (kept as null, excluded from the response model) |
-| Orders with no unit price | 20 | 20 (kept as null, excluded from revenue) |
-| Returns (negative quantity) | 23 | 23 (flagged, excluded from the elasticity model) |
+| CRM keys with stray whitespace or lower case | 44 | 0 |
+| Brief outcome labels such as "WON " | 97 | 0 |
+| Formula RM codes in lower case | 326 | 0 |
+| Customer names in inconsistent case | 2 | 0 |
+| Briefs with no response time | 67 | 67 (kept as null, excluded from the response model) |
+| Orders with no unit price | 29 | 29 (kept as null, excluded from revenue) |
+| Returns (negative quantity) | 28 | 28 (flagged, excluded from the elasticity model) |
 | Secondary ERP accounts for the same customer | 3 | 3 (kept out of joins, flagged to Sales Ops) |
 
 The rows still flagged after cleaning are not hidden. They are the data steward's backlog.

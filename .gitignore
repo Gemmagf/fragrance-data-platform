@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 .venv/
+web/node_modules/
+web/.next/
+web/out/
+web/.claude/
+web/*.tsbuildinfo

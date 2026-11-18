@@ -1,0 +1,7371 @@
+{
+ "meta": {
+  "simulated": true,
+  "generated_utc": "2026-11-18 12:21 UTC",
+  "window": "2023-01 to 2026-10 (LTM = Nov 2025 to Oct 2026)",
+  "seed": 20261118
+ },
+ "exec": {
+  "findings": {
+   "ltm_revenue_chf": 102079323.715,
+   "prior_revenue_chf": 66726908.773,
+   "revenue_growth_pct": 0.5298074733578069,
+   "ltm_gross_margin_pct": 0.44002410625211,
+   "ltm_win_rate": 0.2772727272727273,
+   "ltm_briefs": 233,
+   "top10_customer_share": 0.43258056694503055,
+   "circular_revenue_share": 0.09188708466748681,
+   "active_customers_ltm": 60
+  },
+  "monthly": [
+   {
+    "month": "2023-03",
+    "revenue_chf": 119768.866,
+    "gross_margin_chf": 60428.3325367
+   },
+   {
+    "month": "2023-04",
+    "revenue_chf": 76287.76,
+    "gross_margin_chf": 39454.3923064
+   },
+   {
+    "month": "2023-05",
+    "revenue_chf": 607099.083,
+    "gross_margin_chf": 271960.1421845
+   },
+   {
+    "month": "2023-06",
+    "revenue_chf": 504225.35099999997,
+    "gross_margin_chf": 218831.23343559998
+   },
+   {
+    "month": "2023-07",
+    "revenue_chf": 621733.907,
+    "gross_margin_chf": 257880.4300254
+   },
+   {
+    "month": "2023-08",
+    "revenue_chf": 1068192.6770000001,
+    "gross_margin_chf": 444293.1584165
+   },
+   {
+    "month": "2023-09",
+    "revenue_chf": 1082334.745,
+    "gross_margin_chf": 458552.66970970004
+   },
+   {
+    "month": "2023-10",
+    "revenue_chf": 1371412.042,
+    "gross_margin_chf": 598523.6494843
+   },
+   {
+    "month": "2023-11",
+    "revenue_chf": 1673911.9340000001,
+    "gross_margin_chf": 700020.8283041001
+   },
+   {
+    "month": "2023-12",
+    "revenue_chf": 1670491.338,
+    "gross_margin_chf": 710915.1486168
+   },
+   {
+    "month": "2024-01",
+    "revenue_chf": 1855449.798,
+    "gross_margin_chf": 750879.6304274
+   },
+   {
+    "month": "2024-02",
+    "revenue_chf": 2176821.125,
+    "gross_margin_chf": 920038.7554864
+   },
+   {
+    "month": "2024-03",
+    "revenue_chf": 2153360.997,
+    "gross_margin_chf": 917746.0491384
+   },
+   {
+    "month": "2024-04",
+    "revenue_chf": 3195609.207,
+    "gross_margin_chf": 1378122.3471413997
+   },
+   {
+    "month": "2024-05",
+    "revenue_chf": 2850695.885,
+    "gross_margin_chf": 1221501.7231451
+   },
+   {
+    "month": "2024-06",
+    "revenue_chf": 2905508.032,
+    "gross_margin_chf": 1232528.7802265
+   },
+   {
+    "month": "2024-07",
+    "revenue_chf": 3267727.435,
+    "gross_margin_chf": 1400183.5198078
+   },
+   {
+    "month": "2024-08",
+    "revenue_chf": 3472913.249,
+    "gross_margin_chf": 1510847.7617167
+   },
+   {
+    "month": "2024-09",
+    "revenue_chf": 3784681.154,
+    "gross_margin_chf": 1658094.9432339
+   },
+   {
+    "month": "2024-10",
+    "revenue_chf": 4088942.021,
+    "gross_margin_chf": 1803805.233934
+   },
+   {
+    "month": "2024-11",
+    "revenue_chf": 4122608.891,
+    "gross_margin_chf": 1821109.0343132
+   },
+   {
+    "month": "2024-12",
+    "revenue_chf": 4972790.962,
+    "gross_margin_chf": 2185130.4689776
+   },
+   {
+    "month": "2025-01",
+    "revenue_chf": 4228260.755,
+    "gross_margin_chf": 1897470.9213408
+   },
+   {
+    "month": "2025-02",
+    "revenue_chf": 4463417.851,
+    "gross_margin_chf": 1957801.6567313
+   },
+   {
+    "month": "2025-03",
+    "revenue_chf": 4767209.266,
+    "gross_margin_chf": 2104865.0151333
+   },
+   {
+    "month": "2025-04",
+    "revenue_chf": 5779123.108,
+    "gross_margin_chf": 2643997.5818348
+   },
+   {
+    "month": "2025-05",
+    "revenue_chf": 5426811.304,
+    "gross_margin_chf": 2464540.8187027997
+   },
+   {
+    "month": "2025-06",
+    "revenue_chf": 5431604.086,
+    "gross_margin_chf": 2211448.5797549
+   },
+   {
+    "month": "2025-07",
+    "revenue_chf": 5663448.415,
+    "gross_margin_chf": 2272297.787813
+   },
+   {
+    "month": "2025-08",
+    "revenue_chf": 6432249.98,
+    "gross_margin_chf": 2500987.8094302
+   },
+   {
+    "month": "2025-09",
+    "revenue_chf": 7247063.665,
+    "gross_margin_chf": 2821365.9471296
+   },
+   {
+    "month": "2025-10",
+    "revenue_chf": 8192320.49,
+    "gross_margin_chf": 3217235.0401183
+   },
+   {
+    "month": "2025-11",
+    "revenue_chf": 8181997.286,
+    "gross_margin_chf": 3248882.4814078
+   },
+   {
+    "month": "2025-12",
+    "revenue_chf": 8529330.294,
+    "gross_margin_chf": 3418643.4126127
+   },
+   {
+    "month": "2026-01",
+    "revenue_chf": 7305592.481000001,
+    "gross_margin_chf": 3212903.9058895004
+   },
+   {
+    "month": "2026-02",
+    "revenue_chf": 6706249.984,
+    "gross_margin_chf": 2974827.1504999
+   },
+   {
+    "month": "2026-03",
+    "revenue_chf": 8337232.922,
+    "gross_margin_chf": 3711436.9307744
+   },
+   {
+    "month": "2026-04",
+    "revenue_chf": 9227697.998,
+    "gross_margin_chf": 4181238.3760118
+   },
+   {
+    "month": "2026-05",
+    "revenue_chf": 8399840.082,
+    "gross_margin_chf": 3739948.7690358
+   },
+   {
+    "month": "2026-06",
+    "revenue_chf": 8243487.013,
+    "gross_margin_chf": 3749510.3276218
+   },
+   {
+    "month": "2026-07",
+    "revenue_chf": 8789895.404,
+    "gross_margin_chf": 3928834.2821565
+   },
+   {
+    "month": "2026-08",
+    "revenue_chf": 8138996.221,
+    "gross_margin_chf": 3649392.1838749
+   },
+   {
+    "month": "2026-09",
+    "revenue_chf": 9716199.409,
+    "gross_margin_chf": 4421446.5881348
+   },
+   {
+    "month": "2026-10",
+    "revenue_chf": 10502804.621,
+    "gross_margin_chf": 4680298.7764928
+   }
+  ]
+ },
+ "circular": {
+  "premium_pct": 0.06024099698512231,
+  "premium_ci_low": 0.05884385595788255,
+  "premium_ci_high": 0.061639981535407395,
+  "n_orders_circular": 577,
+  "n_orders_total": 5617
+ },
+ "repricing": {
+  "tiers": [
+   {
+    "tier": "A",
+    "elasticity": -0.5527167345811264,
+    "sp": 30500536.770999998,
+    "sc": 17358741.5004566,
+    "revenue": 30500536.770999998,
+    "gm": 13141795.2705434
+   },
+   {
+    "tier": "B",
+    "elasticity": -1.107524591925193,
+    "sp": 56563890.493,
+    "sc": 31546877.4229289,
+    "revenue": 56563890.493,
+    "gm": 25017013.0700711
+   },
+   {
+    "tier": "C",
+    "elasticity": -1.6633091538896965,
+    "sp": 15014896.451000001,
+    "sc": 8256341.6071018,
+    "revenue": 15014896.451000001,
+    "gm": 6758554.8438981995
+   }
+  ],
+  "ltm_revenue": 102079323.715,
+  "ltm_gm": 44917363.1845127
+ },
+ "elasticity": [
+  {
+   "tier": "A",
+   "elasticity": -0.5527167345811264,
+   "ci_low": -0.9340719455892079,
+   "ci_high": -0.17136152357304474,
+   "n_obs": 1419,
+   "r_squared": 0.9854833582999899
+  },
+  {
+   "tier": "B",
+   "elasticity": -1.107524591925193,
+   "ci_low": -1.3211488137122425,
+   "ci_high": -0.8939003701381436,
+   "n_obs": 3379,
+   "r_squared": 0.9912309111236641
+  },
+  {
+   "tier": "C",
+   "elasticity": -1.6633091538896965,
+   "ci_low": -2.069039238591497,
+   "ci_high": -1.257579069187896,
+   "n_obs": 819,
+   "r_squared": 0.9916338624776224
+  }
+ ],
+ "funnel": [
+  {
+   "received_quarter": "2023Q1",
+   "briefs_received": 97,
+   "decided": 94,
+   "won": 19,
+   "open_or_no_decision": 3,
+   "median_response_hours": 32.25,
+   "win_rate_of_decided": 0.20212765957446807
+  },
+  {
+   "received_quarter": "2023Q2",
+   "briefs_received": 105,
+   "decided": 99,
+   "won": 31,
+   "open_or_no_decision": 6,
+   "median_response_hours": 33.0,
+   "win_rate_of_decided": 0.31313131313131315
+  },
+  {
+   "received_quarter": "2023Q3",
+   "briefs_received": 102,
+   "decided": 99,
+   "won": 23,
+   "open_or_no_decision": 3,
+   "median_response_hours": 28.9,
+   "win_rate_of_decided": 0.23232323232323232
+  },
+  {
+   "received_quarter": "2023Q4",
+   "briefs_received": 104,
+   "decided": 94,
+   "won": 26,
+   "open_or_no_decision": 10,
+   "median_response_hours": 30.2,
+   "win_rate_of_decided": 0.2765957446808511
+  },
+  {
+   "received_quarter": "2024Q1",
+   "briefs_received": 101,
+   "decided": 91,
+   "won": 27,
+   "open_or_no_decision": 10,
+   "median_response_hours": 34.1,
+   "win_rate_of_decided": 0.2967032967032967
+  },
+  {
+   "received_quarter": "2024Q2",
+   "briefs_received": 96,
+   "decided": 88,
+   "won": 28,
+   "open_or_no_decision": 8,
+   "median_response_hours": 28.3,
+   "win_rate_of_decided": 0.3181818181818182
+  },
+  {
+   "received_quarter": "2024Q3",
+   "briefs_received": 103,
+   "decided": 98,
+   "won": 36,
+   "open_or_no_decision": 5,
+   "median_response_hours": 26.6,
+   "win_rate_of_decided": 0.3673469387755102
+  },
+  {
+   "received_quarter": "2024Q4",
+   "briefs_received": 99,
+   "decided": 94,
+   "won": 33,
+   "open_or_no_decision": 5,
+   "median_response_hours": 31.0,
+   "win_rate_of_decided": 0.35106382978723405
+  },
+  {
+   "received_quarter": "2025Q1",
+   "briefs_received": 110,
+   "decided": 108,
+   "won": 35,
+   "open_or_no_decision": 2,
+   "median_response_hours": 26.9,
+   "win_rate_of_decided": 0.32407407407407407
+  },
+  {
+   "received_quarter": "2025Q2",
+   "briefs_received": 113,
+   "decided": 109,
+   "won": 41,
+   "open_or_no_decision": 4,
+   "median_response_hours": 28.5,
+   "win_rate_of_decided": 0.3761467889908257
+  },
+  {
+   "received_quarter": "2025Q3",
+   "briefs_received": 110,
+   "decided": 106,
+   "won": 38,
+   "open_or_no_decision": 4,
+   "median_response_hours": 32.849999999999994,
+   "win_rate_of_decided": 0.3584905660377358
+  },
+  {
+   "received_quarter": "2025Q4",
+   "briefs_received": 92,
+   "decided": 87,
+   "won": 25,
+   "open_or_no_decision": 5,
+   "median_response_hours": 29.4,
+   "win_rate_of_decided": 0.28735632183908044
+  },
+  {
+   "received_quarter": "2026Q1",
+   "briefs_received": 105,
+   "decided": 98,
+   "won": 24,
+   "open_or_no_decision": 7,
+   "median_response_hours": 33.6,
+   "win_rate_of_decided": 0.24489795918367346
+  },
+  {
+   "received_quarter": "2026Q2",
+   "briefs_received": 63,
+   "decided": 61,
+   "won": 18,
+   "open_or_no_decision": 2,
+   "median_response_hours": 31.6,
+   "win_rate_of_decided": 0.29508196721311475
+  }
+ ],
+ "winDimensions": [
+  {
+   "dimension": "segment",
+   "value": "air_care",
+   "decided": 246,
+   "won": 77,
+   "win_rate": 0.3130081300813008
+  },
+  {
+   "dimension": "segment",
+   "value": "fine_fragrance",
+   "decided": 306,
+   "won": 86,
+   "win_rate": 0.28104575163398693
+  },
+  {
+   "dimension": "segment",
+   "value": "home_care",
+   "decided": 250,
+   "won": 75,
+   "win_rate": 0.3
+  },
+  {
+   "dimension": "segment",
+   "value": "industrial",
+   "decided": 185,
+   "won": 59,
+   "win_rate": 0.31891891891891894
+  },
+  {
+   "dimension": "segment",
+   "value": "personal_care",
+   "decided": 339,
+   "won": 107,
+   "win_rate": 0.31563421828908556
+  },
+  {
+   "dimension": "tier",
+   "value": "A",
+   "decided": 227,
+   "won": 86,
+   "win_rate": 0.3788546255506608
+  },
+  {
+   "dimension": "tier",
+   "value": "B",
+   "decided": 840,
+   "won": 245,
+   "win_rate": 0.2916666666666667
+  },
+  {
+   "dimension": "tier",
+   "value": "C",
+   "decided": 259,
+   "won": 73,
+   "win_rate": 0.28185328185328185
+  },
+  {
+   "dimension": "region",
+   "value": "APAC",
+   "decided": 173,
+   "won": 56,
+   "win_rate": 0.3236994219653179
+  },
+  {
+   "dimension": "region",
+   "value": "CH",
+   "decided": 152,
+   "won": 46,
+   "win_rate": 0.3026315789473684
+  },
+  {
+   "dimension": "region",
+   "value": "EU",
+   "decided": 425,
+   "won": 137,
+   "win_rate": 0.32235294117647056
+  },
+  {
+   "dimension": "region",
+   "value": "GCC",
+   "decided": 138,
+   "won": 38,
+   "win_rate": 0.2753623188405797
+  },
+  {
+   "dimension": "region",
+   "value": "LATAM",
+   "decided": 154,
+   "won": 47,
+   "win_rate": 0.3051948051948052
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Aromatic",
+   "decided": 176,
+   "won": 66,
+   "win_rate": 0.375
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Citrus",
+   "decided": 161,
+   "won": 45,
+   "win_rate": 0.2795031055900621
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Floral",
+   "decided": 179,
+   "won": 60,
+   "win_rate": 0.33519553072625696
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Fresh",
+   "decided": 169,
+   "won": 46,
+   "win_rate": 0.27218934911242604
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Gourmand",
+   "decided": 135,
+   "won": 38,
+   "win_rate": 0.2814814814814815
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Green",
+   "decided": 177,
+   "won": 62,
+   "win_rate": 0.3502824858757062
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Oriental",
+   "decided": 169,
+   "won": 55,
+   "win_rate": 0.3254437869822485
+  },
+  {
+   "dimension": "olfactive_family",
+   "value": "Woody",
+   "decided": 160,
+   "won": 32,
+   "win_rate": 0.2
+  }
+ ],
+ "winDrivers": [
+  {
+   "term": "family_match",
+   "logit_coef": 1.020837534481911,
+   "ci_low": 0.7475491850149054,
+   "ci_high": 1.2941258839489165,
+   "p_value": 2.45722098206133e-13,
+   "odds_ratio": 2.7755183831239294,
+   "n_decided": 1264
+  },
+  {
+   "term": "days_over_2",
+   "logit_coef": -0.11707635335691488,
+   "ci_low": -0.3317112669268022,
+   "ci_high": 0.0975585602129724,
+   "p_value": 0.2850261861979224,
+   "odds_ratio": 0.8895172729406531,
+   "n_decided": 1264
+  },
+  {
+   "term": "iter_over_4",
+   "logit_coef": -0.1088989206103815,
+   "ci_low": -0.2613781601678762,
+   "ci_high": 0.04358031894711317,
+   "p_value": 0.1615780842076694,
+   "odds_ratio": 0.8968210630426094,
+   "n_decided": 1264
+  },
+  {
+   "term": "price_pct_over_target",
+   "logit_coef": -8.341899342824552,
+   "ci_low": -10.960478083172585,
+   "ci_high": -5.723320602476519,
+   "p_value": 4.2712825474394307e-10,
+   "odds_ratio": 0.00023831926281415262,
+   "n_decided": 1264
+  },
+  {
+   "term": "tier_A",
+   "logit_coef": 0.500292038700979,
+   "ci_low": 0.17478819166891452,
+   "ci_high": 0.8257958857330436,
+   "p_value": 0.0025917353216981715,
+   "odds_ratio": 1.6492028314320626,
+   "n_decided": 1264
+  },
+  {
+   "term": "tier_C",
+   "logit_coef": -0.039786142085043934,
+   "ci_low": -0.37189945176454553,
+   "ci_high": 0.29232716759445765,
+   "p_value": 0.8143658363729704,
+   "odds_ratio": 0.9609949335510107,
+   "n_decided": 1264
+  }
+ ],
+ "cycleTime": [
+  {
+   "stage": "Brief received -> first sample",
+   "n": 1400,
+   "median_days": 1.0,
+   "p75_days": 1.0,
+   "share_of_median_days": 0.013888888888888888
+  },
+  {
+   "stage": "Sampling rounds (first -> submitted)",
+   "n": 1400,
+   "median_days": 13.0,
+   "p75_days": 19.0,
+   "share_of_median_days": 0.18055555555555555
+  },
+  {
+   "stage": "Customer decision (submitted -> decision)",
+   "n": 1326,
+   "median_days": 18.0,
+   "p75_days": 23.0,
+   "share_of_median_days": 0.25
+  },
+  {
+   "stage": "Ship lead (decision -> shipped, won only)",
+   "n": 404,
+   "median_days": 40.0,
+   "p75_days": 51.0,
+   "share_of_median_days": 0.5555555555555556
+  }
+ ],
+ "rmRisk": [
+  {
+   "rm_code": "RM-030",
+   "rm_name": "Aroma chemical AC-06",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-13",
+   "formulas_using": 422,
+   "ltm_revenue_exposed_chf": 35190969.453,
+   "price_volatility_monthly": 0.010695963363368716
+  },
+  {
+   "rm_code": "RM-028",
+   "rm_name": "Aroma chemical AC-04",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-16",
+   "formulas_using": 421,
+   "ltm_revenue_exposed_chf": 32884887.01,
+   "price_volatility_monthly": 0.013088574419334404
+  },
+  {
+   "rm_code": "RM-029",
+   "rm_name": "Aroma chemical AC-05",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-14",
+   "formulas_using": 407,
+   "ltm_revenue_exposed_chf": 32182167.573,
+   "price_volatility_monthly": 0.010158213498027228
+  },
+  {
+   "rm_code": "RM-045",
+   "rm_name": "Aroma chemical AC-21",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-18",
+   "formulas_using": 401,
+   "ltm_revenue_exposed_chf": 31770469.8,
+   "price_volatility_monthly": 0.011857900020467223
+  },
+  {
+   "rm_code": "RM-042",
+   "rm_name": "Aroma chemical AC-18",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-18",
+   "formulas_using": 426,
+   "ltm_revenue_exposed_chf": 31457971.172,
+   "price_volatility_monthly": 0.012844906810952938
+  },
+  {
+   "rm_code": "RM-046",
+   "rm_name": "Aroma chemical AC-22",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-12",
+   "formulas_using": 433,
+   "ltm_revenue_exposed_chf": 31219286.569000002,
+   "price_volatility_monthly": 0.012909527513212029
+  },
+  {
+   "rm_code": "RM-033",
+   "rm_name": "Aroma chemical AC-09",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-15",
+   "formulas_using": 422,
+   "ltm_revenue_exposed_chf": 31011288.755,
+   "price_volatility_monthly": 0.011335117190047293
+  },
+  {
+   "rm_code": "RM-039",
+   "rm_name": "Aroma chemical AC-15",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-14",
+   "formulas_using": 400,
+   "ltm_revenue_exposed_chf": 30033195.36,
+   "price_volatility_monthly": 0.012107748823289691
+  },
+  {
+   "rm_code": "RM-037",
+   "rm_name": "Aroma chemical AC-13",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-14",
+   "formulas_using": 391,
+   "ltm_revenue_exposed_chf": 29990569.951,
+   "price_volatility_monthly": 0.012920555954479043
+  },
+  {
+   "rm_code": "RM-032",
+   "rm_name": "Aroma chemical AC-08",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-11",
+   "formulas_using": 404,
+   "ltm_revenue_exposed_chf": 28940922.048,
+   "price_volatility_monthly": 0.012394904922807686
+  },
+  {
+   "rm_code": "RM-035",
+   "rm_name": "Aroma chemical AC-11",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-09",
+   "formulas_using": 410,
+   "ltm_revenue_exposed_chf": 28492163.38,
+   "price_volatility_monthly": 0.011798237044294021
+  },
+  {
+   "rm_code": "RM-044",
+   "rm_name": "Aroma chemical AC-20",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-11",
+   "formulas_using": 379,
+   "ltm_revenue_exposed_chf": 27972457.985,
+   "price_volatility_monthly": 0.013899086938869498
+  },
+  {
+   "rm_code": "RM-034",
+   "rm_name": "Aroma chemical AC-10",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-13",
+   "formulas_using": 416,
+   "ltm_revenue_exposed_chf": 27583127.714,
+   "price_volatility_monthly": 0.01185755325745109
+  },
+  {
+   "rm_code": "RM-041",
+   "rm_name": "Aroma chemical AC-17",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-12",
+   "formulas_using": 410,
+   "ltm_revenue_exposed_chf": 27342946.254,
+   "price_volatility_monthly": 0.011959776184486723
+  },
+  {
+   "rm_code": "RM-031",
+   "rm_name": "Aroma chemical AC-07",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-15",
+   "formulas_using": 392,
+   "ltm_revenue_exposed_chf": 27277786.814,
+   "price_volatility_monthly": 0.013588068813389646
+  },
+  {
+   "rm_code": "RM-043",
+   "rm_name": "Aroma chemical AC-19",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-10",
+   "formulas_using": 374,
+   "ltm_revenue_exposed_chf": 26994070.114,
+   "price_volatility_monthly": 0.012857849253628208
+  },
+  {
+   "rm_code": "RM-040",
+   "rm_name": "Aroma chemical AC-16",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-09",
+   "formulas_using": 375,
+   "ltm_revenue_exposed_chf": 26891111.266,
+   "price_volatility_monthly": 0.012374107945202906
+  },
+  {
+   "rm_code": "RM-047",
+   "rm_name": "Aroma chemical AC-23",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-14",
+   "formulas_using": 363,
+   "ltm_revenue_exposed_chf": 25981082.885,
+   "price_volatility_monthly": 0.014707524918713721
+  },
+  {
+   "rm_code": "RM-038",
+   "rm_name": "Aroma chemical AC-14",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-16",
+   "formulas_using": 374,
+   "ltm_revenue_exposed_chf": 25928926.622,
+   "price_volatility_monthly": 0.010658421769240574
+  },
+  {
+   "rm_code": "RM-048",
+   "rm_name": "Aroma chemical AC-24",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-17",
+   "formulas_using": 394,
+   "ltm_revenue_exposed_chf": 25413319.514,
+   "price_volatility_monthly": 0.015924768108710546
+  },
+  {
+   "rm_code": "RM-007",
+   "rm_name": "Natural Orange (Brazil)",
+   "rm_type": "natural",
+   "origin": "Brazil",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-08",
+   "formulas_using": 292,
+   "ltm_revenue_exposed_chf": 24881623.336,
+   "price_volatility_monthly": 0.040863091702976306
+  },
+  {
+   "rm_code": "RM-019",
+   "rm_name": "Natural Sandalwood (Bulgaria)",
+   "rm_type": "natural",
+   "origin": "Bulgaria",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-05",
+   "formulas_using": 305,
+   "ltm_revenue_exposed_chf": 24064717.252,
+   "price_volatility_monthly": 0.036533343640231614
+  },
+  {
+   "rm_code": "RM-013",
+   "rm_name": "Natural Ginger (Morocco)",
+   "rm_type": "natural",
+   "origin": "Morocco",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 285,
+   "ltm_revenue_exposed_chf": 23774163.857,
+   "price_volatility_monthly": 0.04139337451452325
+  },
+  {
+   "rm_code": "RM-036",
+   "rm_name": "Aroma chemical AC-12",
+   "rm_type": "synthetic",
+   "origin": "IN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-12",
+   "formulas_using": 384,
+   "ltm_revenue_exposed_chf": 23475057.399,
+   "price_volatility_monthly": 0.011832208540688812
+  },
+  {
+   "rm_code": "RM-021",
+   "rm_name": "Natural Jasmine (Brazil)",
+   "rm_type": "natural",
+   "origin": "Brazil",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-01",
+   "formulas_using": 225,
+   "ltm_revenue_exposed_chf": 23358090.255,
+   "price_volatility_monthly": 0.0393401302589355
+  },
+  {
+   "rm_code": "RM-010",
+   "rm_name": "Natural Vanilla (Indonesia)",
+   "rm_type": "natural",
+   "origin": "Indonesia",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 291,
+   "ltm_revenue_exposed_chf": 22244987.562,
+   "price_volatility_monthly": 0.061048877824312224
+  },
+  {
+   "rm_code": "RM-022",
+   "rm_name": "Natural Orange (Madagascar)",
+   "rm_type": "natural",
+   "origin": "Madagascar",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 265,
+   "ltm_revenue_exposed_chf": 21160392.642,
+   "price_volatility_monthly": 0.06345161649373722
+  },
+  {
+   "rm_code": "RM-016",
+   "rm_name": "Natural Bergamot (India)",
+   "rm_type": "natural",
+   "origin": "India",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-08",
+   "formulas_using": 285,
+   "ltm_revenue_exposed_chf": 20259586.747,
+   "price_volatility_monthly": 0.06458066160010277
+  },
+  {
+   "rm_code": "RM-024",
+   "rm_name": "Natural Tonka (Indonesia)",
+   "rm_type": "natural",
+   "origin": "Indonesia",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 209,
+   "ltm_revenue_exposed_chf": 17970527.13,
+   "price_volatility_monthly": 0.05786123323390547
+  },
+  {
+   "rm_code": "RM-049",
+   "rm_name": "Solvent / carrier SV-01",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-21",
+   "formulas_using": 195,
+   "ltm_revenue_exposed_chf": 17860796.801,
+   "price_volatility_monthly": 0.009926505883299212
+  },
+  {
+   "rm_code": "RM-004",
+   "rm_name": "Natural Sandalwood (France)",
+   "rm_type": "natural",
+   "origin": "France",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 260,
+   "ltm_revenue_exposed_chf": 17445209.653,
+   "price_volatility_monthly": 0.036206311978575385
+  },
+  {
+   "rm_code": "RM-011",
+   "rm_name": "Natural Oakmoss (France)",
+   "rm_type": "natural",
+   "origin": "France",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-04",
+   "formulas_using": 204,
+   "ltm_revenue_exposed_chf": 16981778.146,
+   "price_volatility_monthly": 0.03254548649009748
+  },
+  {
+   "rm_code": "RM-012",
+   "rm_name": "Natural Cedar (Bulgaria)",
+   "rm_type": "natural",
+   "origin": "Bulgaria",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 232,
+   "ltm_revenue_exposed_chf": 15082295.291,
+   "price_volatility_monthly": 0.032965377581780364
+  },
+  {
+   "rm_code": "RM-017",
+   "rm_name": "Natural Vetiver (Indonesia)",
+   "rm_type": "natural",
+   "origin": "Indonesia",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 224,
+   "ltm_revenue_exposed_chf": 14868729.25,
+   "price_volatility_monthly": 0.054212709632308086
+  },
+  {
+   "rm_code": "RM-052",
+   "rm_name": "Solvent / carrier SV-04",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-24",
+   "formulas_using": 200,
+   "ltm_revenue_exposed_chf": 14576291.613,
+   "price_volatility_monthly": 0.008441207127838302
+  },
+  {
+   "rm_code": "RM-014",
+   "rm_name": "Natural Geranium (Brazil)",
+   "rm_type": "natural",
+   "origin": "Brazil",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-06",
+   "formulas_using": 204,
+   "ltm_revenue_exposed_chf": 14002031.78,
+   "price_volatility_monthly": 0.036236748310742216
+  },
+  {
+   "rm_code": "RM-051",
+   "rm_name": "Solvent / carrier SV-03",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-24",
+   "formulas_using": 155,
+   "ltm_revenue_exposed_chf": 13622727.245,
+   "price_volatility_monthly": 0.007256753899171886
+  },
+  {
+   "rm_code": "RM-008",
+   "rm_name": "Natural Lavender (Madagascar)",
+   "rm_type": "natural",
+   "origin": "Madagascar",
+   "climate_exposed": true,
+   "single_source": true,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 199,
+   "ltm_revenue_exposed_chf": 13381355.617,
+   "price_volatility_monthly": 0.061244460641064424
+  },
+  {
+   "rm_code": "RM-006",
+   "rm_name": "Natural Jasmine (Morocco)",
+   "rm_type": "natural",
+   "origin": "Morocco",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 202,
+   "ltm_revenue_exposed_chf": 13337919.735,
+   "price_volatility_monthly": 0.03709927171720863
+  },
+  {
+   "rm_code": "RM-055",
+   "rm_name": "Solvent / carrier SV-07",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-23",
+   "formulas_using": 224,
+   "ltm_revenue_exposed_chf": 13288961.388,
+   "price_volatility_monthly": 0.008710373220244922
+  },
+  {
+   "rm_code": "RM-023",
+   "rm_name": "Natural Lavender (India)",
+   "rm_type": "natural",
+   "origin": "India",
+   "climate_exposed": true,
+   "single_source": true,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 210,
+   "ltm_revenue_exposed_chf": 13257055.909,
+   "price_volatility_monthly": 0.06264386922079132
+  },
+  {
+   "rm_code": "RM-015",
+   "rm_name": "Natural Ylang (Madagascar)",
+   "rm_type": "natural",
+   "origin": "Madagascar",
+   "climate_exposed": true,
+   "single_source": true,
+   "primary_supplier": "SUP-06",
+   "formulas_using": 212,
+   "ltm_revenue_exposed_chf": 13131055.39,
+   "price_volatility_monthly": 0.06204578686186145
+  },
+  {
+   "rm_code": "RM-054",
+   "rm_name": "Solvent / carrier SV-06",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-23",
+   "formulas_using": 171,
+   "ltm_revenue_exposed_chf": 12893179.655,
+   "price_volatility_monthly": 0.009252529505333031
+  },
+  {
+   "rm_code": "RM-018",
+   "rm_name": "Natural Patchouli (France)",
+   "rm_type": "natural",
+   "origin": "France",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-03",
+   "formulas_using": 195,
+   "ltm_revenue_exposed_chf": 12839298.789,
+   "price_volatility_monthly": 0.03327832898847191
+  },
+  {
+   "rm_code": "RM-058",
+   "rm_name": "Solvent / carrier SV-10",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-25",
+   "formulas_using": 194,
+   "ltm_revenue_exposed_chf": 12541540.704,
+   "price_volatility_monthly": 0.007911346084914762
+  },
+  {
+   "rm_code": "RM-057",
+   "rm_name": "Solvent / carrier SV-09",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-20",
+   "formulas_using": 161,
+   "ltm_revenue_exposed_chf": 12532381.625,
+   "price_volatility_monthly": 0.007710192212388095
+  },
+  {
+   "rm_code": "RM-053",
+   "rm_name": "Solvent / carrier SV-05",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-22",
+   "formulas_using": 160,
+   "ltm_revenue_exposed_chf": 12526366.617,
+   "price_volatility_monthly": 0.008237712681278948
+  },
+  {
+   "rm_code": "RM-020",
+   "rm_name": "Natural Rose (Morocco)",
+   "rm_type": "natural",
+   "origin": "Morocco",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-02",
+   "formulas_using": 201,
+   "ltm_revenue_exposed_chf": 12439347.120000001,
+   "price_volatility_monthly": 0.028023064374480235
+  },
+  {
+   "rm_code": "RM-009",
+   "rm_name": "Natural Tonka (India)",
+   "rm_type": "natural",
+   "origin": "India",
+   "climate_exposed": true,
+   "single_source": true,
+   "primary_supplier": "SUP-07",
+   "formulas_using": 224,
+   "ltm_revenue_exposed_chf": 12228883.685,
+   "price_volatility_monthly": 0.06242021210446528
+  },
+  {
+   "rm_code": "RM-005",
+   "rm_name": "Natural Rose (Bulgaria)",
+   "rm_type": "natural",
+   "origin": "Bulgaria",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-08",
+   "formulas_using": 198,
+   "ltm_revenue_exposed_chf": 11657197.283,
+   "price_volatility_monthly": 0.0369066908175431
+  },
+  {
+   "rm_code": "RM-050",
+   "rm_name": "Solvent / carrier SV-02",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-20",
+   "formulas_using": 166,
+   "ltm_revenue_exposed_chf": 11157295.867999999,
+   "price_volatility_monthly": 0.008667362468178511
+  },
+  {
+   "rm_code": "RM-060",
+   "rm_name": "Solvent / carrier SV-12",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-21",
+   "formulas_using": 161,
+   "ltm_revenue_exposed_chf": 10882078.706,
+   "price_volatility_monthly": 0.005670486644101916
+  },
+  {
+   "rm_code": "RM-059",
+   "rm_name": "Solvent / carrier SV-11",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-24",
+   "formulas_using": 154,
+   "ltm_revenue_exposed_chf": 10809188.694,
+   "price_volatility_monthly": 0.007793928048872009
+  },
+  {
+   "rm_code": "RM-056",
+   "rm_name": "Solvent / carrier SV-08",
+   "rm_type": "solvent",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-25",
+   "formulas_using": 157,
+   "ltm_revenue_exposed_chf": 10182407.311,
+   "price_volatility_monthly": 0.007420993729607638
+  },
+  {
+   "rm_code": "RM-003",
+   "rm_name": "Natural Patchouli (Indonesia)",
+   "rm_type": "natural",
+   "origin": "Indonesia",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-01",
+   "formulas_using": 46,
+   "ltm_revenue_exposed_chf": 5997431.5600000005,
+   "price_volatility_monthly": 0.06723397257893733
+  },
+  {
+   "rm_code": "RM-001",
+   "rm_name": "Natural Bergamot (Madagascar)",
+   "rm_type": "natural",
+   "origin": "Madagascar",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-06",
+   "formulas_using": 53,
+   "ltm_revenue_exposed_chf": 5232159.611,
+   "price_volatility_monthly": 0.054603306533988975
+  },
+  {
+   "rm_code": "RM-002",
+   "rm_name": "Natural Vetiver (India)",
+   "rm_type": "natural",
+   "origin": "India",
+   "climate_exposed": true,
+   "single_source": false,
+   "primary_supplier": "SUP-06",
+   "formulas_using": 52,
+   "ltm_revenue_exposed_chf": 4212624.476,
+   "price_volatility_monthly": 0.055973153051539944
+  },
+  {
+   "rm_code": "RM-027",
+   "rm_name": "Aroma chemical AC-03",
+   "rm_type": "synthetic",
+   "origin": "CN",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-11",
+   "formulas_using": 50,
+   "ltm_revenue_exposed_chf": 3258764.622,
+   "price_volatility_monthly": 0.012092193317634711
+  },
+  {
+   "rm_code": "RM-025",
+   "rm_name": "Aroma chemical AC-01",
+   "rm_type": "synthetic",
+   "origin": "CH",
+   "climate_exposed": false,
+   "single_source": false,
+   "primary_supplier": "SUP-13",
+   "formulas_using": 57,
+   "ltm_revenue_exposed_chf": 2944058.1459999997,
+   "price_volatility_monthly": 0.01245927260441444
+  },
+  {
+   "rm_code": "RM-026",
+   "rm_name": "Aroma chemical AC-02",
+   "rm_type": "synthetic",
+   "origin": "DE",
+   "climate_exposed": false,
+   "single_source": true,
+   "primary_supplier": "SUP-11",
+   "formulas_using": 38,
+   "ltm_revenue_exposed_chf": 1295097.4049999998,
+   "price_volatility_monthly": 0.012526678370405433
+  }
+ ],
+ "supplierStress": [
+  {
+   "supplier_id": "SUP-02",
+   "supplier_name": "Supplier 02",
+   "country": "FR",
+   "category": "natural",
+   "otif_pct": 94.8,
+   "single_source_rms": 3,
+   "revenue_exposed_ltm_chf": 41801570.643,
+   "revenue_at_risk_8w_chf": 6431010.868153846
+  },
+  {
+   "supplier_id": "SUP-15",
+   "supplier_name": "Supplier 15",
+   "country": "IN",
+   "category": "synthetic",
+   "otif_pct": 95.2,
+   "single_source_rms": 1,
+   "revenue_exposed_ltm_chf": 31011288.755,
+   "revenue_at_risk_8w_chf": 4770967.500769231
+  },
+  {
+   "supplier_id": "SUP-06",
+   "supplier_name": "Supplier 06",
+   "country": "CN",
+   "category": "natural",
+   "otif_pct": 83.8,
+   "single_source_rms": 2,
+   "revenue_exposed_ltm_chf": 27133087.17,
+   "revenue_at_risk_8w_chf": 4174321.103076923
+  },
+  {
+   "supplier_id": "SUP-07",
+   "supplier_name": "Supplier 07",
+   "country": "US",
+   "category": "natural",
+   "otif_pct": 82.4,
+   "single_source_rms": 2,
+   "revenue_exposed_ltm_chf": 25485939.594,
+   "revenue_at_risk_8w_chf": 3920913.783692308
+  },
+  {
+   "supplier_id": "SUP-08",
+   "supplier_name": "Supplier 08",
+   "country": "MA",
+   "category": "natural",
+   "otif_pct": 95.0,
+   "single_source_rms": 1,
+   "revenue_exposed_ltm_chf": 24881623.336,
+   "revenue_at_risk_8w_chf": 3827942.0516923075
+  },
+  {
+   "supplier_id": "SUP-05",
+   "supplier_name": "Supplier 05",
+   "country": "IN",
+   "category": "natural",
+   "otif_pct": 97.7,
+   "single_source_rms": 1,
+   "revenue_exposed_ltm_chf": 24064717.252,
+   "revenue_at_risk_8w_chf": 3702264.1926153847
+  },
+  {
+   "supplier_id": "SUP-04",
+   "supplier_name": "Supplier 04",
+   "country": "NL",
+   "category": "natural",
+   "otif_pct": 84.4,
+   "single_source_rms": 1,
+   "revenue_exposed_ltm_chf": 16981778.146,
+   "revenue_at_risk_8w_chf": 2612581.2532307697
+  },
+  {
+   "supplier_id": "SUP-11",
+   "supplier_name": "Supplier 11",
+   "country": "CH",
+   "category": "synthetic",
+   "otif_pct": 96.0,
+   "single_source_rms": 1,
+   "revenue_exposed_ltm_chf": 1295097.4049999998,
+   "revenue_at_risk_8w_chf": 199245.7546153846
+  },
+  {
+   "supplier_id": "SUP-01",
+   "supplier_name": "Supplier 01",
+   "country": "CH",
+   "category": "natural",
+   "otif_pct": 87.7,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-18",
+   "supplier_name": "Supplier 18",
+   "country": "MA",
+   "category": "synthetic",
+   "otif_pct": 91.5,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-24",
+   "supplier_name": "Supplier 24",
+   "country": "NL",
+   "category": "solvent",
+   "otif_pct": 86.6,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-23",
+   "supplier_name": "Supplier 23",
+   "country": "DE",
+   "category": "solvent",
+   "otif_pct": 82.8,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-22",
+   "supplier_name": "Supplier 22",
+   "country": "FR",
+   "category": "solvent",
+   "otif_pct": 98.2,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-21",
+   "supplier_name": "Supplier 21",
+   "country": "CH",
+   "category": "solvent",
+   "otif_pct": 83.3,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-20",
+   "supplier_name": "Supplier 20",
+   "country": "ID",
+   "category": "solvent",
+   "otif_pct": 97.0,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-19",
+   "supplier_name": "Supplier 19",
+   "country": "BG",
+   "category": "solvent",
+   "otif_pct": 97.9,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-13",
+   "supplier_name": "Supplier 13",
+   "country": "DE",
+   "category": "synthetic",
+   "otif_pct": 83.4,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-17",
+   "supplier_name": "Supplier 17",
+   "country": "US",
+   "category": "synthetic",
+   "otif_pct": 93.4,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-16",
+   "supplier_name": "Supplier 16",
+   "country": "CN",
+   "category": "synthetic",
+   "otif_pct": 89.5,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-14",
+   "supplier_name": "Supplier 14",
+   "country": "NL",
+   "category": "synthetic",
+   "otif_pct": 85.7,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-12",
+   "supplier_name": "Supplier 12",
+   "country": "FR",
+   "category": "synthetic",
+   "otif_pct": 77.8,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-10",
+   "supplier_name": "Supplier 10",
+   "country": "ID",
+   "category": "synthetic",
+   "otif_pct": 96.2,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-09",
+   "supplier_name": "Supplier 09",
+   "country": "BG",
+   "category": "synthetic",
+   "otif_pct": 86.7,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-03",
+   "supplier_name": "Supplier 03",
+   "country": "DE",
+   "category": "natural",
+   "otif_pct": 80.8,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  },
+  {
+   "supplier_id": "SUP-25",
+   "supplier_name": "Supplier 25",
+   "country": "IN",
+   "category": "solvent",
+   "otif_pct": 93.6,
+   "single_source_rms": 0,
+   "revenue_exposed_ltm_chf": 0.0,
+   "revenue_at_risk_8w_chf": 0.0
+  }
+ ],
+ "ifra": [
+  {
+   "rm_code": "RM-026",
+   "rm_name": "Aroma chemical AC-02",
+   "rm_type": "synthetic",
+   "limit": 0.1,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00013",
+     "pct": 0.11,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00016",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00041",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00074",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00139",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00155",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00166",
+     "pct": 0.11,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00189",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00263",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00290",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00388",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00393",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00394",
+     "pct": 0.1,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00401",
+     "pct": 0.11,
+     "ltm_revenue": 317072.756
+    },
+    {
+     "formula_id": "F-00495",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00513",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00531",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00537",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00554",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00591",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00592",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00767",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00811",
+     "pct": 0.14,
+     "ltm_revenue": 73068.758
+    },
+    {
+     "formula_id": "F-00824",
+     "pct": 0.16,
+     "ltm_revenue": 131757.322
+    },
+    {
+     "formula_id": "F-00943",
+     "pct": 0.11,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00945",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00952",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01037",
+     "pct": 0.11,
+     "ltm_revenue": 138093.596
+    },
+    {
+     "formula_id": "F-01079",
+     "pct": 0.16,
+     "ltm_revenue": 145953.773
+    },
+    {
+     "formula_id": "F-01114",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01123",
+     "pct": 0.12,
+     "ltm_revenue": 489151.19999999995
+    },
+    {
+     "formula_id": "F-01136",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01140",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01212",
+     "pct": 0.16,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01214",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01341",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01360",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01367",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    }
+   ]
+  },
+  {
+   "rm_code": "RM-003",
+   "rm_name": "Natural Patchouli (Indonesia)",
+   "rm_type": "natural",
+   "limit": 0.2,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00105",
+     "pct": 0.29,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00118",
+     "pct": 0.31,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00249",
+     "pct": 0.28,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00292",
+     "pct": 0.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00298",
+     "pct": 0.27,
+     "ltm_revenue": 182841.682
+    },
+    {
+     "formula_id": "F-00316",
+     "pct": 0.17,
+     "ltm_revenue": 547532.648
+    },
+    {
+     "formula_id": "F-00424",
+     "pct": 0.24,
+     "ltm_revenue": 288541.05
+    },
+    {
+     "formula_id": "F-00502",
+     "pct": 0.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00506",
+     "pct": 0.22,
+     "ltm_revenue": 373720.2
+    },
+    {
+     "formula_id": "F-00521",
+     "pct": 0.16,
+     "ltm_revenue": 451351.593
+    },
+    {
+     "formula_id": "F-00582",
+     "pct": 0.24,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00584",
+     "pct": 0.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00596",
+     "pct": 0.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00598",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00621",
+     "pct": 0.15,
+     "ltm_revenue": 67764.944
+    },
+    {
+     "formula_id": "F-00663",
+     "pct": 0.24,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00681",
+     "pct": 0.17,
+     "ltm_revenue": 466002.71900000004
+    },
+    {
+     "formula_id": "F-00777",
+     "pct": 0.29,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00784",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00792",
+     "pct": 0.29,
+     "ltm_revenue": 385167.174
+    },
+    {
+     "formula_id": "F-00841",
+     "pct": 0.32,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00869",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00891",
+     "pct": 0.22,
+     "ltm_revenue": 537741.251
+    },
+    {
+     "formula_id": "F-00904",
+     "pct": 0.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00957",
+     "pct": 0.27,
+     "ltm_revenue": 1249262.492
+    },
+    {
+     "formula_id": "F-00983",
+     "pct": 0.2,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00984",
+     "pct": 0.23,
+     "ltm_revenue": 384741.76800000004
+    },
+    {
+     "formula_id": "F-00991",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01040",
+     "pct": 0.27,
+     "ltm_revenue": 236421.768
+    },
+    {
+     "formula_id": "F-01094",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01100",
+     "pct": 0.2,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01119",
+     "pct": 0.27,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01133",
+     "pct": 0.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01150",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01184",
+     "pct": 0.21,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01217",
+     "pct": 0.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01228",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01236",
+     "pct": 0.24,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01289",
+     "pct": 0.14,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01290",
+     "pct": 0.17,
+     "ltm_revenue": 409694.56200000003
+    },
+    {
+     "formula_id": "F-01295",
+     "pct": 0.11,
+     "ltm_revenue": 220809.23200000002
+    },
+    {
+     "formula_id": "F-01318",
+     "pct": 0.28,
+     "ltm_revenue": 38307.047999999995
+    },
+    {
+     "formula_id": "F-01334",
+     "pct": 0.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01336",
+     "pct": 0.27,
+     "ltm_revenue": 157531.42899999997
+    },
+    {
+     "formula_id": "F-01377",
+     "pct": 0.3,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01392",
+     "pct": 0.24,
+     "ltm_revenue": 0.0
+    }
+   ]
+  },
+  {
+   "rm_code": "RM-001",
+   "rm_name": "Natural Bergamot (Madagascar)",
+   "rm_type": "natural",
+   "limit": 0.5,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00019",
+     "pct": 0.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00023",
+     "pct": 0.74,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00040",
+     "pct": 0.6,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00046",
+     "pct": 0.35,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00111",
+     "pct": 0.33,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00174",
+     "pct": 0.57,
+     "ltm_revenue": 176828.076
+    },
+    {
+     "formula_id": "F-00179",
+     "pct": 0.42,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00192",
+     "pct": 0.77,
+     "ltm_revenue": 136538.547
+    },
+    {
+     "formula_id": "F-00222",
+     "pct": 0.64,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00233",
+     "pct": 0.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00281",
+     "pct": 0.64,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00311",
+     "pct": 0.54,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00368",
+     "pct": 0.28,
+     "ltm_revenue": 164034.66
+    },
+    {
+     "formula_id": "F-00380",
+     "pct": 0.42,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00477",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00492",
+     "pct": 0.74,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00501",
+     "pct": 0.31,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00546",
+     "pct": 0.42,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00569",
+     "pct": 0.14,
+     "ltm_revenue": 93680.059
+    },
+    {
+     "formula_id": "F-00595",
+     "pct": 0.25,
+     "ltm_revenue": 488127.57
+    },
+    {
+     "formula_id": "F-00610",
+     "pct": 0.69,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00619",
+     "pct": 0.12,
+     "ltm_revenue": 589233.1769999999
+    },
+    {
+     "formula_id": "F-00712",
+     "pct": 0.46,
+     "ltm_revenue": 63375.328
+    },
+    {
+     "formula_id": "F-00743",
+     "pct": 0.67,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00776",
+     "pct": 0.72,
+     "ltm_revenue": 114887.522
+    },
+    {
+     "formula_id": "F-00809",
+     "pct": 0.12,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00863",
+     "pct": 0.42,
+     "ltm_revenue": 218459.772
+    },
+    {
+     "formula_id": "F-00876",
+     "pct": 0.48,
+     "ltm_revenue": 283127.44800000003
+    },
+    {
+     "formula_id": "F-00902",
+     "pct": 0.64,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00908",
+     "pct": 0.71,
+     "ltm_revenue": 291713.331
+    },
+    {
+     "formula_id": "F-00931",
+     "pct": 0.37,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00956",
+     "pct": 0.76,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00973",
+     "pct": 0.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00975",
+     "pct": 0.69,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01003",
+     "pct": 0.77,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01012",
+     "pct": 0.78,
+     "ltm_revenue": 1224548.64
+    },
+    {
+     "formula_id": "F-01036",
+     "pct": 0.71,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01052",
+     "pct": 0.49,
+     "ltm_revenue": 613780.704
+    },
+    {
+     "formula_id": "F-01053",
+     "pct": 0.66,
+     "ltm_revenue": 208159.045
+    },
+    {
+     "formula_id": "F-01085",
+     "pct": 0.64,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01144",
+     "pct": 0.48,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01158",
+     "pct": 0.69,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01173",
+     "pct": 0.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01192",
+     "pct": 0.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01211",
+     "pct": 0.66,
+     "ltm_revenue": 141008.404
+    },
+    {
+     "formula_id": "F-01220",
+     "pct": 0.47,
+     "ltm_revenue": 155176.56
+    },
+    {
+     "formula_id": "F-01231",
+     "pct": 0.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01246",
+     "pct": 0.63,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01249",
+     "pct": 0.2,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01292",
+     "pct": 0.44,
+     "ltm_revenue": 111862.31000000001
+    },
+    {
+     "formula_id": "F-01386",
+     "pct": 0.53,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01393",
+     "pct": 0.35,
+     "ltm_revenue": 61503.64200000001
+    },
+    {
+     "formula_id": "F-01399",
+     "pct": 0.74,
+     "ltm_revenue": 96114.81599999999
+    }
+   ]
+  },
+  {
+   "rm_code": "RM-002",
+   "rm_name": "Natural Vetiver (India)",
+   "rm_type": "natural",
+   "limit": 1.0,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00006",
+     "pct": 0.56,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00033",
+     "pct": 1.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00049",
+     "pct": 1.33,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00075",
+     "pct": 0.2,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00089",
+     "pct": 0.19,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00117",
+     "pct": 0.59,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00123",
+     "pct": 1.1,
+     "ltm_revenue": 57322.693999999996
+    },
+    {
+     "formula_id": "F-00133",
+     "pct": 0.58,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00178",
+     "pct": 1.49,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00198",
+     "pct": 0.13,
+     "ltm_revenue": 530790.78
+    },
+    {
+     "formula_id": "F-00223",
+     "pct": 1.41,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00225",
+     "pct": 0.63,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00243",
+     "pct": 0.73,
+     "ltm_revenue": 374003.46
+    },
+    {
+     "formula_id": "F-00246",
+     "pct": 1.36,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00282",
+     "pct": 1.21,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00295",
+     "pct": 0.65,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00320",
+     "pct": 0.28,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00327",
+     "pct": 1.25,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00413",
+     "pct": 0.65,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00460",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00568",
+     "pct": 0.69,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00605",
+     "pct": 1.26,
+     "ltm_revenue": 284472.35000000003
+    },
+    {
+     "formula_id": "F-00642",
+     "pct": 0.34,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00647",
+     "pct": 0.34,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00688",
+     "pct": 0.48,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00704",
+     "pct": 1.29,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00729",
+     "pct": 0.11,
+     "ltm_revenue": 696334.941
+    },
+    {
+     "formula_id": "F-00735",
+     "pct": 1.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00888",
+     "pct": 0.52,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00900",
+     "pct": 0.57,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01027",
+     "pct": 0.54,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01032",
+     "pct": 1.19,
+     "ltm_revenue": 181026.164
+    },
+    {
+     "formula_id": "F-01038",
+     "pct": 0.92,
+     "ltm_revenue": 191512.3
+    },
+    {
+     "formula_id": "F-01051",
+     "pct": 1.0,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01057",
+     "pct": 0.3,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01077",
+     "pct": 0.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01086",
+     "pct": 0.39,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01111",
+     "pct": 0.1,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01120",
+     "pct": 0.13,
+     "ltm_revenue": 212761.868
+    },
+    {
+     "formula_id": "F-01170",
+     "pct": 1.47,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01175",
+     "pct": 1.49,
+     "ltm_revenue": 1204958.135
+    },
+    {
+     "formula_id": "F-01193",
+     "pct": 1.14,
+     "ltm_revenue": 114444.41999999998
+    },
+    {
+     "formula_id": "F-01208",
+     "pct": 1.25,
+     "ltm_revenue": 279031.41599999997
+    },
+    {
+     "formula_id": "F-01224",
+     "pct": 1.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01241",
+     "pct": 0.53,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01260",
+     "pct": 0.7,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01312",
+     "pct": 0.91,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01332",
+     "pct": 0.63,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01344",
+     "pct": 0.13,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01368",
+     "pct": 1.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01371",
+     "pct": 1.08,
+     "ltm_revenue": 85965.948
+    },
+    {
+     "formula_id": "F-01372",
+     "pct": 0.83,
+     "ltm_revenue": 0.0
+    }
+   ]
+  },
+  {
+   "rm_code": "RM-027",
+   "rm_name": "Aroma chemical AC-03",
+   "rm_type": "synthetic",
+   "limit": 1.5,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00043",
+     "pct": 1.36,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00055",
+     "pct": 1.42,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00082",
+     "pct": 0.9,
+     "ltm_revenue": 100227.301
+    },
+    {
+     "formula_id": "F-00112",
+     "pct": 0.7,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00128",
+     "pct": 0.38,
+     "ltm_revenue": 457307.963
+    },
+    {
+     "formula_id": "F-00141",
+     "pct": 0.48,
+     "ltm_revenue": 395846.244
+    },
+    {
+     "formula_id": "F-00163",
+     "pct": 1.7,
+     "ltm_revenue": 110075.663
+    },
+    {
+     "formula_id": "F-00216",
+     "pct": 0.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00237",
+     "pct": 0.5,
+     "ltm_revenue": 102772.916
+    },
+    {
+     "formula_id": "F-00244",
+     "pct": 0.89,
+     "ltm_revenue": 179741.424
+    },
+    {
+     "formula_id": "F-00366",
+     "pct": 1.48,
+     "ltm_revenue": 259495.374
+    },
+    {
+     "formula_id": "F-00386",
+     "pct": 1.0,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00398",
+     "pct": 1.67,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00437",
+     "pct": 2.29,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00488",
+     "pct": 0.49,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00497",
+     "pct": 1.68,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00562",
+     "pct": 1.57,
+     "ltm_revenue": 695861.804
+    },
+    {
+     "formula_id": "F-00583",
+     "pct": 0.8,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00586",
+     "pct": 2.04,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00587",
+     "pct": 0.92,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00588",
+     "pct": 2.27,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00589",
+     "pct": 0.46,
+     "ltm_revenue": 178440.93600000002
+    },
+    {
+     "formula_id": "F-00762",
+     "pct": 1.55,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00772",
+     "pct": 1.17,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00773",
+     "pct": 2.11,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00796",
+     "pct": 2.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00815",
+     "pct": 1.35,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00830",
+     "pct": 1.9,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00838",
+     "pct": 0.45,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00851",
+     "pct": 1.37,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00864",
+     "pct": 1.82,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00881",
+     "pct": 1.55,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00890",
+     "pct": 1.38,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00923",
+     "pct": 1.33,
+     "ltm_revenue": 297329.971
+    },
+    {
+     "formula_id": "F-00926",
+     "pct": 0.48,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00977",
+     "pct": 0.57,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01013",
+     "pct": 1.33,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01049",
+     "pct": 0.71,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01071",
+     "pct": 1.96,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01078",
+     "pct": 0.15,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01113",
+     "pct": 2.36,
+     "ltm_revenue": 234024.15600000002
+    },
+    {
+     "formula_id": "F-01187",
+     "pct": 1.23,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01219",
+     "pct": 1.81,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01229",
+     "pct": 1.88,
+     "ltm_revenue": 247640.87000000002
+    },
+    {
+     "formula_id": "F-01232",
+     "pct": 1.09,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01234",
+     "pct": 2.22,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01298",
+     "pct": 0.37,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01305",
+     "pct": 2.34,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01328",
+     "pct": 0.79,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01335",
+     "pct": 0.25,
+     "ltm_revenue": 0.0
+    }
+   ]
+  },
+  {
+   "rm_code": "RM-025",
+   "rm_name": "Aroma chemical AC-01",
+   "rm_type": "synthetic",
+   "limit": 2.0,
+   "substitution_candidates": 23,
+   "formulas": [
+    {
+     "formula_id": "F-00076",
+     "pct": 1.69,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00104",
+     "pct": 1.44,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00142",
+     "pct": 0.77,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00146",
+     "pct": 1.75,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00148",
+     "pct": 0.51,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00150",
+     "pct": 0.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00158",
+     "pct": 2.89,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00199",
+     "pct": 1.55,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00200",
+     "pct": 1.05,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00227",
+     "pct": 2.51,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00289",
+     "pct": 0.53,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00307",
+     "pct": 0.28,
+     "ltm_revenue": 175495.00800000003
+    },
+    {
+     "formula_id": "F-00319",
+     "pct": 0.54,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00384",
+     "pct": 2.72,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00392",
+     "pct": 3.07,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00428",
+     "pct": 2.3,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00476",
+     "pct": 2.09,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00483",
+     "pct": 0.78,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00511",
+     "pct": 2.38,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00520",
+     "pct": 0.45,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00539",
+     "pct": 1.54,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00552",
+     "pct": 0.54,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00622",
+     "pct": 2.84,
+     "ltm_revenue": 487947.16799999995
+    },
+    {
+     "formula_id": "F-00635",
+     "pct": 2.19,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00643",
+     "pct": 1.33,
+     "ltm_revenue": 234860.066
+    },
+    {
+     "formula_id": "F-00665",
+     "pct": 0.39,
+     "ltm_revenue": 305688.582
+    },
+    {
+     "formula_id": "F-00674",
+     "pct": 1.42,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00698",
+     "pct": 1.29,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00737",
+     "pct": 2.26,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00752",
+     "pct": 2.55,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00753",
+     "pct": 0.31,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00754",
+     "pct": 2.6,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00787",
+     "pct": 1.49,
+     "ltm_revenue": 175303.10100000002
+    },
+    {
+     "formula_id": "F-00826",
+     "pct": 0.78,
+     "ltm_revenue": 132239.456
+    },
+    {
+     "formula_id": "F-00833",
+     "pct": 1.83,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00862",
+     "pct": 2.61,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00889",
+     "pct": 0.71,
+     "ltm_revenue": 257242.68799999997
+    },
+    {
+     "formula_id": "F-00922",
+     "pct": 0.44,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00941",
+     "pct": 0.96,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00969",
+     "pct": 1.19,
+     "ltm_revenue": 177205.93800000002
+    },
+    {
+     "formula_id": "F-00976",
+     "pct": 0.81,
+     "ltm_revenue": 86545.424
+    },
+    {
+     "formula_id": "F-00979",
+     "pct": 1.77,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-00981",
+     "pct": 2.18,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01007",
+     "pct": 2.66,
+     "ltm_revenue": 201555.244
+    },
+    {
+     "formula_id": "F-01016",
+     "pct": 1.39,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01046",
+     "pct": 0.35,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01060",
+     "pct": 1.27,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01064",
+     "pct": 0.3,
+     "ltm_revenue": 299571.555
+    },
+    {
+     "formula_id": "F-01095",
+     "pct": 0.46,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01143",
+     "pct": 3.06,
+     "ltm_revenue": 96188.176
+    },
+    {
+     "formula_id": "F-01245",
+     "pct": 1.36,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01291",
+     "pct": 1.64,
+     "ltm_revenue": 314215.74
+    },
+    {
+     "formula_id": "F-01299",
+     "pct": 1.98,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01323",
+     "pct": 1.2,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01353",
+     "pct": 3.06,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01373",
+     "pct": 2.4,
+     "ltm_revenue": 0.0
+    },
+    {
+     "formula_id": "F-01375",
+     "pct": 2.3,
+     "ltm_revenue": 0.0
+    }
+   ]
+  }
+ ],
+ "ifraNow": {
+  "breaches": 148,
+  "formulas": 148
+ },
+ "ledger": [
+  {
+   "compound_id": "CMP-00957",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 1249262.492,
+   "co2e_kg_per_kg_compound": 4.804211,
+   "naturals_pct": 31.72,
+   "circular_feedstock_pct": 41.59,
+   "ltm_avg_price_chf_kg": 73.90336559394227
+  },
+  {
+   "compound_id": "CMP-01090",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 1246090.483,
+   "co2e_kg_per_kg_compound": 4.033944,
+   "naturals_pct": 30.25,
+   "circular_feedstock_pct": 57.16,
+   "ltm_avg_price_chf_kg": 95.93281210544144
+  },
+  {
+   "compound_id": "CMP-01012",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 1224548.64,
+   "co2e_kg_per_kg_compound": 4.935637,
+   "naturals_pct": 32.41,
+   "circular_feedstock_pct": 45.24,
+   "ltm_avg_price_chf_kg": 88.88999999999999
+  },
+  {
+   "compound_id": "CMP-01175",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 1204958.135,
+   "co2e_kg_per_kg_compound": 6.573641,
+   "naturals_pct": 27.749999999999996,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 106.85
+  },
+  {
+   "compound_id": "CMP-01102",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 1003547.963,
+   "co2e_kg_per_kg_compound": 5.905259,
+   "naturals_pct": 27.19,
+   "circular_feedstock_pct": 30.02,
+   "ltm_avg_price_chf_kg": 55.989999999999995
+  },
+  {
+   "compound_id": "CMP-00549",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 822541.707,
+   "co2e_kg_per_kg_compound": 5.565932,
+   "naturals_pct": 29.9,
+   "circular_feedstock_pct": 14.63,
+   "ltm_avg_price_chf_kg": 89.33000000000001
+  },
+  {
+   "compound_id": "CMP-01106",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 792062.334,
+   "co2e_kg_per_kg_compound": 5.783356,
+   "naturals_pct": 28.42,
+   "circular_feedstock_pct": 12.1,
+   "ltm_avg_price_chf_kg": 64.26
+  },
+  {
+   "compound_id": "CMP-00813",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 780706.752,
+   "co2e_kg_per_kg_compound": 5.029859,
+   "naturals_pct": 33.21,
+   "circular_feedstock_pct": 33.31,
+   "ltm_avg_price_chf_kg": 88.61999999999999
+  },
+  {
+   "compound_id": "CMP-00934",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 734493.024,
+   "co2e_kg_per_kg_compound": 4.93288,
+   "naturals_pct": 32.0,
+   "circular_feedstock_pct": 44.25,
+   "ltm_avg_price_chf_kg": 83.64
+  },
+  {
+   "compound_id": "CMP-00835",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 727554.879,
+   "co2e_kg_per_kg_compound": 5.078550999999999,
+   "naturals_pct": 34.12,
+   "circular_feedstock_pct": 33.83,
+   "ltm_avg_price_chf_kg": 51.93
+  },
+  {
+   "compound_id": "CMP-00410",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 718713.828,
+   "co2e_kg_per_kg_compound": 5.680939,
+   "naturals_pct": 29.590000000000003,
+   "circular_feedstock_pct": 18.31,
+   "ltm_avg_price_chf_kg": 45.72
+  },
+  {
+   "compound_id": "CMP-01105",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 716683.9899999999,
+   "co2e_kg_per_kg_compound": 5.60763,
+   "naturals_pct": 30.42,
+   "circular_feedstock_pct": 19.34,
+   "ltm_avg_price_chf_kg": 75.35
+  },
+  {
+   "compound_id": "CMP-01014",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 714025.006,
+   "co2e_kg_per_kg_compound": 5.340813,
+   "naturals_pct": 32.97,
+   "circular_feedstock_pct": 17.18,
+   "ltm_avg_price_chf_kg": 105.94000000000001
+  },
+  {
+   "compound_id": "CMP-00086",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 705265.281,
+   "co2e_kg_per_kg_compound": 5.403601,
+   "naturals_pct": 29.47,
+   "circular_feedstock_pct": 32.660000000000004,
+   "ltm_avg_price_chf_kg": 73.99
+  },
+  {
+   "compound_id": "CMP-00961",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 700595.721,
+   "co2e_kg_per_kg_compound": 5.449634,
+   "naturals_pct": 25.34,
+   "circular_feedstock_pct": 25.34,
+   "ltm_avg_price_chf_kg": 67.83
+  },
+  {
+   "compound_id": "CMP-00729",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 696334.941,
+   "co2e_kg_per_kg_compound": 6.472384,
+   "naturals_pct": 27.520000000000003,
+   "circular_feedstock_pct": 6.35,
+   "ltm_avg_price_chf_kg": 79.33
+  },
+  {
+   "compound_id": "CMP-00562",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 695861.804,
+   "co2e_kg_per_kg_compound": 5.970424,
+   "naturals_pct": 28.78,
+   "circular_feedstock_pct": 18.770000000000003,
+   "ltm_avg_price_chf_kg": 64.13000000000001
+  },
+  {
+   "compound_id": "CMP-01061",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 687727.339,
+   "co2e_kg_per_kg_compound": 5.688865,
+   "naturals_pct": 30.299999999999997,
+   "circular_feedstock_pct": 16.05,
+   "ltm_avg_price_chf_kg": 63.41189250742251
+  },
+  {
+   "compound_id": "CMP-00077",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 687107.792,
+   "co2e_kg_per_kg_compound": 7.066917,
+   "naturals_pct": 32.620000000000005,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 74.48
+  },
+  {
+   "compound_id": "CMP-00358",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 680712.825,
+   "co2e_kg_per_kg_compound": 5.227162,
+   "naturals_pct": 31.37,
+   "circular_feedstock_pct": 12.87,
+   "ltm_avg_price_chf_kg": 129.45
+  },
+  {
+   "compound_id": "CMP-01088",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 672285.708,
+   "co2e_kg_per_kg_compound": 4.90953,
+   "naturals_pct": 34.31,
+   "circular_feedstock_pct": 13.69,
+   "ltm_avg_price_chf_kg": 131.72
+  },
+  {
+   "compound_id": "CMP-00543",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 666683.5789999999,
+   "co2e_kg_per_kg_compound": 5.330031,
+   "naturals_pct": 30.93,
+   "circular_feedstock_pct": 23.59,
+   "ltm_avg_price_chf_kg": 59.69
+  },
+  {
+   "compound_id": "CMP-00329",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 625835.112,
+   "co2e_kg_per_kg_compound": 5.700989,
+   "naturals_pct": 30.659999999999997,
+   "circular_feedstock_pct": 22.09,
+   "ltm_avg_price_chf_kg": 84.72
+  },
+  {
+   "compound_id": "CMP-00080",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 624146.649,
+   "co2e_kg_per_kg_compound": 5.948072,
+   "naturals_pct": 31.13,
+   "circular_feedstock_pct": 25.75,
+   "ltm_avg_price_chf_kg": 78.51
+  },
+  {
+   "compound_id": "CMP-01052",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 613780.704,
+   "co2e_kg_per_kg_compound": 4.697717,
+   "naturals_pct": 29.770000000000003,
+   "circular_feedstock_pct": 9.63,
+   "ltm_avg_price_chf_kg": 75.84
+  },
+  {
+   "compound_id": "CMP-00993",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 600002.612,
+   "co2e_kg_per_kg_compound": 4.511068,
+   "naturals_pct": 35.7,
+   "circular_feedstock_pct": 53.97,
+   "ltm_avg_price_chf_kg": 100.53999999999999
+  },
+  {
+   "compound_id": "CMP-00707",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 597098.712,
+   "co2e_kg_per_kg_compound": 5.781658,
+   "naturals_pct": 31.3,
+   "circular_feedstock_pct": 25.24,
+   "ltm_avg_price_chf_kg": 74.48
+  },
+  {
+   "compound_id": "CMP-00612",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 595826.677,
+   "co2e_kg_per_kg_compound": 5.3244,
+   "naturals_pct": 30.78,
+   "circular_feedstock_pct": 27.09,
+   "ltm_avg_price_chf_kg": 89.74509752827943
+  },
+  {
+   "compound_id": "CMP-01109",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 594127.492,
+   "co2e_kg_per_kg_compound": 6.0097380000000005,
+   "naturals_pct": 28.0,
+   "circular_feedstock_pct": 15.77,
+   "ltm_avg_price_chf_kg": 136.04
+  },
+  {
+   "compound_id": "CMP-00619",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 589233.1769999999,
+   "co2e_kg_per_kg_compound": 5.411919,
+   "naturals_pct": 29.080000000000002,
+   "circular_feedstock_pct": 30.92,
+   "ltm_avg_price_chf_kg": 65.49
+  },
+  {
+   "compound_id": "CMP-00045",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 562567.027,
+   "co2e_kg_per_kg_compound": 5.646127,
+   "naturals_pct": 28.44,
+   "circular_feedstock_pct": 11.56,
+   "ltm_avg_price_chf_kg": 95.68280074836295
+  },
+  {
+   "compound_id": "CMP-00927",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 559794.2899999999,
+   "co2e_kg_per_kg_compound": 5.472191,
+   "naturals_pct": 31.49,
+   "circular_feedstock_pct": 19.29,
+   "ltm_avg_price_chf_kg": 76.99
+  },
+  {
+   "compound_id": "CMP-00316",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 547532.648,
+   "co2e_kg_per_kg_compound": 5.958788,
+   "naturals_pct": 28.66,
+   "circular_feedstock_pct": 7.74,
+   "ltm_avg_price_chf_kg": 84.76
+  },
+  {
+   "compound_id": "CMP-00654",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 542450.876,
+   "co2e_kg_per_kg_compound": 5.010515,
+   "naturals_pct": 32.4,
+   "circular_feedstock_pct": 11.16,
+   "ltm_avg_price_chf_kg": 111.62
+  },
+  {
+   "compound_id": "CMP-01035",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 540272.0700000001,
+   "co2e_kg_per_kg_compound": 5.420941,
+   "naturals_pct": 27.18,
+   "circular_feedstock_pct": 36.88,
+   "ltm_avg_price_chf_kg": 53.82000000000001
+  },
+  {
+   "compound_id": "CMP-00891",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 537741.251,
+   "co2e_kg_per_kg_compound": 6.050723,
+   "naturals_pct": 36.67,
+   "circular_feedstock_pct": 6.01,
+   "ltm_avg_price_chf_kg": 148.55141053620267
+  },
+  {
+   "compound_id": "CMP-00198",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 530790.78,
+   "co2e_kg_per_kg_compound": 5.987474,
+   "naturals_pct": 25.590000000000003,
+   "circular_feedstock_pct": 32.1,
+   "ltm_avg_price_chf_kg": 89.70000000000002
+  },
+  {
+   "compound_id": "CMP-00980",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 530342.708,
+   "co2e_kg_per_kg_compound": 5.522258,
+   "naturals_pct": 30.6,
+   "circular_feedstock_pct": 7.6,
+   "ltm_avg_price_chf_kg": 84.91869213648663
+  },
+  {
+   "compound_id": "CMP-00266",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 526295.646,
+   "co2e_kg_per_kg_compound": 6.3931,
+   "naturals_pct": 24.78,
+   "circular_feedstock_pct": 8.489999999999998,
+   "ltm_avg_price_chf_kg": 56.79
+  },
+  {
+   "compound_id": "CMP-00107",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 522066.19200000004,
+   "co2e_kg_per_kg_compound": 5.24281,
+   "naturals_pct": 30.15,
+   "circular_feedstock_pct": 16.87,
+   "ltm_avg_price_chf_kg": 113.73000000000002
+  },
+  {
+   "compound_id": "CMP-00047",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 521082.26,
+   "co2e_kg_per_kg_compound": 4.859098,
+   "naturals_pct": 28.47,
+   "circular_feedstock_pct": 35.7,
+   "ltm_avg_price_chf_kg": 93.03212940315295
+  },
+  {
+   "compound_id": "CMP-00789",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 508725.417,
+   "co2e_kg_per_kg_compound": 5.973537,
+   "naturals_pct": 23.96,
+   "circular_feedstock_pct": 24.53,
+   "ltm_avg_price_chf_kg": 89.33
+  },
+  {
+   "compound_id": "CMP-00805",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 508320.198,
+   "co2e_kg_per_kg_compound": 5.240808,
+   "naturals_pct": 28.87,
+   "circular_feedstock_pct": 19.38,
+   "ltm_avg_price_chf_kg": 98.82000000000001
+  },
+  {
+   "compound_id": "CMP-00354",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 505515.186,
+   "co2e_kg_per_kg_compound": 7.1738409999999995,
+   "naturals_pct": 26.11,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 71.46000000000001
+  },
+  {
+   "compound_id": "CMP-00197",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 503378.33499999996,
+   "co2e_kg_per_kg_compound": 5.746839,
+   "naturals_pct": 30.759999999999998,
+   "circular_feedstock_pct": 13.98,
+   "ltm_avg_price_chf_kg": 35.2545337712909
+  },
+  {
+   "compound_id": "CMP-00426",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 494176.584,
+   "co2e_kg_per_kg_compound": 5.278841,
+   "naturals_pct": 30.009999999999998,
+   "circular_feedstock_pct": 3.73,
+   "ltm_avg_price_chf_kg": 83.38
+  },
+  {
+   "compound_id": "CMP-00759",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 489997.71800000005,
+   "co2e_kg_per_kg_compound": 4.976641,
+   "naturals_pct": 29.740000000000002,
+   "circular_feedstock_pct": 6.48,
+   "ltm_avg_price_chf_kg": 93.62000000000002
+  },
+  {
+   "compound_id": "CMP-01123",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 489151.19999999995,
+   "co2e_kg_per_kg_compound": 5.289677,
+   "naturals_pct": 32.61,
+   "circular_feedstock_pct": 15.69,
+   "ltm_avg_price_chf_kg": 77.52
+  },
+  {
+   "compound_id": "CMP-00840",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 488796.246,
+   "co2e_kg_per_kg_compound": 6.192446,
+   "naturals_pct": 30.75,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 45.92999999999999
+  },
+  {
+   "compound_id": "CMP-00595",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 488127.57,
+   "co2e_kg_per_kg_compound": 5.366118,
+   "naturals_pct": 30.869999999999997,
+   "circular_feedstock_pct": 13.92,
+   "ltm_avg_price_chf_kg": 165.9
+  },
+  {
+   "compound_id": "CMP-00622",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 487947.16799999995,
+   "co2e_kg_per_kg_compound": 4.859303,
+   "naturals_pct": 31.37,
+   "circular_feedstock_pct": 23.34,
+   "ltm_avg_price_chf_kg": 103.44
+  },
+  {
+   "compound_id": "CMP-00880",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 479808.472,
+   "co2e_kg_per_kg_compound": 5.007061,
+   "naturals_pct": 29.240000000000002,
+   "circular_feedstock_pct": 34.96,
+   "ltm_avg_price_chf_kg": 102.44
+  },
+  {
+   "compound_id": "CMP-00312",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 475209.532,
+   "co2e_kg_per_kg_compound": 5.912633,
+   "naturals_pct": 31.86,
+   "circular_feedstock_pct": 12.97,
+   "ltm_avg_price_chf_kg": 103.93
+  },
+  {
+   "compound_id": "CMP-01023",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 466870.20900000003,
+   "co2e_kg_per_kg_compound": 5.312492,
+   "naturals_pct": 27.97,
+   "circular_feedstock_pct": 31.119999999999997,
+   "ltm_avg_price_chf_kg": 82.73
+  },
+  {
+   "compound_id": "CMP-00681",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 466002.71900000004,
+   "co2e_kg_per_kg_compound": 5.3414280000000005,
+   "naturals_pct": 31.18,
+   "circular_feedstock_pct": 24.25,
+   "ltm_avg_price_chf_kg": 67.73
+  },
+  {
+   "compound_id": "CMP-00639",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 465119.924,
+   "co2e_kg_per_kg_compound": 4.399046,
+   "naturals_pct": 29.71,
+   "circular_feedstock_pct": 52.239999999999995,
+   "ltm_avg_price_chf_kg": 97.22
+  },
+  {
+   "compound_id": "CMP-00478",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 460731.447,
+   "co2e_kg_per_kg_compound": 4.874068,
+   "naturals_pct": 30.61,
+   "circular_feedstock_pct": 29.29,
+   "ltm_avg_price_chf_kg": 91.70975098530992
+  },
+  {
+   "compound_id": "CMP-00128",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 457307.963,
+   "co2e_kg_per_kg_compound": 4.793317,
+   "naturals_pct": 32.26,
+   "circular_feedstock_pct": 40.739999999999995,
+   "ltm_avg_price_chf_kg": 76.4268940102948
+  },
+  {
+   "compound_id": "CMP-00521",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 451351.593,
+   "co2e_kg_per_kg_compound": 5.182093,
+   "naturals_pct": 31.12,
+   "circular_feedstock_pct": 25.0,
+   "ltm_avg_price_chf_kg": 86.72999999999999
+  },
+  {
+   "compound_id": "CMP-00646",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 447704.744,
+   "co2e_kg_per_kg_compound": 4.950139,
+   "naturals_pct": 26.82,
+   "circular_feedstock_pct": 51.1,
+   "ltm_avg_price_chf_kg": 92.08999999999999
+  },
+  {
+   "compound_id": "CMP-00106",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 444063.22199999995,
+   "co2e_kg_per_kg_compound": 4.624849,
+   "naturals_pct": 30.28,
+   "circular_feedstock_pct": 22.060000000000002,
+   "ltm_avg_price_chf_kg": 71.57
+  },
+  {
+   "compound_id": "CMP-00325",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 440227.54299999995,
+   "co2e_kg_per_kg_compound": 4.829274,
+   "naturals_pct": 28.3,
+   "circular_feedstock_pct": 51.7,
+   "ltm_avg_price_chf_kg": 83.29754834437085
+  },
+  {
+   "compound_id": "CMP-00947",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 439092.555,
+   "co2e_kg_per_kg_compound": 5.449929,
+   "naturals_pct": 30.99,
+   "circular_feedstock_pct": 22.13,
+   "ltm_avg_price_chf_kg": 74.85
+  },
+  {
+   "compound_id": "CMP-00250",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 437237.04600000003,
+   "co2e_kg_per_kg_compound": 5.378664,
+   "naturals_pct": 32.69,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 117.54
+  },
+  {
+   "compound_id": "CMP-00751",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 435626.625,
+   "co2e_kg_per_kg_compound": 6.150362,
+   "naturals_pct": 32.16,
+   "circular_feedstock_pct": 10.83,
+   "ltm_avg_price_chf_kg": 94.65
+  },
+  {
+   "compound_id": "CMP-00221",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 428783.38999999996,
+   "co2e_kg_per_kg_compound": 5.8673779999999995,
+   "naturals_pct": 28.46,
+   "circular_feedstock_pct": 31.439999999999998,
+   "ltm_avg_price_chf_kg": 106.88854293905023
+  },
+  {
+   "compound_id": "CMP-00126",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 422298.464,
+   "co2e_kg_per_kg_compound": 4.923344,
+   "naturals_pct": 29.0,
+   "circular_feedstock_pct": 31.409999999999997,
+   "ltm_avg_price_chf_kg": 85.84
+  },
+  {
+   "compound_id": "CMP-00930",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 417535.793,
+   "co2e_kg_per_kg_compound": 5.381839,
+   "naturals_pct": 27.95,
+   "circular_feedstock_pct": 27.47,
+   "ltm_avg_price_chf_kg": 96.5713278286613
+  },
+  {
+   "compound_id": "CMP-00664",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 416977.05000000005,
+   "co2e_kg_per_kg_compound": 6.3115,
+   "naturals_pct": 29.45,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 77.7
+  },
+  {
+   "compound_id": "CMP-00110",
+   "segment": "industrial",
+   "is_circular": true,
+   "ltm_revenue_chf": 416171.907,
+   "co2e_kg_per_kg_compound": 3.668562,
+   "naturals_pct": 32.96,
+   "circular_feedstock_pct": 58.93,
+   "ltm_avg_price_chf_kg": 67.59
+  },
+  {
+   "compound_id": "CMP-00206",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 409913.784,
+   "co2e_kg_per_kg_compound": 5.290288,
+   "naturals_pct": 30.32,
+   "circular_feedstock_pct": 16.9,
+   "ltm_avg_price_chf_kg": 102.05999999999999
+  },
+  {
+   "compound_id": "CMP-01290",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 409694.56200000003,
+   "co2e_kg_per_kg_compound": 6.113534,
+   "naturals_pct": 26.8,
+   "circular_feedstock_pct": 5.11,
+   "ltm_avg_price_chf_kg": 47.34000000000001
+  },
+  {
+   "compound_id": "CMP-00245",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 403660.189,
+   "co2e_kg_per_kg_compound": 5.64668,
+   "naturals_pct": 32.95,
+   "circular_feedstock_pct": 17.14,
+   "ltm_avg_price_chf_kg": 47.089999999999996
+  },
+  {
+   "compound_id": "CMP-01264",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 399173.73600000003,
+   "co2e_kg_per_kg_compound": 6.13924,
+   "naturals_pct": 32.67,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 90.87
+  },
+  {
+   "compound_id": "CMP-00141",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 395846.244,
+   "co2e_kg_per_kg_compound": 5.511618,
+   "naturals_pct": 31.01,
+   "circular_feedstock_pct": 5.64,
+   "ltm_avg_price_chf_kg": 67.17
+  },
+  {
+   "compound_id": "CMP-01216",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 395559.384,
+   "co2e_kg_per_kg_compound": 5.583365,
+   "naturals_pct": 29.92,
+   "circular_feedstock_pct": 23.060000000000002,
+   "ltm_avg_price_chf_kg": 75.12
+  },
+  {
+   "compound_id": "CMP-00550",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 393861.616,
+   "co2e_kg_per_kg_compound": 5.3482959999999995,
+   "naturals_pct": 28.28,
+   "circular_feedstock_pct": 38.35,
+   "ltm_avg_price_chf_kg": 43.65230097420949
+  },
+  {
+   "compound_id": "CMP-01093",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 392907.81000000006,
+   "co2e_kg_per_kg_compound": 4.735964,
+   "naturals_pct": 25.56,
+   "circular_feedstock_pct": 28.89,
+   "ltm_avg_price_chf_kg": 69.18
+  },
+  {
+   "compound_id": "CMP-00252",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 390743.71200000006,
+   "co2e_kg_per_kg_compound": 6.200787,
+   "naturals_pct": 30.25,
+   "circular_feedstock_pct": 11.48,
+   "ltm_avg_price_chf_kg": 67.68000000000002
+  },
+  {
+   "compound_id": "CMP-00255",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 386302.401,
+   "co2e_kg_per_kg_compound": 5.554907,
+   "naturals_pct": 30.299999999999997,
+   "circular_feedstock_pct": 10.9,
+   "ltm_avg_price_chf_kg": 73.50999999999999
+  },
+  {
+   "compound_id": "CMP-00626",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 385742.291,
+   "co2e_kg_per_kg_compound": 5.436581,
+   "naturals_pct": 30.45,
+   "circular_feedstock_pct": 11.690000000000001,
+   "ltm_avg_price_chf_kg": 109.67
+  },
+  {
+   "compound_id": "CMP-00792",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 385167.174,
+   "co2e_kg_per_kg_compound": 5.571585,
+   "naturals_pct": 32.0,
+   "circular_feedstock_pct": 10.43,
+   "ltm_avg_price_chf_kg": 97.86
+  },
+  {
+   "compound_id": "CMP-00641",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 384953.304,
+   "co2e_kg_per_kg_compound": 5.127369,
+   "naturals_pct": 27.26,
+   "circular_feedstock_pct": 10.51,
+   "ltm_avg_price_chf_kg": 84.62
+  },
+  {
+   "compound_id": "CMP-00984",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 384741.76800000004,
+   "co2e_kg_per_kg_compound": 5.110021000000001,
+   "naturals_pct": 27.53,
+   "circular_feedstock_pct": 42.25,
+   "ltm_avg_price_chf_kg": 73.6700369554811
+  },
+  {
+   "compound_id": "CMP-01359",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 379517.656,
+   "co2e_kg_per_kg_compound": 4.874010999999999,
+   "naturals_pct": 32.69,
+   "circular_feedstock_pct": 35.61,
+   "ltm_avg_price_chf_kg": 86.36
+  },
+  {
+   "compound_id": "CMP-00109",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 374283.08999999997,
+   "co2e_kg_per_kg_compound": 5.011737,
+   "naturals_pct": 32.22,
+   "circular_feedstock_pct": 45.34,
+   "ltm_avg_price_chf_kg": 53.58
+  },
+  {
+   "compound_id": "CMP-00243",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 374003.46,
+   "co2e_kg_per_kg_compound": 5.449197,
+   "naturals_pct": 24.950000000000003,
+   "circular_feedstock_pct": 25.79,
+   "ltm_avg_price_chf_kg": 62.1
+  },
+  {
+   "compound_id": "CMP-00506",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 373720.2,
+   "co2e_kg_per_kg_compound": 5.389311,
+   "naturals_pct": 31.409999999999997,
+   "circular_feedstock_pct": 31.380000000000003,
+   "ltm_avg_price_chf_kg": 84.84
+  },
+  {
+   "compound_id": "CMP-01059",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 373553.527,
+   "co2e_kg_per_kg_compound": 4.0753189999999995,
+   "naturals_pct": 34.54,
+   "circular_feedstock_pct": 60.29,
+   "ltm_avg_price_chf_kg": 86.77
+  },
+  {
+   "compound_id": "CMP-01196",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 362578.74100000004,
+   "co2e_kg_per_kg_compound": 5.11732,
+   "naturals_pct": 27.740000000000002,
+   "circular_feedstock_pct": 53.22,
+   "ltm_avg_price_chf_kg": 100.03
+  },
+  {
+   "compound_id": "CMP-00242",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 358041.114,
+   "co2e_kg_per_kg_compound": 5.512172,
+   "naturals_pct": 34.72,
+   "circular_feedstock_pct": 30.46,
+   "ltm_avg_price_chf_kg": 120.87
+  },
+  {
+   "compound_id": "CMP-01054",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 357162.81299999997,
+   "co2e_kg_per_kg_compound": 5.284439,
+   "naturals_pct": 31.689999999999998,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 65.49
+  },
+  {
+   "compound_id": "CMP-00903",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 354380.22000000003,
+   "co2e_kg_per_kg_compound": 6.26956,
+   "naturals_pct": 27.549999999999997,
+   "circular_feedstock_pct": 37.62,
+   "ltm_avg_price_chf_kg": 61.96000000000001
+  },
+  {
+   "compound_id": "CMP-00009",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 352825.896,
+   "co2e_kg_per_kg_compound": 5.433377,
+   "naturals_pct": 31.46,
+   "circular_feedstock_pct": 15.77,
+   "ltm_avg_price_chf_kg": 81.02
+  },
+  {
+   "compound_id": "CMP-00340",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 350852.272,
+   "co2e_kg_per_kg_compound": 6.053195,
+   "naturals_pct": 31.87,
+   "circular_feedstock_pct": 38.78,
+   "ltm_avg_price_chf_kg": 91.00990168867214
+  },
+  {
+   "compound_id": "CMP-00349",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 347580.422,
+   "co2e_kg_per_kg_compound": 5.533348999999999,
+   "naturals_pct": 26.47,
+   "circular_feedstock_pct": 17.35,
+   "ltm_avg_price_chf_kg": 113.86000000000001
+  },
+  {
+   "compound_id": "CMP-00940",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 340744.825,
+   "co2e_kg_per_kg_compound": 5.990858,
+   "naturals_pct": 25.44,
+   "circular_feedstock_pct": 5.96,
+   "ltm_avg_price_chf_kg": 93.25
+  },
+  {
+   "compound_id": "CMP-01169",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 339566.76,
+   "co2e_kg_per_kg_compound": 4.533865,
+   "naturals_pct": 28.24,
+   "circular_feedstock_pct": 28.24,
+   "ltm_avg_price_chf_kg": 58.83
+  },
+  {
+   "compound_id": "CMP-00188",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 339013.998,
+   "co2e_kg_per_kg_compound": 5.101764,
+   "naturals_pct": 27.709999999999997,
+   "circular_feedstock_pct": 34.849999999999994,
+   "ltm_avg_price_chf_kg": 67.23
+  },
+  {
+   "compound_id": "CMP-00786",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 332452.272,
+   "co2e_kg_per_kg_compound": 5.320471,
+   "naturals_pct": 28.35,
+   "circular_feedstock_pct": 12.89,
+   "ltm_avg_price_chf_kg": 83.67999999999999
+  },
+  {
+   "compound_id": "CMP-00183",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 332020.68200000003,
+   "co2e_kg_per_kg_compound": 4.575194,
+   "naturals_pct": 28.56,
+   "circular_feedstock_pct": 54.379999999999995,
+   "ltm_avg_price_chf_kg": 84.79
+  },
+  {
+   "compound_id": "CMP-00108",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 331743.902,
+   "co2e_kg_per_kg_compound": 5.166331,
+   "naturals_pct": 28.64,
+   "circular_feedstock_pct": 30.75,
+   "ltm_avg_price_chf_kg": 147.5794750656168
+  },
+  {
+   "compound_id": "CMP-00462",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 326342.12,
+   "co2e_kg_per_kg_compound": 4.8825899999999995,
+   "naturals_pct": 32.94,
+   "circular_feedstock_pct": 56.0,
+   "ltm_avg_price_chf_kg": 94.89999999999999
+  },
+  {
+   "compound_id": "CMP-00854",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 325237.325,
+   "co2e_kg_per_kg_compound": 6.37548,
+   "naturals_pct": 27.77,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 102.55
+  },
+  {
+   "compound_id": "CMP-01251",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 322024.36799999996,
+   "co2e_kg_per_kg_compound": 5.065136,
+   "naturals_pct": 32.2,
+   "circular_feedstock_pct": 13.04,
+   "ltm_avg_price_chf_kg": 66.49
+  },
+  {
+   "compound_id": "CMP-00265",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 320402.376,
+   "co2e_kg_per_kg_compound": 5.514127,
+   "naturals_pct": 28.560000000000002,
+   "circular_feedstock_pct": 48.1,
+   "ltm_avg_price_chf_kg": 82.74000000000001
+  },
+  {
+   "compound_id": "CMP-00401",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 317072.756,
+   "co2e_kg_per_kg_compound": 6.341282,
+   "naturals_pct": 28.95,
+   "circular_feedstock_pct": 29.13,
+   "ltm_avg_price_chf_kg": 68.86
+  },
+  {
+   "compound_id": "CMP-00482",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 316853.62,
+   "co2e_kg_per_kg_compound": 5.802168,
+   "naturals_pct": 28.47,
+   "circular_feedstock_pct": 25.07,
+   "ltm_avg_price_chf_kg": 65.71
+  },
+  {
+   "compound_id": "CMP-01030",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 314816.26499999996,
+   "co2e_kg_per_kg_compound": 5.776177,
+   "naturals_pct": 37.35,
+   "circular_feedstock_pct": 35.57,
+   "ltm_avg_price_chf_kg": 93.57
+  },
+  {
+   "compound_id": "CMP-01291",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 314215.74,
+   "co2e_kg_per_kg_compound": 5.142527,
+   "naturals_pct": 30.270000000000003,
+   "circular_feedstock_pct": 17.92,
+   "ltm_avg_price_chf_kg": 93.55000000000001
+  },
+  {
+   "compound_id": "CMP-00411",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 308776.878,
+   "co2e_kg_per_kg_compound": 6.341018,
+   "naturals_pct": 34.05,
+   "circular_feedstock_pct": 12.74,
+   "ltm_avg_price_chf_kg": 82.98
+  },
+  {
+   "compound_id": "CMP-00860",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 307667.388,
+   "co2e_kg_per_kg_compound": 4.5549170000000005,
+   "naturals_pct": 31.91,
+   "circular_feedstock_pct": 52.629999999999995,
+   "ltm_avg_price_chf_kg": 69.72
+  },
+  {
+   "compound_id": "CMP-00665",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 305688.582,
+   "co2e_kg_per_kg_compound": 5.459031,
+   "naturals_pct": 29.58,
+   "circular_feedstock_pct": 21.61,
+   "ltm_avg_price_chf_kg": 81.53
+  },
+  {
+   "compound_id": "CMP-00955",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 302062.8,
+   "co2e_kg_per_kg_compound": 5.839902,
+   "naturals_pct": 27.93,
+   "circular_feedstock_pct": 19.25,
+   "ltm_avg_price_chf_kg": 57.8
+  },
+  {
+   "compound_id": "CMP-01064",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 299571.555,
+   "co2e_kg_per_kg_compound": 4.988052,
+   "naturals_pct": 30.19,
+   "circular_feedstock_pct": 44.5,
+   "ltm_avg_price_chf_kg": 125.15
+  },
+  {
+   "compound_id": "CMP-00848",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 298218.619,
+   "co2e_kg_per_kg_compound": 7.142412,
+   "naturals_pct": 31.68,
+   "circular_feedstock_pct": 11.03,
+   "ltm_avg_price_chf_kg": 59.699841651152084
+  },
+  {
+   "compound_id": "CMP-00144",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 297924.336,
+   "co2e_kg_per_kg_compound": 5.008243,
+   "naturals_pct": 29.07,
+   "circular_feedstock_pct": 20.23,
+   "ltm_avg_price_chf_kg": 78.22000000000001
+  },
+  {
+   "compound_id": "CMP-00529",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 297585.33,
+   "co2e_kg_per_kg_compound": 4.9923779999999995,
+   "naturals_pct": 27.68,
+   "circular_feedstock_pct": 5.24,
+   "ltm_avg_price_chf_kg": 68.96211763070079
+  },
+  {
+   "compound_id": "CMP-00923",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 297329.971,
+   "co2e_kg_per_kg_compound": 5.0742210000000005,
+   "naturals_pct": 29.810000000000002,
+   "circular_feedstock_pct": 30.94,
+   "ltm_avg_price_chf_kg": 73.27188225436802
+  },
+  {
+   "compound_id": "CMP-01152",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 296130.6,
+   "co2e_kg_per_kg_compound": 5.123155,
+   "naturals_pct": 31.15,
+   "circular_feedstock_pct": 15.03,
+   "ltm_avg_price_chf_kg": 91.49999999999999
+  },
+  {
+   "compound_id": "CMP-00431",
+   "segment": "industrial",
+   "is_circular": true,
+   "ltm_revenue_chf": 295270.11,
+   "co2e_kg_per_kg_compound": 5.2561409999999995,
+   "naturals_pct": 30.11,
+   "circular_feedstock_pct": 51.95,
+   "ltm_avg_price_chf_kg": 55.349999999999994
+  },
+  {
+   "compound_id": "CMP-00886",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 295187.002,
+   "co2e_kg_per_kg_compound": 4.712325,
+   "naturals_pct": 33.3,
+   "circular_feedstock_pct": 41.75,
+   "ltm_avg_price_chf_kg": 104.06
+  },
+  {
+   "compound_id": "CMP-01374",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 293919.444,
+   "co2e_kg_per_kg_compound": 5.129351,
+   "naturals_pct": 27.47,
+   "circular_feedstock_pct": 40.31,
+   "ltm_avg_price_chf_kg": 61.74
+  },
+  {
+   "compound_id": "CMP-00921",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 293051.662,
+   "co2e_kg_per_kg_compound": 5.483144,
+   "naturals_pct": 24.04,
+   "circular_feedstock_pct": 10.0,
+   "ltm_avg_price_chf_kg": 65.55525624678434
+  },
+  {
+   "compound_id": "CMP-00210",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 292624.384,
+   "co2e_kg_per_kg_compound": 6.720999,
+   "naturals_pct": 32.28,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 98.54
+  },
+  {
+   "compound_id": "CMP-00908",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 291713.331,
+   "co2e_kg_per_kg_compound": 5.744363,
+   "naturals_pct": 28.5,
+   "circular_feedstock_pct": 13.0,
+   "ltm_avg_price_chf_kg": 50.01
+  },
+  {
+   "compound_id": "CMP-00303",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 288685.48799999995,
+   "co2e_kg_per_kg_compound": 4.864498,
+   "naturals_pct": 23.66,
+   "circular_feedstock_pct": 51.739999999999995,
+   "ltm_avg_price_chf_kg": 55.12
+  },
+  {
+   "compound_id": "CMP-00424",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 288541.05,
+   "co2e_kg_per_kg_compound": 5.350161,
+   "naturals_pct": 23.89,
+   "circular_feedstock_pct": 23.650000000000002,
+   "ltm_avg_price_chf_kg": 84.99
+  },
+  {
+   "compound_id": "CMP-00544",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 287454.95999999996,
+   "co2e_kg_per_kg_compound": 5.545421,
+   "naturals_pct": 28.65,
+   "circular_feedstock_pct": 11.04,
+   "ltm_avg_price_chf_kg": 69.59999999999998
+  },
+  {
+   "compound_id": "CMP-00605",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 284472.35000000003,
+   "co2e_kg_per_kg_compound": 5.434193,
+   "naturals_pct": 28.759999999999998,
+   "circular_feedstock_pct": 5.18,
+   "ltm_avg_price_chf_kg": 71.9
+  },
+  {
+   "compound_id": "CMP-00876",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 283127.44800000003,
+   "co2e_kg_per_kg_compound": 5.100829,
+   "naturals_pct": 31.7,
+   "circular_feedstock_pct": 37.6,
+   "ltm_avg_price_chf_kg": 76.29
+  },
+  {
+   "compound_id": "CMP-01011",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 281690.12299999996,
+   "co2e_kg_per_kg_compound": 5.357064,
+   "naturals_pct": 31.85,
+   "circular_feedstock_pct": 23.11,
+   "ltm_avg_price_chf_kg": 86.57
+  },
+  {
+   "compound_id": "CMP-01029",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 280750.36,
+   "co2e_kg_per_kg_compound": 6.178706,
+   "naturals_pct": 29.28,
+   "circular_feedstock_pct": 16.97,
+   "ltm_avg_price_chf_kg": 117.39999999999999
+  },
+  {
+   "compound_id": "CMP-00873",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 279684.11600000004,
+   "co2e_kg_per_kg_compound": 6.511953,
+   "naturals_pct": 37.07,
+   "circular_feedstock_pct": 10.92,
+   "ltm_avg_price_chf_kg": 71.74883045586313
+  },
+  {
+   "compound_id": "CMP-01208",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 279031.41599999997,
+   "co2e_kg_per_kg_compound": 5.333674,
+   "naturals_pct": 28.87,
+   "circular_feedstock_pct": 9.31,
+   "ltm_avg_price_chf_kg": 91.33
+  },
+  {
+   "compound_id": "CMP-00446",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 278201.77,
+   "co2e_kg_per_kg_compound": 5.9964830000000005,
+   "naturals_pct": 30.64,
+   "circular_feedstock_pct": 10.82,
+   "ltm_avg_price_chf_kg": 90.10000000000001
+  },
+  {
+   "compound_id": "CMP-00679",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 277656.701,
+   "co2e_kg_per_kg_compound": 6.242228,
+   "naturals_pct": 31.11,
+   "circular_feedstock_pct": 21.619999999999997,
+   "ltm_avg_price_chf_kg": 108.43
+  },
+  {
+   "compound_id": "CMP-00414",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 277456.456,
+   "co2e_kg_per_kg_compound": 5.852976,
+   "naturals_pct": 26.580000000000002,
+   "circular_feedstock_pct": 34.349999999999994,
+   "ltm_avg_price_chf_kg": 70.04
+  },
+  {
+   "compound_id": "CMP-00987",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 276891.36,
+   "co2e_kg_per_kg_compound": 5.769842000000001,
+   "naturals_pct": 28.15,
+   "circular_feedstock_pct": 12.24,
+   "ltm_avg_price_chf_kg": 78.24
+  },
+  {
+   "compound_id": "CMP-00167",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 275540.26900000003,
+   "co2e_kg_per_kg_compound": 4.770583,
+   "naturals_pct": 30.61,
+   "circular_feedstock_pct": 55.83,
+   "ltm_avg_price_chf_kg": 99.75030554248272
+  },
+  {
+   "compound_id": "CMP-00004",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 275525.76800000004,
+   "co2e_kg_per_kg_compound": 5.744295999999999,
+   "naturals_pct": 28.75,
+   "circular_feedstock_pct": 13.28,
+   "ltm_avg_price_chf_kg": 93.31
+  },
+  {
+   "compound_id": "CMP-00717",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 272480.55,
+   "co2e_kg_per_kg_compound": 6.523132,
+   "naturals_pct": 29.240000000000002,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 92.21
+  },
+  {
+   "compound_id": "CMP-00741",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 271063.763,
+   "co2e_kg_per_kg_compound": 5.732831,
+   "naturals_pct": 29.7,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 80.27
+  },
+  {
+   "compound_id": "CMP-00159",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 269046.375,
+   "co2e_kg_per_kg_compound": 6.322686,
+   "naturals_pct": 29.35,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 60.25
+  },
+  {
+   "compound_id": "CMP-01024",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 268656.133,
+   "co2e_kg_per_kg_compound": 6.658974000000001,
+   "naturals_pct": 29.83,
+   "circular_feedstock_pct": 22.4,
+   "ltm_avg_price_chf_kg": 80.52999999999999
+  },
+  {
+   "compound_id": "CMP-00634",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 267982.41599999997,
+   "co2e_kg_per_kg_compound": 4.192265,
+   "naturals_pct": 27.99,
+   "circular_feedstock_pct": 21.13,
+   "ltm_avg_price_chf_kg": 86.58
+  },
+  {
+   "compound_id": "CMP-00797",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 267640.561,
+   "co2e_kg_per_kg_compound": 6.085487,
+   "naturals_pct": 28.36,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 83.6638202563301
+  },
+  {
+   "compound_id": "CMP-00439",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 267124.99100000004,
+   "co2e_kg_per_kg_compound": 5.975123,
+   "naturals_pct": 27.54,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 51.31
+  },
+  {
+   "compound_id": "CMP-01039",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 266981.996,
+   "co2e_kg_per_kg_compound": 5.287861,
+   "naturals_pct": 31.450000000000003,
+   "circular_feedstock_pct": 57.38,
+   "ltm_avg_price_chf_kg": 77.08
+  },
+  {
+   "compound_id": "CMP-00971",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 263432.099,
+   "co2e_kg_per_kg_compound": 5.474531,
+   "naturals_pct": 27.45,
+   "circular_feedstock_pct": 6.25,
+   "ltm_avg_price_chf_kg": 73.57
+  },
+  {
+   "compound_id": "CMP-00895",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 262956.64999999997,
+   "co2e_kg_per_kg_compound": 6.085581,
+   "naturals_pct": 26.16,
+   "circular_feedstock_pct": 24.15,
+   "ltm_avg_price_chf_kg": 62.14999999999999
+  },
+  {
+   "compound_id": "CMP-00723",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 259537.97999999998,
+   "co2e_kg_per_kg_compound": 5.075215,
+   "naturals_pct": 27.27,
+   "circular_feedstock_pct": 11.59,
+   "ltm_avg_price_chf_kg": 101.66
+  },
+  {
+   "compound_id": "CMP-00366",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 259495.374,
+   "co2e_kg_per_kg_compound": 5.102456,
+   "naturals_pct": 32.69,
+   "circular_feedstock_pct": 11.61,
+   "ltm_avg_price_chf_kg": 61.17
+  },
+  {
+   "compound_id": "CMP-00130",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 258940.713,
+   "co2e_kg_per_kg_compound": 5.32595,
+   "naturals_pct": 32.54,
+   "circular_feedstock_pct": 25.4,
+   "ltm_avg_price_chf_kg": 49.370000000000005
+  },
+  {
+   "compound_id": "CMP-00651",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 258260.201,
+   "co2e_kg_per_kg_compound": 5.019744,
+   "naturals_pct": 31.42,
+   "circular_feedstock_pct": 35.09,
+   "ltm_avg_price_chf_kg": 96.97
+  },
+  {
+   "compound_id": "CMP-00889",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 257242.68799999997,
+   "co2e_kg_per_kg_compound": 4.391498,
+   "naturals_pct": 32.14,
+   "circular_feedstock_pct": 32.14,
+   "ltm_avg_price_chf_kg": 104.31999999999998
+  },
+  {
+   "compound_id": "CMP-01163",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 250505.472,
+   "co2e_kg_per_kg_compound": 6.916111,
+   "naturals_pct": 28.990000000000002,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 54.82
+  },
+  {
+   "compound_id": "CMP-00933",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 249319.16,
+   "co2e_kg_per_kg_compound": 5.280636,
+   "naturals_pct": 29.64,
+   "circular_feedstock_pct": 38.29,
+   "ltm_avg_price_chf_kg": 134.84
+  },
+  {
+   "compound_id": "CMP-00733",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 249083.84000000003,
+   "co2e_kg_per_kg_compound": 6.5341510000000005,
+   "naturals_pct": 26.46,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 50.56
+  },
+  {
+   "compound_id": "CMP-01229",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 247640.87000000002,
+   "co2e_kg_per_kg_compound": 5.658023,
+   "naturals_pct": 30.400000000000002,
+   "circular_feedstock_pct": 11.030000000000001,
+   "ltm_avg_price_chf_kg": 89.15
+  },
+  {
+   "compound_id": "CMP-00703",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 246020.918,
+   "co2e_kg_per_kg_compound": 4.530122,
+   "naturals_pct": 28.22,
+   "circular_feedstock_pct": 55.32,
+   "ltm_avg_price_chf_kg": 95.81
+  },
+  {
+   "compound_id": "CMP-00636",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 243853.0,
+   "co2e_kg_per_kg_compound": 5.189182000000001,
+   "naturals_pct": 29.41,
+   "circular_feedstock_pct": 26.54,
+   "ltm_avg_price_chf_kg": 113.42
+  },
+  {
+   "compound_id": "CMP-00842",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 241196.34000000003,
+   "co2e_kg_per_kg_compound": 4.6291530000000005,
+   "naturals_pct": 30.580000000000002,
+   "circular_feedstock_pct": 23.02,
+   "ltm_avg_price_chf_kg": 65.45000000000002
+  },
+  {
+   "compound_id": "CMP-00684",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 239647.77899999998,
+   "co2e_kg_per_kg_compound": 4.955945,
+   "naturals_pct": 33.519999999999996,
+   "circular_feedstock_pct": 23.9,
+   "ltm_avg_price_chf_kg": 69.57
+  },
+  {
+   "compound_id": "CMP-01073",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 239156.823,
+   "co2e_kg_per_kg_compound": 5.500944,
+   "naturals_pct": 28.740000000000002,
+   "circular_feedstock_pct": 51.46,
+   "ltm_avg_price_chf_kg": 124.58031098609158
+  },
+  {
+   "compound_id": "CMP-00878",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 237545.03500000003,
+   "co2e_kg_per_kg_compound": 4.582398,
+   "naturals_pct": 29.439999999999998,
+   "circular_feedstock_pct": 59.76,
+   "ltm_avg_price_chf_kg": 104.65
+  },
+  {
+   "compound_id": "CMP-01040",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 236421.768,
+   "co2e_kg_per_kg_compound": 5.514903,
+   "naturals_pct": 31.16,
+   "circular_feedstock_pct": 11.68,
+   "ltm_avg_price_chf_kg": 157.52
+  },
+  {
+   "compound_id": "CMP-01017",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 235921.41,
+   "co2e_kg_per_kg_compound": 5.939732,
+   "naturals_pct": 30.91,
+   "circular_feedstock_pct": 25.33,
+   "ltm_avg_price_chf_kg": 57.11
+  },
+  {
+   "compound_id": "CMP-00643",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 234860.066,
+   "co2e_kg_per_kg_compound": 6.1647929999999995,
+   "naturals_pct": 26.95,
+   "circular_feedstock_pct": 5.6,
+   "ltm_avg_price_chf_kg": 73.61
+  },
+  {
+   "compound_id": "CMP-01113",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 234024.15600000002,
+   "co2e_kg_per_kg_compound": 6.134173,
+   "naturals_pct": 27.99,
+   "circular_feedstock_pct": 9.86,
+   "ltm_avg_price_chf_kg": 66.06
+  },
+  {
+   "compound_id": "CMP-00608",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 230142.308,
+   "co2e_kg_per_kg_compound": 5.699084,
+   "naturals_pct": 31.58,
+   "circular_feedstock_pct": 26.04,
+   "ltm_avg_price_chf_kg": 71.72
+  },
+  {
+   "compound_id": "CMP-00856",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 229855.22,
+   "co2e_kg_per_kg_compound": 5.6768149999999995,
+   "naturals_pct": 31.54,
+   "circular_feedstock_pct": 14.81,
+   "ltm_avg_price_chf_kg": 52.85
+  },
+  {
+   "compound_id": "CMP-00516",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 229102.908,
+   "co2e_kg_per_kg_compound": 6.073965,
+   "naturals_pct": 30.39,
+   "circular_feedstock_pct": 35.239999999999995,
+   "ltm_avg_price_chf_kg": 63.019999999999996
+  },
+  {
+   "compound_id": "CMP-00746",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 227507.45599999998,
+   "co2e_kg_per_kg_compound": 5.673368,
+   "naturals_pct": 29.279999999999998,
+   "circular_feedstock_pct": 8.47,
+   "ltm_avg_price_chf_kg": 51.36999999999999
+  },
+  {
+   "compound_id": "CMP-00007",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 221920.09100000001,
+   "co2e_kg_per_kg_compound": 5.600442,
+   "naturals_pct": 26.740000000000002,
+   "circular_feedstock_pct": 28.35,
+   "ltm_avg_price_chf_kg": 111.01000000000002
+  },
+  {
+   "compound_id": "CMP-01141",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 221308.686,
+   "co2e_kg_per_kg_compound": 4.886502,
+   "naturals_pct": 33.879999999999995,
+   "circular_feedstock_pct": 42.53,
+   "ltm_avg_price_chf_kg": 83.13
+  },
+  {
+   "compound_id": "CMP-01295",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 220809.23200000002,
+   "co2e_kg_per_kg_compound": 4.80088,
+   "naturals_pct": 26.28,
+   "circular_feedstock_pct": 16.21,
+   "ltm_avg_price_chf_kg": 66.92
+  },
+  {
+   "compound_id": "CMP-00611",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 220454.478,
+   "co2e_kg_per_kg_compound": 5.456654,
+   "naturals_pct": 27.62,
+   "circular_feedstock_pct": 17.950000000000003,
+   "ltm_avg_price_chf_kg": 68.35161938424332
+  },
+  {
+   "compound_id": "CMP-00738",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 220425.606,
+   "co2e_kg_per_kg_compound": 6.155332,
+   "naturals_pct": 32.839999999999996,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 97.98
+  },
+  {
+   "compound_id": "CMP-00342",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 219557.0,
+   "co2e_kg_per_kg_compound": 5.706088,
+   "naturals_pct": 30.96,
+   "circular_feedstock_pct": 9.71,
+   "ltm_avg_price_chf_kg": 65.0
+  },
+  {
+   "compound_id": "CMP-00399",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 219094.304,
+   "co2e_kg_per_kg_compound": 6.5572680000000005,
+   "naturals_pct": 32.24,
+   "circular_feedstock_pct": 10.72,
+   "ltm_avg_price_chf_kg": 82.94
+  },
+  {
+   "compound_id": "CMP-00863",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 218459.772,
+   "co2e_kg_per_kg_compound": 5.49167,
+   "naturals_pct": 31.169999999999998,
+   "circular_feedstock_pct": 17.51,
+   "ltm_avg_price_chf_kg": 58.68
+  },
+  {
+   "compound_id": "CMP-00322",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 218264.434,
+   "co2e_kg_per_kg_compound": 5.322248,
+   "naturals_pct": 27.71,
+   "circular_feedstock_pct": 27.96,
+   "ltm_avg_price_chf_kg": 50.14
+  },
+  {
+   "compound_id": "CMP-01171",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 214895.523,
+   "co2e_kg_per_kg_compound": 6.185334,
+   "naturals_pct": 26.47,
+   "circular_feedstock_pct": 9.26,
+   "ltm_avg_price_chf_kg": 117.41
+  },
+  {
+   "compound_id": "CMP-01120",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 212761.868,
+   "co2e_kg_per_kg_compound": 6.005565000000001,
+   "naturals_pct": 33.84,
+   "circular_feedstock_pct": 15.19,
+   "ltm_avg_price_chf_kg": 172.04
+  },
+  {
+   "compound_id": "CMP-00396",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 212552.508,
+   "co2e_kg_per_kg_compound": 4.8329260000000005,
+   "naturals_pct": 32.74,
+   "circular_feedstock_pct": 57.730000000000004,
+   "ltm_avg_price_chf_kg": 82.76
+  },
+  {
+   "compound_id": "CMP-00420",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 211619.815,
+   "co2e_kg_per_kg_compound": 5.870958,
+   "naturals_pct": 31.12,
+   "circular_feedstock_pct": 20.650000000000002,
+   "ltm_avg_price_chf_kg": 69.83
+  },
+  {
+   "compound_id": "CMP-00278",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 211085.22999999998,
+   "co2e_kg_per_kg_compound": 6.134355,
+   "naturals_pct": 30.02,
+   "circular_feedstock_pct": 9.489999999999998,
+   "ltm_avg_price_chf_kg": 82.84999999999998
+  },
+  {
+   "compound_id": "CMP-00925",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 210335.535,
+   "co2e_kg_per_kg_compound": 5.256712,
+   "naturals_pct": 27.54,
+   "circular_feedstock_pct": 10.35,
+   "ltm_avg_price_chf_kg": 64.53
+  },
+  {
+   "compound_id": "CMP-00982",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 210227.38799999998,
+   "co2e_kg_per_kg_compound": 5.882893999999999,
+   "naturals_pct": 29.41,
+   "circular_feedstock_pct": 5.87,
+   "ltm_avg_price_chf_kg": 68.07
+  },
+  {
+   "compound_id": "CMP-00373",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 209102.354,
+   "co2e_kg_per_kg_compound": 5.364681,
+   "naturals_pct": 31.229999999999997,
+   "circular_feedstock_pct": 56.089999999999996,
+   "ltm_avg_price_chf_kg": 97.2026561918929
+  },
+  {
+   "compound_id": "CMP-01125",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 208684.496,
+   "co2e_kg_per_kg_compound": 6.332852,
+   "naturals_pct": 31.330000000000002,
+   "circular_feedstock_pct": 22.24,
+   "ltm_avg_price_chf_kg": 62.24
+  },
+  {
+   "compound_id": "CMP-00691",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 208563.94999999998,
+   "co2e_kg_per_kg_compound": 5.040863999999999,
+   "naturals_pct": 30.15,
+   "circular_feedstock_pct": 55.22,
+   "ltm_avg_price_chf_kg": 105.07
+  },
+  {
+   "compound_id": "CMP-01151",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 208225.485,
+   "co2e_kg_per_kg_compound": 5.46175,
+   "naturals_pct": 30.75,
+   "circular_feedstock_pct": 52.92,
+   "ltm_avg_price_chf_kg": 157.95
+  },
+  {
+   "compound_id": "CMP-00765",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 208171.62,
+   "co2e_kg_per_kg_compound": 6.303881,
+   "naturals_pct": 28.65,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 76.59
+  },
+  {
+   "compound_id": "CMP-01053",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 208159.045,
+   "co2e_kg_per_kg_compound": 6.214136,
+   "naturals_pct": 29.89,
+   "circular_feedstock_pct": 0.66,
+   "ltm_avg_price_chf_kg": 59.42816827019157
+  },
+  {
+   "compound_id": "CMP-00821",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 206315.116,
+   "co2e_kg_per_kg_compound": 5.460685,
+   "naturals_pct": 31.15,
+   "circular_feedstock_pct": 19.439999999999998,
+   "ltm_avg_price_chf_kg": 64.46541557305336
+  },
+  {
+   "compound_id": "CMP-01162",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 205649.66400000002,
+   "co2e_kg_per_kg_compound": 6.563975,
+   "naturals_pct": 27.11,
+   "circular_feedstock_pct": 29.73,
+   "ltm_avg_price_chf_kg": 65.89434586177065
+  },
+  {
+   "compound_id": "CMP-00062",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 203893.56000000003,
+   "co2e_kg_per_kg_compound": 4.905789,
+   "naturals_pct": 31.259999999999998,
+   "circular_feedstock_pct": 20.619999999999997,
+   "ltm_avg_price_chf_kg": 68.79
+  },
+  {
+   "compound_id": "CMP-00048",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 202810.64399999997,
+   "co2e_kg_per_kg_compound": 6.274738,
+   "naturals_pct": 34.23,
+   "circular_feedstock_pct": 25.39,
+   "ltm_avg_price_chf_kg": 60.65999999999999
+  },
+  {
+   "compound_id": "CMP-01130",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 201694.146,
+   "co2e_kg_per_kg_compound": 6.570653,
+   "naturals_pct": 32.38,
+   "circular_feedstock_pct": 37.42,
+   "ltm_avg_price_chf_kg": 157.34
+  },
+  {
+   "compound_id": "CMP-00337",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 201578.52,
+   "co2e_kg_per_kg_compound": 4.516470000000001,
+   "naturals_pct": 27.130000000000003,
+   "circular_feedstock_pct": 56.4,
+   "ltm_avg_price_chf_kg": 74.8
+  },
+  {
+   "compound_id": "CMP-01007",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 201555.244,
+   "co2e_kg_per_kg_compound": 5.136919,
+   "naturals_pct": 32.019999999999996,
+   "circular_feedstock_pct": 44.57,
+   "ltm_avg_price_chf_kg": 59.18
+  },
+  {
+   "compound_id": "CMP-00526",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 196511.424,
+   "co2e_kg_per_kg_compound": 5.631476,
+   "naturals_pct": 26.86,
+   "circular_feedstock_pct": 14.46,
+   "ltm_avg_price_chf_kg": 50.46
+  },
+  {
+   "compound_id": "CMP-00124",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 196268.563,
+   "co2e_kg_per_kg_compound": 6.789392,
+   "naturals_pct": 27.740000000000002,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 51.79
+  },
+  {
+   "compound_id": "CMP-00113",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 195216.156,
+   "co2e_kg_per_kg_compound": 4.735656,
+   "naturals_pct": 29.310000000000002,
+   "circular_feedstock_pct": 9.4,
+   "ltm_avg_price_chf_kg": 75.63
+  },
+  {
+   "compound_id": "CMP-00720",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 193570.104,
+   "co2e_kg_per_kg_compound": 5.9946839999999995,
+   "naturals_pct": 27.689999999999998,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 63.120000000000005
+  },
+  {
+   "compound_id": "CMP-01207",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 192969.894,
+   "co2e_kg_per_kg_compound": 4.563675,
+   "naturals_pct": 31.939999999999998,
+   "circular_feedstock_pct": 27.43,
+   "ltm_avg_price_chf_kg": 85.02000000000001
+  },
+  {
+   "compound_id": "CMP-01205",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 192508.71600000001,
+   "co2e_kg_per_kg_compound": 5.636984,
+   "naturals_pct": 29.950000000000003,
+   "circular_feedstock_pct": 30.560000000000002,
+   "ltm_avg_price_chf_kg": 119.52608717248232
+  },
+  {
+   "compound_id": "CMP-00296",
+   "segment": "industrial",
+   "is_circular": true,
+   "ltm_revenue_chf": 191580.64,
+   "co2e_kg_per_kg_compound": 4.857743,
+   "naturals_pct": 30.49,
+   "circular_feedstock_pct": 55.66,
+   "ltm_avg_price_chf_kg": 62.690000000000005
+  },
+  {
+   "compound_id": "CMP-01038",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 191512.3,
+   "co2e_kg_per_kg_compound": 6.823546,
+   "naturals_pct": 31.35,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 79.88
+  },
+  {
+   "compound_id": "CMP-01288",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 189759.37200000003,
+   "co2e_kg_per_kg_compound": 5.486442,
+   "naturals_pct": 31.11,
+   "circular_feedstock_pct": 20.92,
+   "ltm_avg_price_chf_kg": 67.98
+  },
+  {
+   "compound_id": "CMP-00184",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 189667.54,
+   "co2e_kg_per_kg_compound": 5.693145,
+   "naturals_pct": 30.0,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 93.7
+  },
+  {
+   "compound_id": "CMP-00412",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 188202.258,
+   "co2e_kg_per_kg_compound": 5.460456000000001,
+   "naturals_pct": 28.91,
+   "circular_feedstock_pct": 38.24,
+   "ltm_avg_price_chf_kg": 60.42
+  },
+  {
+   "compound_id": "CMP-00512",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 188150.248,
+   "co2e_kg_per_kg_compound": 4.924772,
+   "naturals_pct": 31.02,
+   "circular_feedstock_pct": 18.369999999999997,
+   "ltm_avg_price_chf_kg": 80.72
+  },
+  {
+   "compound_id": "CMP-00535",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 185765.552,
+   "co2e_kg_per_kg_compound": 4.76323,
+   "naturals_pct": 31.71,
+   "circular_feedstock_pct": 34.72,
+   "ltm_avg_price_chf_kg": 83.02
+  },
+  {
+   "compound_id": "CMP-01259",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 185388.011,
+   "co2e_kg_per_kg_compound": 6.213786000000001,
+   "naturals_pct": 29.380000000000003,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 91.69
+  },
+  {
+   "compound_id": "CMP-00953",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 184306.858,
+   "co2e_kg_per_kg_compound": 4.079969,
+   "naturals_pct": 34.05,
+   "circular_feedstock_pct": 58.57,
+   "ltm_avg_price_chf_kg": 92.02
+  },
+  {
+   "compound_id": "CMP-00624",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 184241.19,
+   "co2e_kg_per_kg_compound": 3.986235,
+   "naturals_pct": 29.6,
+   "circular_feedstock_pct": 55.41,
+   "ltm_avg_price_chf_kg": 131.46
+  },
+  {
+   "compound_id": "CMP-00333",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 183770.99899999998,
+   "co2e_kg_per_kg_compound": 6.208285,
+   "naturals_pct": 27.900000000000002,
+   "circular_feedstock_pct": 4.4,
+   "ltm_avg_price_chf_kg": 67.63
+  },
+  {
+   "compound_id": "CMP-00298",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 182841.682,
+   "co2e_kg_per_kg_compound": 4.534122,
+   "naturals_pct": 31.91,
+   "circular_feedstock_pct": 57.42,
+   "ltm_avg_price_chf_kg": 89.99000000000001
+  },
+  {
+   "compound_id": "CMP-00276",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 181948.905,
+   "co2e_kg_per_kg_compound": 6.222888,
+   "naturals_pct": 26.5,
+   "circular_feedstock_pct": 14.2,
+   "ltm_avg_price_chf_kg": 75.68904904530139
+  },
+  {
+   "compound_id": "CMP-01032",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 181026.164,
+   "co2e_kg_per_kg_compound": 5.906256,
+   "naturals_pct": 35.36,
+   "circular_feedstock_pct": 10.64,
+   "ltm_avg_price_chf_kg": 64.13000000000001
+  },
+  {
+   "compound_id": "CMP-00244",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 179741.424,
+   "co2e_kg_per_kg_compound": 5.940651,
+   "naturals_pct": 31.11,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 113.3872218016654
+  },
+  {
+   "compound_id": "CMP-00589",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 178440.93600000002,
+   "co2e_kg_per_kg_compound": 5.311138,
+   "naturals_pct": 27.93,
+   "circular_feedstock_pct": 17.27,
+   "ltm_avg_price_chf_kg": 54.31000000000001
+  },
+  {
+   "compound_id": "CMP-00969",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 177205.93800000002,
+   "co2e_kg_per_kg_compound": 5.531417,
+   "naturals_pct": 27.240000000000002,
+   "circular_feedstock_pct": 31.66,
+   "ltm_avg_price_chf_kg": 63.02
+  },
+  {
+   "compound_id": "CMP-00174",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 176828.076,
+   "co2e_kg_per_kg_compound": 5.257187,
+   "naturals_pct": 30.27,
+   "circular_feedstock_pct": 15.38,
+   "ltm_avg_price_chf_kg": 99.08
+  },
+  {
+   "compound_id": "CMP-00661",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 176091.62399999998,
+   "co2e_kg_per_kg_compound": 4.826704,
+   "naturals_pct": 29.580000000000002,
+   "circular_feedstock_pct": 13.14,
+   "ltm_avg_price_chf_kg": 81.65999999999998
+  },
+  {
+   "compound_id": "CMP-00441",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 176073.912,
+   "co2e_kg_per_kg_compound": 4.791746,
+   "naturals_pct": 30.7,
+   "circular_feedstock_pct": 44.47,
+   "ltm_avg_price_chf_kg": 61.29
+  },
+  {
+   "compound_id": "CMP-00307",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 175495.00800000003,
+   "co2e_kg_per_kg_compound": 3.789529,
+   "naturals_pct": 35.22,
+   "circular_feedstock_pct": 25.47,
+   "ltm_avg_price_chf_kg": 81.12
+  },
+  {
+   "compound_id": "CMP-00787",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 175303.10100000002,
+   "co2e_kg_per_kg_compound": 6.061475,
+   "naturals_pct": 28.78,
+   "circular_feedstock_pct": 25.24,
+   "ltm_avg_price_chf_kg": 33.63
+  },
+  {
+   "compound_id": "CMP-00010",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 174754.888,
+   "co2e_kg_per_kg_compound": 5.808722,
+   "naturals_pct": 30.38,
+   "circular_feedstock_pct": 8.99,
+   "ltm_avg_price_chf_kg": 66.92
+  },
+  {
+   "compound_id": "CMP-00798",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 172090.28600000002,
+   "co2e_kg_per_kg_compound": 5.659753,
+   "naturals_pct": 29.130000000000003,
+   "circular_feedstock_pct": 40.56,
+   "ltm_avg_price_chf_kg": 68.26
+  },
+  {
+   "compound_id": "CMP-00657",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 171067.773,
+   "co2e_kg_per_kg_compound": 4.686897,
+   "naturals_pct": 31.05,
+   "circular_feedstock_pct": 57.6,
+   "ltm_avg_price_chf_kg": 85.83
+  },
+  {
+   "compound_id": "CMP-00505",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 168516.56,
+   "co2e_kg_per_kg_compound": 4.93669,
+   "naturals_pct": 28.46,
+   "circular_feedstock_pct": 28.020000000000003,
+   "ltm_avg_price_chf_kg": 68.06
+  },
+  {
+   "compound_id": "CMP-00747",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 167988.62,
+   "co2e_kg_per_kg_compound": 4.470571,
+   "naturals_pct": 31.28,
+   "circular_feedstock_pct": 54.57,
+   "ltm_avg_price_chf_kg": 52.6
+  },
+  {
+   "compound_id": "CMP-01180",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 167564.212,
+   "co2e_kg_per_kg_compound": 6.109414,
+   "naturals_pct": 27.03,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 77.08
+  },
+  {
+   "compound_id": "CMP-00538",
+   "segment": "air_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 166698.36,
+   "co2e_kg_per_kg_compound": 4.632573,
+   "naturals_pct": 29.71,
+   "circular_feedstock_pct": 54.14,
+   "ltm_avg_price_chf_kg": 75.91
+  },
+  {
+   "compound_id": "CMP-01080",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 166594.168,
+   "co2e_kg_per_kg_compound": 5.805337,
+   "naturals_pct": 29.1,
+   "circular_feedstock_pct": 20.84,
+   "ltm_avg_price_chf_kg": 93.10057449424387
+  },
+  {
+   "compound_id": "CMP-00473",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 165173.211,
+   "co2e_kg_per_kg_compound": 5.803758,
+   "naturals_pct": 28.64,
+   "circular_feedstock_pct": 15.29,
+   "ltm_avg_price_chf_kg": 53.41781022605996
+  },
+  {
+   "compound_id": "CMP-00761",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 164555.28,
+   "co2e_kg_per_kg_compound": 5.918484,
+   "naturals_pct": 31.07,
+   "circular_feedstock_pct": 11.78,
+   "ltm_avg_price_chf_kg": 85.19999999999999
+  },
+  {
+   "compound_id": "CMP-00368",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 164034.66,
+   "co2e_kg_per_kg_compound": 5.334699,
+   "naturals_pct": 34.52,
+   "circular_feedstock_pct": 11.24,
+   "ltm_avg_price_chf_kg": 90.03
+  },
+  {
+   "compound_id": "CMP-00081",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 161165.641,
+   "co2e_kg_per_kg_compound": 5.755091999999999,
+   "naturals_pct": 27.02,
+   "circular_feedstock_pct": 13.7,
+   "ltm_avg_price_chf_kg": 92.51227885884852
+  },
+  {
+   "compound_id": "CMP-00514",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 158235.672,
+   "co2e_kg_per_kg_compound": 5.365584,
+   "naturals_pct": 32.61,
+   "circular_feedstock_pct": 56.76,
+   "ltm_avg_price_chf_kg": 81.51015917168907
+  },
+  {
+   "compound_id": "CMP-00454",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 158234.7,
+   "co2e_kg_per_kg_compound": 4.540515,
+   "naturals_pct": 29.7,
+   "circular_feedstock_pct": 59.88,
+   "ltm_avg_price_chf_kg": 101.4
+  },
+  {
+   "compound_id": "CMP-01336",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 157531.42899999997,
+   "co2e_kg_per_kg_compound": 5.36414,
+   "naturals_pct": 35.23,
+   "circular_feedstock_pct": 8.51,
+   "ltm_avg_price_chf_kg": 86.57
+  },
+  {
+   "compound_id": "CMP-00672",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 157484.22600000002,
+   "co2e_kg_per_kg_compound": 5.7431280000000005,
+   "naturals_pct": 32.02,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 70.34
+  },
+  {
+   "compound_id": "CMP-00954",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 157382.931,
+   "co2e_kg_per_kg_compound": 6.222968999999999,
+   "naturals_pct": 33.06,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 100.11000000000001
+  },
+  {
+   "compound_id": "CMP-00867",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 157074.35400000002,
+   "co2e_kg_per_kg_compound": 5.853589,
+   "naturals_pct": 30.86,
+   "circular_feedstock_pct": 3.56,
+   "ltm_avg_price_chf_kg": 71.73
+  },
+  {
+   "compound_id": "CMP-00965",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 156619.375,
+   "co2e_kg_per_kg_compound": 5.144356,
+   "naturals_pct": 30.03,
+   "circular_feedstock_pct": 26.58,
+   "ltm_avg_price_chf_kg": 103.55
+  },
+  {
+   "compound_id": "CMP-00430",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 155178.527,
+   "co2e_kg_per_kg_compound": 4.455931,
+   "naturals_pct": 29.86,
+   "circular_feedstock_pct": 41.650000000000006,
+   "ltm_avg_price_chf_kg": 126.62466503467972
+  },
+  {
+   "compound_id": "CMP-01220",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 155176.56,
+   "co2e_kg_per_kg_compound": 5.813461,
+   "naturals_pct": 29.36,
+   "circular_feedstock_pct": 7.29,
+   "ltm_avg_price_chf_kg": 44.550000000000004
+  },
+  {
+   "compound_id": "CMP-00810",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 155052.17,
+   "co2e_kg_per_kg_compound": 5.335567999999999,
+   "naturals_pct": 29.08,
+   "circular_feedstock_pct": 41.92,
+   "ltm_avg_price_chf_kg": 81.94280202938378
+  },
+  {
+   "compound_id": "CMP-00578",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 153631.296,
+   "co2e_kg_per_kg_compound": 5.976548,
+   "naturals_pct": 27.48,
+   "circular_feedstock_pct": 9.96,
+   "ltm_avg_price_chf_kg": 65.52
+  },
+  {
+   "compound_id": "CMP-00994",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 151561.47600000002,
+   "co2e_kg_per_kg_compound": 6.799094,
+   "naturals_pct": 31.81,
+   "circular_feedstock_pct": 6.16,
+   "ltm_avg_price_chf_kg": 61.02
+  },
+  {
+   "compound_id": "CMP-00235",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 150962.524,
+   "co2e_kg_per_kg_compound": 6.269227,
+   "naturals_pct": 30.83,
+   "circular_feedstock_pct": 9.43,
+   "ltm_avg_price_chf_kg": 56.59538276973832
+  },
+  {
+   "compound_id": "CMP-00522",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 149780.502,
+   "co2e_kg_per_kg_compound": 5.472122,
+   "naturals_pct": 27.26,
+   "circular_feedstock_pct": 7.45,
+   "ltm_avg_price_chf_kg": 98.16522611089266
+  },
+  {
+   "compound_id": "CMP-00229",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 149001.336,
+   "co2e_kg_per_kg_compound": 4.668048,
+   "naturals_pct": 36.33,
+   "circular_feedstock_pct": 21.64,
+   "ltm_avg_price_chf_kg": 87.12
+  },
+  {
+   "compound_id": "CMP-01190",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 148738.05899999998,
+   "co2e_kg_per_kg_compound": 5.327115,
+   "naturals_pct": 24.45,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 81.99
+  },
+  {
+   "compound_id": "CMP-00791",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 148164.88799999998,
+   "co2e_kg_per_kg_compound": 4.463255,
+   "naturals_pct": 29.479999999999997,
+   "circular_feedstock_pct": 54.73,
+   "ltm_avg_price_chf_kg": 178.03999999999996
+  },
+  {
+   "compound_id": "CMP-00883",
+   "segment": "industrial",
+   "is_circular": true,
+   "ltm_revenue_chf": 146905.408,
+   "co2e_kg_per_kg_compound": 4.966257,
+   "naturals_pct": 34.269999999999996,
+   "circular_feedstock_pct": 57.41,
+   "ltm_avg_price_chf_kg": 72.41
+  },
+  {
+   "compound_id": "CMP-01079",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 145953.773,
+   "co2e_kg_per_kg_compound": 5.87283,
+   "naturals_pct": 29.42,
+   "circular_feedstock_pct": 4.5,
+   "ltm_avg_price_chf_kg": 100.03
+  },
+  {
+   "compound_id": "CMP-01183",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 144645.84,
+   "co2e_kg_per_kg_compound": 6.368527,
+   "naturals_pct": 31.08,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 142.2
+  },
+  {
+   "compound_id": "CMP-00653",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 144548.132,
+   "co2e_kg_per_kg_compound": 5.716217,
+   "naturals_pct": 25.58,
+   "circular_feedstock_pct": 5.85,
+   "ltm_avg_price_chf_kg": 126.62998861147614
+  },
+  {
+   "compound_id": "CMP-00060",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 142688.0,
+   "co2e_kg_per_kg_compound": 5.49838,
+   "naturals_pct": 29.84,
+   "circular_feedstock_pct": 17.18,
+   "ltm_avg_price_chf_kg": 63.7
+  },
+  {
+   "compound_id": "CMP-00576",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 142514.604,
+   "co2e_kg_per_kg_compound": 5.426128,
+   "naturals_pct": 32.56,
+   "circular_feedstock_pct": 23.91,
+   "ltm_avg_price_chf_kg": 114.58
+  },
+  {
+   "compound_id": "CMP-00985",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 141914.076,
+   "co2e_kg_per_kg_compound": 6.114637,
+   "naturals_pct": 33.59,
+   "circular_feedstock_pct": 7.83,
+   "ltm_avg_price_chf_kg": 79.29932722396066
+  },
+  {
+   "compound_id": "CMP-00098",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 141703.38,
+   "co2e_kg_per_kg_compound": 5.9155240000000004,
+   "naturals_pct": 28.71,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 42.2
+  },
+  {
+   "compound_id": "CMP-00528",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 141626.054,
+   "co2e_kg_per_kg_compound": 5.970879,
+   "naturals_pct": 30.98,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 68.06
+  },
+  {
+   "compound_id": "CMP-01211",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 141008.404,
+   "co2e_kg_per_kg_compound": 6.1425410000000005,
+   "naturals_pct": 25.5,
+   "circular_feedstock_pct": 13.69,
+   "ltm_avg_price_chf_kg": 91.97
+  },
+  {
+   "compound_id": "CMP-00593",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 139331.115,
+   "co2e_kg_per_kg_compound": 4.877339,
+   "naturals_pct": 28.84,
+   "circular_feedstock_pct": 28.83,
+   "ltm_avg_price_chf_kg": 60.83
+  },
+  {
+   "compound_id": "CMP-00849",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 138897.189,
+   "co2e_kg_per_kg_compound": 4.491007,
+   "naturals_pct": 31.69,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 55.53
+  },
+  {
+   "compound_id": "CMP-01037",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 138093.596,
+   "co2e_kg_per_kg_compound": 5.627334,
+   "naturals_pct": 31.659999999999997,
+   "circular_feedstock_pct": 9.42,
+   "ltm_avg_price_chf_kg": 70.02717849898579
+  },
+  {
+   "compound_id": "CMP-00192",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 136538.547,
+   "co2e_kg_per_kg_compound": 5.141501,
+   "naturals_pct": 26.47,
+   "circular_feedstock_pct": 26.93,
+   "ltm_avg_price_chf_kg": 58.82999999999999
+  },
+  {
+   "compound_id": "CMP-01296",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 136528.439,
+   "co2e_kg_per_kg_compound": 6.0485560000000005,
+   "naturals_pct": 32.28,
+   "circular_feedstock_pct": 14.84,
+   "ltm_avg_price_chf_kg": 115.55517477782482
+  },
+  {
+   "compound_id": "CMP-00236",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 136400.90800000002,
+   "co2e_kg_per_kg_compound": 4.863963,
+   "naturals_pct": 30.05,
+   "circular_feedstock_pct": 54.730000000000004,
+   "ltm_avg_price_chf_kg": 136.36000000000004
+  },
+  {
+   "compound_id": "CMP-00690",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 136127.502,
+   "co2e_kg_per_kg_compound": 5.567637,
+   "naturals_pct": 30.66,
+   "circular_feedstock_pct": 24.74,
+   "ltm_avg_price_chf_kg": 113.61
+  },
+  {
+   "compound_id": "CMP-00745",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 135289.44,
+   "co2e_kg_per_kg_compound": 5.715571000000001,
+   "naturals_pct": 31.85,
+   "circular_feedstock_pct": 27.28,
+   "ltm_avg_price_chf_kg": 72.27
+  },
+  {
+   "compound_id": "CMP-01108",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 133439.984,
+   "co2e_kg_per_kg_compound": 5.612094,
+   "naturals_pct": 31.939999999999998,
+   "circular_feedstock_pct": 22.78,
+   "ltm_avg_price_chf_kg": 95.55999999999999
+  },
+  {
+   "compound_id": "CMP-00826",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 132239.456,
+   "co2e_kg_per_kg_compound": 6.4148760000000005,
+   "naturals_pct": 31.979999999999997,
+   "circular_feedstock_pct": 13.02,
+   "ltm_avg_price_chf_kg": 75.63888119887892
+  },
+  {
+   "compound_id": "CMP-00824",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 131757.322,
+   "co2e_kg_per_kg_compound": 5.6616539999999995,
+   "naturals_pct": 26.29,
+   "circular_feedstock_pct": 11.26,
+   "ltm_avg_price_chf_kg": 69.82
+  },
+  {
+   "compound_id": "CMP-00220",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 130811.264,
+   "co2e_kg_per_kg_compound": 5.981456,
+   "naturals_pct": 27.5,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 90.11522733535409
+  },
+  {
+   "compound_id": "CMP-00165",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 129508.142,
+   "co2e_kg_per_kg_compound": 6.310509,
+   "naturals_pct": 30.009999999999998,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 64.67
+  },
+  {
+   "compound_id": "CMP-01258",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 123727.82900000001,
+   "co2e_kg_per_kg_compound": 5.354193,
+   "naturals_pct": 28.880000000000003,
+   "circular_feedstock_pct": 34.379999999999995,
+   "ltm_avg_price_chf_kg": 75.43
+  },
+  {
+   "compound_id": "CMP-00683",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 122328.71,
+   "co2e_kg_per_kg_compound": 5.779202,
+   "naturals_pct": 28.58,
+   "circular_feedstock_pct": 27.62,
+   "ltm_avg_price_chf_kg": 84.98
+  },
+  {
+   "compound_id": "CMP-00721",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 120865.20600000002,
+   "co2e_kg_per_kg_compound": 5.974004,
+   "naturals_pct": 26.91,
+   "circular_feedstock_pct": 26.91,
+   "ltm_avg_price_chf_kg": 78.54
+  },
+  {
+   "compound_id": "CMP-00782",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 120675.649,
+   "co2e_kg_per_kg_compound": 5.470978,
+   "naturals_pct": 31.4,
+   "circular_feedstock_pct": 18.65,
+   "ltm_avg_price_chf_kg": 138.59612840243483
+  },
+  {
+   "compound_id": "CMP-00894",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 120383.72499999999,
+   "co2e_kg_per_kg_compound": 4.707773,
+   "naturals_pct": 30.64,
+   "circular_feedstock_pct": 10.68,
+   "ltm_avg_price_chf_kg": 88.55
+  },
+  {
+   "compound_id": "CMP-01248",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 119900.83200000001,
+   "co2e_kg_per_kg_compound": 5.171666999999999,
+   "naturals_pct": 25.72,
+   "circular_feedstock_pct": 21.12,
+   "ltm_avg_price_chf_kg": 64.56
+  },
+  {
+   "compound_id": "CMP-00489",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 119377.90000000001,
+   "co2e_kg_per_kg_compound": 5.520251,
+   "naturals_pct": 30.490000000000002,
+   "circular_feedstock_pct": 7.71,
+   "ltm_avg_price_chf_kg": 120.28000000000002
+  },
+  {
+   "compound_id": "CMP-01286",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 119353.76299999998,
+   "co2e_kg_per_kg_compound": 5.625678,
+   "naturals_pct": 33.28,
+   "circular_feedstock_pct": 9.9,
+   "ltm_avg_price_chf_kg": 47.69
+  },
+  {
+   "compound_id": "CMP-00541",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 118059.16,
+   "co2e_kg_per_kg_compound": 5.399045999999999,
+   "naturals_pct": 27.96,
+   "circular_feedstock_pct": 32.26,
+   "ltm_avg_price_chf_kg": 117.8
+  },
+  {
+   "compound_id": "CMP-00874",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 117613.38,
+   "co2e_kg_per_kg_compound": 5.630433,
+   "naturals_pct": 31.330000000000002,
+   "circular_feedstock_pct": 15.06,
+   "ltm_avg_price_chf_kg": 114.69999999999999
+  },
+  {
+   "compound_id": "CMP-01223",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 116798.70400000003,
+   "co2e_kg_per_kg_compound": 5.689834,
+   "naturals_pct": 28.44,
+   "circular_feedstock_pct": 28.44,
+   "ltm_avg_price_chf_kg": 64.43
+  },
+  {
+   "compound_id": "CMP-01356",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 116531.136,
+   "co2e_kg_per_kg_compound": 6.294982,
+   "naturals_pct": 28.32,
+   "circular_feedstock_pct": 20.47,
+   "ltm_avg_price_chf_kg": 56.63999999999999
+  },
+  {
+   "compound_id": "CMP-00164",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 115670.971,
+   "co2e_kg_per_kg_compound": 4.666964999999999,
+   "naturals_pct": 32.97,
+   "circular_feedstock_pct": 43.629999999999995,
+   "ltm_avg_price_chf_kg": 81.11000000000001
+  },
+  {
+   "compound_id": "CMP-00776",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 114887.522,
+   "co2e_kg_per_kg_compound": 4.676776,
+   "naturals_pct": 28.8,
+   "circular_feedstock_pct": 12.18,
+   "ltm_avg_price_chf_kg": 76.85812282579609
+  },
+  {
+   "compound_id": "CMP-00324",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 114789.165,
+   "co2e_kg_per_kg_compound": 5.994812,
+   "naturals_pct": 32.04,
+   "circular_feedstock_pct": 5.25,
+   "ltm_avg_price_chf_kg": 103.87219708623654
+  },
+  {
+   "compound_id": "CMP-01193",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 114444.41999999998,
+   "co2e_kg_per_kg_compound": 5.401143,
+   "naturals_pct": 32.07,
+   "circular_feedstock_pct": 6.1,
+   "ltm_avg_price_chf_kg": 101.34999999999998
+  },
+  {
+   "compound_id": "CMP-00687",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 113112.23800000001,
+   "co2e_kg_per_kg_compound": 6.249086,
+   "naturals_pct": 26.650000000000002,
+   "circular_feedstock_pct": 27.400000000000002,
+   "ltm_avg_price_chf_kg": 133.57609589041098
+  },
+  {
+   "compound_id": "CMP-00136",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 113045.47799999999,
+   "co2e_kg_per_kg_compound": 5.538189,
+   "naturals_pct": 29.090000000000003,
+   "circular_feedstock_pct": 10.4,
+   "ltm_avg_price_chf_kg": 44.870000000000005
+  },
+  {
+   "compound_id": "CMP-01292",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 111862.31000000001,
+   "co2e_kg_per_kg_compound": 5.985982,
+   "naturals_pct": 28.990000000000002,
+   "circular_feedstock_pct": 9.4,
+   "ltm_avg_price_chf_kg": 55.70000000000001
+  },
+  {
+   "compound_id": "CMP-01186",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 110798.956,
+   "co2e_kg_per_kg_compound": 4.692989,
+   "naturals_pct": 30.04,
+   "circular_feedstock_pct": 24.36,
+   "ltm_avg_price_chf_kg": 62.57000000000001
+  },
+  {
+   "compound_id": "CMP-00378",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 110130.52100000001,
+   "co2e_kg_per_kg_compound": 5.1628110000000005,
+   "naturals_pct": 28.64,
+   "circular_feedstock_pct": 7.18,
+   "ltm_avg_price_chf_kg": 142.49
+  },
+  {
+   "compound_id": "CMP-00163",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 110075.663,
+   "co2e_kg_per_kg_compound": 5.535807,
+   "naturals_pct": 29.91,
+   "circular_feedstock_pct": 10.17,
+   "ltm_avg_price_chf_kg": 73.33
+  },
+  {
+   "compound_id": "CMP-00464",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 109196.136,
+   "co2e_kg_per_kg_compound": 3.9506479999999997,
+   "naturals_pct": 32.25,
+   "circular_feedstock_pct": 57.19,
+   "ltm_avg_price_chf_kg": 101.22
+  },
+  {
+   "compound_id": "CMP-00699",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 108625.01800000001,
+   "co2e_kg_per_kg_compound": 5.504774,
+   "naturals_pct": 33.24,
+   "circular_feedstock_pct": 4.27,
+   "ltm_avg_price_chf_kg": 80.14240666961783
+  },
+  {
+   "compound_id": "CMP-01317",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 106834.84,
+   "co2e_kg_per_kg_compound": 5.411252,
+   "naturals_pct": 34.18,
+   "circular_feedstock_pct": 24.88,
+   "ltm_avg_price_chf_kg": 68.44
+  },
+  {
+   "compound_id": "CMP-00857",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 105097.65,
+   "co2e_kg_per_kg_compound": 5.876822,
+   "naturals_pct": 27.45,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 82.94999999999999
+  },
+  {
+   "compound_id": "CMP-00800",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 104584.78199999999,
+   "co2e_kg_per_kg_compound": 4.95876,
+   "naturals_pct": 27.83,
+   "circular_feedstock_pct": 19.66,
+   "ltm_avg_price_chf_kg": 80.57999999999998
+  },
+  {
+   "compound_id": "CMP-01058",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 104269.10699999999,
+   "co2e_kg_per_kg_compound": 5.439941,
+   "naturals_pct": 29.11,
+   "circular_feedstock_pct": 12.79,
+   "ltm_avg_price_chf_kg": 66.19
+  },
+  {
+   "compound_id": "CMP-01389",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 102829.22999999998,
+   "co2e_kg_per_kg_compound": 5.534236,
+   "naturals_pct": 30.97,
+   "circular_feedstock_pct": 14.39,
+   "ltm_avg_price_chf_kg": 86.1
+  },
+  {
+   "compound_id": "CMP-00237",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 102772.916,
+   "co2e_kg_per_kg_compound": 5.620861,
+   "naturals_pct": 30.18,
+   "circular_feedstock_pct": 12.48,
+   "ltm_avg_price_chf_kg": 56.66478248883497
+  },
+  {
+   "compound_id": "CMP-00135",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 102676.6,
+   "co2e_kg_per_kg_compound": 6.054195,
+   "naturals_pct": 38.33,
+   "circular_feedstock_pct": 11.63,
+   "ltm_avg_price_chf_kg": 202.0
+  },
+  {
+   "compound_id": "CMP-00082",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 100227.301,
+   "co2e_kg_per_kg_compound": 5.3361149999999995,
+   "naturals_pct": 30.13,
+   "circular_feedstock_pct": 19.82,
+   "ltm_avg_price_chf_kg": 87.92639792964295
+  },
+  {
+   "compound_id": "CMP-00350",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 100159.388,
+   "co2e_kg_per_kg_compound": 6.0315520000000005,
+   "naturals_pct": 30.93,
+   "circular_feedstock_pct": 15.83,
+   "ltm_avg_price_chf_kg": 49.91
+  },
+  {
+   "compound_id": "CMP-00907",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 99685.38299999999,
+   "co2e_kg_per_kg_compound": 5.246107,
+   "naturals_pct": 30.4,
+   "circular_feedstock_pct": 20.69,
+   "ltm_avg_price_chf_kg": 166.17
+  },
+  {
+   "compound_id": "CMP-00551",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 98237.186,
+   "co2e_kg_per_kg_compound": 6.118986,
+   "naturals_pct": 31.24,
+   "circular_feedstock_pct": 17.22,
+   "ltm_avg_price_chf_kg": 123.74000000000001
+  },
+  {
+   "compound_id": "CMP-00799",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 97813.64799999999,
+   "co2e_kg_per_kg_compound": 4.4311560000000005,
+   "naturals_pct": 31.07,
+   "circular_feedstock_pct": 57.53,
+   "ltm_avg_price_chf_kg": 116.96
+  },
+  {
+   "compound_id": "CMP-00928",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 97185.556,
+   "co2e_kg_per_kg_compound": 5.819498,
+   "naturals_pct": 31.36,
+   "circular_feedstock_pct": 38.06,
+   "ltm_avg_price_chf_kg": 78.91
+  },
+  {
+   "compound_id": "CMP-01143",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 96188.176,
+   "co2e_kg_per_kg_compound": 6.351152,
+   "naturals_pct": 28.369999999999997,
+   "circular_feedstock_pct": 11.55,
+   "ltm_avg_price_chf_kg": 116.62000000000002
+  },
+  {
+   "compound_id": "CMP-01399",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 96114.81599999999,
+   "co2e_kg_per_kg_compound": 5.116726,
+   "naturals_pct": 29.560000000000002,
+   "circular_feedstock_pct": 28.46,
+   "ltm_avg_price_chf_kg": 57.53999999999999
+  },
+  {
+   "compound_id": "CMP-01065",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 94731.39,
+   "co2e_kg_per_kg_compound": 5.691199,
+   "naturals_pct": 29.64,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 89.05
+  },
+  {
+   "compound_id": "CMP-00569",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 93680.059,
+   "co2e_kg_per_kg_compound": 6.1421280000000005,
+   "naturals_pct": 27.580000000000002,
+   "circular_feedstock_pct": 19.34,
+   "ltm_avg_price_chf_kg": 63.15651520258882
+  },
+  {
+   "compound_id": "CMP-00793",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 89383.342,
+   "co2e_kg_per_kg_compound": 4.990795,
+   "naturals_pct": 28.87,
+   "circular_feedstock_pct": 54.480000000000004,
+   "ltm_avg_price_chf_kg": 115.9918790552816
+  },
+  {
+   "compound_id": "CMP-00617",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 89198.939,
+   "co2e_kg_per_kg_compound": 5.545355,
+   "naturals_pct": 31.41,
+   "circular_feedstock_pct": 38.93,
+   "ltm_avg_price_chf_kg": 74.07319299119747
+  },
+  {
+   "compound_id": "CMP-00822",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 89183.991,
+   "co2e_kg_per_kg_compound": 4.748451,
+   "naturals_pct": 32.99,
+   "circular_feedstock_pct": 35.7,
+   "ltm_avg_price_chf_kg": 104.91
+  },
+  {
+   "compound_id": "CMP-00493",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 88479.443,
+   "co2e_kg_per_kg_compound": 4.875801,
+   "naturals_pct": 28.869999999999997,
+   "circular_feedstock_pct": 35.73,
+   "ltm_avg_price_chf_kg": 142.08999999999997
+  },
+  {
+   "compound_id": "CMP-00760",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 88447.344,
+   "co2e_kg_per_kg_compound": 5.608394,
+   "naturals_pct": 32.64,
+   "circular_feedstock_pct": 7.7,
+   "ltm_avg_price_chf_kg": 67.7445955882353
+  },
+  {
+   "compound_id": "CMP-01398",
+   "segment": "home_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 87853.24799999999,
+   "co2e_kg_per_kg_compound": 4.6461879999999995,
+   "naturals_pct": 29.39,
+   "circular_feedstock_pct": 55.1,
+   "ltm_avg_price_chf_kg": 120.96
+  },
+  {
+   "compound_id": "CMP-00425",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 87245.94399999999,
+   "co2e_kg_per_kg_compound": 5.991162,
+   "naturals_pct": 29.310000000000002,
+   "circular_feedstock_pct": 25.33,
+   "ltm_avg_price_chf_kg": 74.95999999999998
+  },
+  {
+   "compound_id": "CMP-00976",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 86545.424,
+   "co2e_kg_per_kg_compound": 4.2867429999999995,
+   "naturals_pct": 29.939999999999998,
+   "circular_feedstock_pct": 41.58,
+   "ltm_avg_price_chf_kg": 64.16
+  },
+  {
+   "compound_id": "CMP-01371",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 85965.948,
+   "co2e_kg_per_kg_compound": 5.76042,
+   "naturals_pct": 32.76,
+   "circular_feedstock_pct": 7.05,
+   "ltm_avg_price_chf_kg": 71.71
+  },
+  {
+   "compound_id": "CMP-00963",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 85768.694,
+   "co2e_kg_per_kg_compound": 5.458181000000001,
+   "naturals_pct": 25.71,
+   "circular_feedstock_pct": 11.38,
+   "ltm_avg_price_chf_kg": 63.34
+  },
+  {
+   "compound_id": "CMP-00547",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 83091.666,
+   "co2e_kg_per_kg_compound": 4.961047000000001,
+   "naturals_pct": 28.98,
+   "circular_feedstock_pct": 57.57,
+   "ltm_avg_price_chf_kg": 89.79
+  },
+  {
+   "compound_id": "CMP-00823",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 82424.376,
+   "co2e_kg_per_kg_compound": 5.285184,
+   "naturals_pct": 27.89,
+   "circular_feedstock_pct": 35.099999999999994,
+   "ltm_avg_price_chf_kg": 97.24442661632845
+  },
+  {
+   "compound_id": "CMP-01047",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 80379.40000000001,
+   "co2e_kg_per_kg_compound": 5.590857,
+   "naturals_pct": 32.68,
+   "circular_feedstock_pct": 21.799999999999997,
+   "ltm_avg_price_chf_kg": 85.51
+  },
+  {
+   "compound_id": "CMP-00788",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 78483.073,
+   "co2e_kg_per_kg_compound": 5.048351,
+   "naturals_pct": 30.4,
+   "circular_feedstock_pct": 27.47,
+   "ltm_avg_price_chf_kg": 91.27
+  },
+  {
+   "compound_id": "CMP-00161",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 78260.046,
+   "co2e_kg_per_kg_compound": 5.0718689999999995,
+   "naturals_pct": 35.76,
+   "circular_feedstock_pct": 22.0,
+   "ltm_avg_price_chf_kg": 101.46511863088293
+  },
+  {
+   "compound_id": "CMP-00563",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 77783.065,
+   "co2e_kg_per_kg_compound": 5.80359,
+   "naturals_pct": 28.83,
+   "circular_feedstock_pct": 7.41,
+   "ltm_avg_price_chf_kg": 81.08314917127072
+  },
+  {
+   "compound_id": "CMP-01004",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 76365.703,
+   "co2e_kg_per_kg_compound": 5.569056,
+   "naturals_pct": 32.879999999999995,
+   "circular_feedstock_pct": 25.5,
+   "ltm_avg_price_chf_kg": 129.19252749111823
+  },
+  {
+   "compound_id": "CMP-00632",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 75018.186,
+   "co2e_kg_per_kg_compound": 6.591884,
+   "naturals_pct": 30.880000000000003,
+   "circular_feedstock_pct": 9.3,
+   "ltm_avg_price_chf_kg": 94.41
+  },
+  {
+   "compound_id": "CMP-01042",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 73419.80799999999,
+   "co2e_kg_per_kg_compound": 5.272388,
+   "naturals_pct": 30.26,
+   "circular_feedstock_pct": 15.510000000000002,
+   "ltm_avg_price_chf_kg": 127.82
+  },
+  {
+   "compound_id": "CMP-01354",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 73284.486,
+   "co2e_kg_per_kg_compound": 5.293066,
+   "naturals_pct": 25.79,
+   "circular_feedstock_pct": 56.129999999999995,
+   "ltm_avg_price_chf_kg": 116.38
+  },
+  {
+   "compound_id": "CMP-00811",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 73068.758,
+   "co2e_kg_per_kg_compound": 3.87661,
+   "naturals_pct": 33.66,
+   "circular_feedstock_pct": 15.83,
+   "ltm_avg_price_chf_kg": 93.19994642857144
+  },
+  {
+   "compound_id": "CMP-01261",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 73046.688,
+   "co2e_kg_per_kg_compound": 6.081093,
+   "naturals_pct": 29.279999999999998,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 68.63999999999999
+  },
+  {
+   "compound_id": "CMP-01041",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 72959.90999999999,
+   "co2e_kg_per_kg_compound": 6.6768469999999995,
+   "naturals_pct": 29.479999999999997,
+   "circular_feedstock_pct": 6.52,
+   "ltm_avg_price_chf_kg": 128.95
+  },
+  {
+   "compound_id": "CMP-00021",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 71449.30099999999,
+   "co2e_kg_per_kg_compound": 6.216956,
+   "naturals_pct": 30.69,
+   "circular_feedstock_pct": 15.56,
+   "ltm_avg_price_chf_kg": 114.81488188976378
+  },
+  {
+   "compound_id": "CMP-00997",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 71155.712,
+   "co2e_kg_per_kg_compound": 5.860602,
+   "naturals_pct": 27.62,
+   "circular_feedstock_pct": 34.0,
+   "ltm_avg_price_chf_kg": 81.92
+  },
+  {
+   "compound_id": "CMP-01357",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 70163.54400000001,
+   "co2e_kg_per_kg_compound": 5.396729,
+   "naturals_pct": 29.46,
+   "circular_feedstock_pct": 13.8,
+   "ltm_avg_price_chf_kg": 89.54
+  },
+  {
+   "compound_id": "CMP-00962",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 69435.93,
+   "co2e_kg_per_kg_compound": 5.246484,
+   "naturals_pct": 30.97,
+   "circular_feedstock_pct": 32.46,
+   "ltm_avg_price_chf_kg": 61.349999999999994
+  },
+  {
+   "compound_id": "CMP-00718",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 68666.764,
+   "co2e_kg_per_kg_compound": 5.391125,
+   "naturals_pct": 30.79,
+   "circular_feedstock_pct": 35.44,
+   "ltm_avg_price_chf_kg": 70.93673966942148
+  },
+  {
+   "compound_id": "CMP-01200",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 68127.84,
+   "co2e_kg_per_kg_compound": 5.616977,
+   "naturals_pct": 31.92,
+   "circular_feedstock_pct": 26.94,
+   "ltm_avg_price_chf_kg": 70.38
+  },
+  {
+   "compound_id": "CMP-00621",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 67764.944,
+   "co2e_kg_per_kg_compound": 6.329517,
+   "naturals_pct": 31.83,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 52.76
+  },
+  {
+   "compound_id": "CMP-01089",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 67200.798,
+   "co2e_kg_per_kg_compound": 4.852461,
+   "naturals_pct": 28.93,
+   "circular_feedstock_pct": 28.93,
+   "ltm_avg_price_chf_kg": 114.69670250896057
+  },
+  {
+   "compound_id": "CMP-00843",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 67175.458,
+   "co2e_kg_per_kg_compound": 5.683384,
+   "naturals_pct": 30.509999999999998,
+   "circular_feedstock_pct": 29.369999999999997,
+   "ltm_avg_price_chf_kg": 115.16450882907596
+  },
+  {
+   "compound_id": "CMP-01131",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 66790.278,
+   "co2e_kg_per_kg_compound": 4.575208,
+   "naturals_pct": 30.400000000000002,
+   "circular_feedstock_pct": 30.400000000000002,
+   "ltm_avg_price_chf_kg": 111.7267949146872
+  },
+  {
+   "compound_id": "CMP-01307",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 65722.215,
+   "co2e_kg_per_kg_compound": 5.190661,
+   "naturals_pct": 26.47,
+   "circular_feedstock_pct": 15.36,
+   "ltm_avg_price_chf_kg": 71.71
+  },
+  {
+   "compound_id": "CMP-01045",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 65700.63500000001,
+   "co2e_kg_per_kg_compound": 5.437635,
+   "naturals_pct": 31.91,
+   "circular_feedstock_pct": 14.23,
+   "ltm_avg_price_chf_kg": 131.27
+  },
+  {
+   "compound_id": "CMP-00712",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 63375.328,
+   "co2e_kg_per_kg_compound": 6.344392,
+   "naturals_pct": 25.19,
+   "circular_feedstock_pct": 9.7,
+   "ltm_avg_price_chf_kg": 93.44636980241816
+  },
+  {
+   "compound_id": "CMP-00936",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 61789.52,
+   "co2e_kg_per_kg_compound": 6.359215,
+   "naturals_pct": 27.47,
+   "circular_feedstock_pct": 17.82,
+   "ltm_avg_price_chf_kg": 56.04999999999999
+  },
+  {
+   "compound_id": "CMP-01393",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 61503.64200000001,
+   "co2e_kg_per_kg_compound": 5.517102,
+   "naturals_pct": 30.23,
+   "circular_feedstock_pct": 28.57,
+   "ltm_avg_price_chf_kg": 69.59000000000002
+  },
+  {
+   "compound_id": "CMP-01195",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 60919.536,
+   "co2e_kg_per_kg_compound": 5.157757999999999,
+   "naturals_pct": 30.02,
+   "circular_feedstock_pct": 20.96,
+   "ltm_avg_price_chf_kg": 102.95679567348317
+  },
+  {
+   "compound_id": "CMP-00381",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 59903.633,
+   "co2e_kg_per_kg_compound": 5.101014,
+   "naturals_pct": 30.81,
+   "circular_feedstock_pct": 48.77,
+   "ltm_avg_price_chf_kg": 58.937065131837855
+  },
+  {
+   "compound_id": "CMP-00123",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 57322.693999999996,
+   "co2e_kg_per_kg_compound": 5.0675,
+   "naturals_pct": 31.04,
+   "circular_feedstock_pct": 18.45,
+   "ltm_avg_price_chf_kg": 105.82000000000001
+  },
+  {
+   "compound_id": "CMP-00407",
+   "segment": "air_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 56245.373999999996,
+   "co2e_kg_per_kg_compound": 6.1331299999999995,
+   "naturals_pct": 31.990000000000002,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 70.74
+  },
+  {
+   "compound_id": "CMP-01391",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 55608.78,
+   "co2e_kg_per_kg_compound": 6.895322999999999,
+   "naturals_pct": 26.54,
+   "circular_feedstock_pct": 5.17,
+   "ltm_avg_price_chf_kg": 67.7
+  },
+  {
+   "compound_id": "CMP-00374",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 53831.208000000006,
+   "co2e_kg_per_kg_compound": 4.492868,
+   "naturals_pct": 28.39,
+   "circular_feedstock_pct": 54.019999999999996,
+   "ltm_avg_price_chf_kg": 146.36
+  },
+  {
+   "compound_id": "CMP-00479",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 52092.299999999996,
+   "co2e_kg_per_kg_compound": 5.489005,
+   "naturals_pct": 31.82,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 108.3
+  },
+  {
+   "compound_id": "CMP-01269",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 51787.795,
+   "co2e_kg_per_kg_compound": 6.472072,
+   "naturals_pct": 28.36,
+   "circular_feedstock_pct": 5.38,
+   "ltm_avg_price_chf_kg": 73.50999999999999
+  },
+  {
+   "compound_id": "CMP-00346",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 51445.19,
+   "co2e_kg_per_kg_compound": 5.058798,
+   "naturals_pct": 28.46,
+   "circular_feedstock_pct": 38.620000000000005,
+   "ltm_avg_price_chf_kg": 90.41333919156415
+  },
+  {
+   "compound_id": "CMP-00064",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 51387.424,
+   "co2e_kg_per_kg_compound": 5.572574,
+   "naturals_pct": 31.3,
+   "circular_feedstock_pct": 14.09,
+   "ltm_avg_price_chf_kg": 106.8123550197464
+  },
+  {
+   "compound_id": "CMP-00618",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 49777.462,
+   "co2e_kg_per_kg_compound": 5.886444,
+   "naturals_pct": 30.46,
+   "circular_feedstock_pct": 7.0,
+   "ltm_avg_price_chf_kg": 67.66
+  },
+  {
+   "compound_id": "CMP-01309",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 49589.380000000005,
+   "co2e_kg_per_kg_compound": 5.415457,
+   "naturals_pct": 35.49,
+   "circular_feedstock_pct": 7.34,
+   "ltm_avg_price_chf_kg": 160.89999999999998
+  },
+  {
+   "compound_id": "CMP-01103",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 47955.259000000005,
+   "co2e_kg_per_kg_compound": 5.254599,
+   "naturals_pct": 36.0,
+   "circular_feedstock_pct": 21.58,
+   "ltm_avg_price_chf_kg": 123.31000000000002
+  },
+  {
+   "compound_id": "CMP-00742",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 43145.255999999994,
+   "co2e_kg_per_kg_compound": 6.782992999999999,
+   "naturals_pct": 28.25,
+   "circular_feedstock_pct": 10.76,
+   "ltm_avg_price_chf_kg": 56.97999999999999
+  },
+  {
+   "compound_id": "CMP-00660",
+   "segment": "personal_care",
+   "is_circular": true,
+   "ltm_revenue_chf": 42209.472,
+   "co2e_kg_per_kg_compound": 4.6174800000000005,
+   "naturals_pct": 27.66,
+   "circular_feedstock_pct": 57.760000000000005,
+   "ltm_avg_price_chf_kg": 69.06
+  },
+  {
+   "compound_id": "CMP-00499",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 41436.534999999996,
+   "co2e_kg_per_kg_compound": 5.125082,
+   "naturals_pct": 34.64,
+   "circular_feedstock_pct": 14.34,
+   "ltm_avg_price_chf_kg": 104.77
+  },
+  {
+   "compound_id": "CMP-01273",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 41409.55,
+   "co2e_kg_per_kg_compound": 5.338318,
+   "naturals_pct": 30.880000000000003,
+   "circular_feedstock_pct": 9.65,
+   "ltm_avg_price_chf_kg": 123.5
+  },
+  {
+   "compound_id": "CMP-01347",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 40196.36,
+   "co2e_kg_per_kg_compound": 5.191883,
+   "naturals_pct": 30.71,
+   "circular_feedstock_pct": 17.75,
+   "ltm_avg_price_chf_kg": 177.86
+  },
+  {
+   "compound_id": "CMP-01318",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 38307.047999999995,
+   "co2e_kg_per_kg_compound": 5.332886,
+   "naturals_pct": 28.56,
+   "circular_feedstock_pct": 28.66,
+   "ltm_avg_price_chf_kg": 83.24
+  },
+  {
+   "compound_id": "CMP-00995",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 35597.520000000004,
+   "co2e_kg_per_kg_compound": 5.066007,
+   "naturals_pct": 28.68,
+   "circular_feedstock_pct": 8.12,
+   "ltm_avg_price_chf_kg": 121.08000000000001
+  },
+  {
+   "compound_id": "CMP-00160",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 34534.11,
+   "co2e_kg_per_kg_compound": 6.433729,
+   "naturals_pct": 30.14,
+   "circular_feedstock_pct": 19.25,
+   "ltm_avg_price_chf_kg": 72.78
+  },
+  {
+   "compound_id": "CMP-01370",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 33591.293999999994,
+   "co2e_kg_per_kg_compound": 5.759194,
+   "naturals_pct": 29.98,
+   "circular_feedstock_pct": 4.95,
+   "ltm_avg_price_chf_kg": 128.26
+  },
+  {
+   "compound_id": "CMP-00432",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 33383.954,
+   "co2e_kg_per_kg_compound": 5.8522940000000006,
+   "naturals_pct": 33.57,
+   "circular_feedstock_pct": 15.83,
+   "ltm_avg_price_chf_kg": 62.739999999999995
+  },
+  {
+   "compound_id": "CMP-01394",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 32998.936,
+   "co2e_kg_per_kg_compound": 5.669144,
+   "naturals_pct": 27.43,
+   "circular_feedstock_pct": 5.32,
+   "ltm_avg_price_chf_kg": 89.09
+  },
+  {
+   "compound_id": "CMP-00565",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 32565.712,
+   "co2e_kg_per_kg_compound": 6.5995159999999995,
+   "naturals_pct": 27.700000000000003,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 154.78
+  },
+  {
+   "compound_id": "CMP-01315",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 32367.18,
+   "co2e_kg_per_kg_compound": 5.520997,
+   "naturals_pct": 32.790000000000006,
+   "circular_feedstock_pct": 15.06,
+   "ltm_avg_price_chf_kg": 110.28
+  },
+  {
+   "compound_id": "CMP-01129",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 31364.345,
+   "co2e_kg_per_kg_compound": 4.844095,
+   "naturals_pct": 30.78,
+   "circular_feedstock_pct": 20.299999999999997,
+   "ltm_avg_price_chf_kg": 89.23
+  },
+  {
+   "compound_id": "CMP-01337",
+   "segment": "home_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 31193.143,
+   "co2e_kg_per_kg_compound": 5.927558,
+   "naturals_pct": 27.52,
+   "circular_feedstock_pct": 7.02,
+   "ltm_avg_price_chf_kg": 83.83
+  },
+  {
+   "compound_id": "CMP-00545",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 30428.14,
+   "co2e_kg_per_kg_compound": 5.4449179999999995,
+   "naturals_pct": 28.38,
+   "circular_feedstock_pct": 8.07,
+   "ltm_avg_price_chf_kg": 116.36
+  },
+  {
+   "compound_id": "CMP-00832",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 30049.53,
+   "co2e_kg_per_kg_compound": 6.355135,
+   "naturals_pct": 32.11,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 95.39533333333333
+  },
+  {
+   "compound_id": "CMP-00172",
+   "segment": "personal_care",
+   "is_circular": false,
+   "ltm_revenue_chf": 29300.208,
+   "co2e_kg_per_kg_compound": 4.377681,
+   "naturals_pct": 34.72,
+   "circular_feedstock_pct": 19.299999999999997,
+   "ltm_avg_price_chf_kg": 62.92999999999999
+  },
+  {
+   "compound_id": "CMP-00465",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 28297.048,
+   "co2e_kg_per_kg_compound": 5.856195,
+   "naturals_pct": 27.75,
+   "circular_feedstock_pct": 25.61,
+   "ltm_avg_price_chf_kg": 83.07999999999998
+  },
+  {
+   "compound_id": "CMP-01340",
+   "segment": "industrial",
+   "is_circular": false,
+   "ltm_revenue_chf": 26469.432,
+   "co2e_kg_per_kg_compound": 6.348897,
+   "naturals_pct": 26.18,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 50.16
+  },
+  {
+   "compound_id": "CMP-01270",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 24879.046000000002,
+   "co2e_kg_per_kg_compound": 5.666411,
+   "naturals_pct": 31.81,
+   "circular_feedstock_pct": 15.36,
+   "ltm_avg_price_chf_kg": 104.14
+  },
+  {
+   "compound_id": "CMP-00015",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 22378.84,
+   "co2e_kg_per_kg_compound": 5.9502429999999995,
+   "naturals_pct": 30.919999999999998,
+   "circular_feedstock_pct": 26.64,
+   "ltm_avg_price_chf_kg": 99.55
+  },
+  {
+   "compound_id": "CMP-00275",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 21426.73,
+   "co2e_kg_per_kg_compound": 5.293216,
+   "naturals_pct": 28.82,
+   "circular_feedstock_pct": 16.83,
+   "ltm_avg_price_chf_kg": 52.03188440990772
+  },
+  {
+   "compound_id": "CMP-01350",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 20408.239999999998,
+   "co2e_kg_per_kg_compound": 6.477564999999999,
+   "naturals_pct": 35.69,
+   "circular_feedstock_pct": 10.12,
+   "ltm_avg_price_chf_kg": 71.86
+  },
+  {
+   "compound_id": "CMP-01362",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 17485.244,
+   "co2e_kg_per_kg_compound": 5.855176,
+   "naturals_pct": 23.72,
+   "circular_feedstock_pct": 29.52,
+   "ltm_avg_price_chf_kg": 100.02999999999999
+  },
+  {
+   "compound_id": "CMP-00038",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 17016.089,
+   "co2e_kg_per_kg_compound": 5.833653999999999,
+   "naturals_pct": 27.990000000000002,
+   "circular_feedstock_pct": 0.0,
+   "ltm_avg_price_chf_kg": 132.01
+  },
+  {
+   "compound_id": "CMP-00031",
+   "segment": "fine_fragrance",
+   "is_circular": false,
+   "ltm_revenue_chf": 14847.39,
+   "co2e_kg_per_kg_compound": 5.294167,
+   "naturals_pct": 34.53,
+   "circular_feedstock_pct": 9.39,
+   "ltm_avg_price_chf_kg": 149.22
+  },
+  {
+   "compound_id": "CMP-01385",
+   "segment": "fine_fragrance",
+   "is_circular": true,
+   "ltm_revenue_chf": 9743.382,
+   "co2e_kg_per_kg_compound": 4.338722,
+   "naturals_pct": 33.97,
+   "circular_feedstock_pct": 61.0,
+   "ltm_avg_price_chf_kg": 115.17
+  }
+ ],
+ "sustSla": [
+  {
+   "quarter": "2025Q1",
+   "requests": 20,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.15
+  },
+  {
+   "quarter": "2025Q2",
+   "requests": 18,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.2222222222222222
+  },
+  {
+   "quarter": "2025Q3",
+   "requests": 23,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.17391304347826086
+  },
+  {
+   "quarter": "2025Q4",
+   "requests": 23,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.2608695652173913
+  },
+  {
+   "quarter": "2026Q1",
+   "requests": 16,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.25
+  },
+  {
+   "quarter": "2026Q2",
+   "requests": 22,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.13636363636363635
+  },
+  {
+   "quarter": "2026Q3",
+   "requests": 24,
+   "median_lead_time_days": 5.0,
+   "share_within_2_days": 0.125
+  },
+  {
+   "quarter": "2026Q4",
+   "requests": 4,
+   "median_lead_time_days": 4.0,
+   "share_within_2_days": 0.25
+  }
+ ],
+ "dq": [
+  {
+   "table": "crm_briefs",
+   "check": "brief_id unique",
+   "failures_raw": 28,
+   "failures_after_cleaning": 0,
+   "action": "drop exact re-export rows (keep first)",
+   "severity": "high"
+  },
+  {
+   "table": "crm_briefs",
+   "check": "crm_id exists in customer master (raw key)",
+   "failures_raw": 44,
+   "failures_after_cleaning": 0,
+   "action": "trim and upper-case keys before join",
+   "severity": "high"
+  },
+  {
+   "table": "crm_briefs",
+   "check": "response_hours present",
+   "failures_raw": 67,
+   "failures_after_cleaning": 67,
+   "action": "kept as null; excluded from response-time model",
+   "severity": "medium"
+  },
+  {
+   "table": "crm_briefs",
+   "check": "outcome in {won, lost, open, no_decision} (exact label)",
+   "failures_raw": 97,
+   "failures_after_cleaning": 0,
+   "action": "normalise label case and whitespace",
+   "severity": "high"
+  },
+  {
+   "table": "crm_customers",
+   "check": "customer names in standard case",
+   "failures_raw": 2,
+   "failures_after_cleaning": 0,
+   "action": "title-case names",
+   "severity": "low"
+  },
+  {
+   "table": "customer_crosswalk",
+   "check": "secondary ERP accounts (duplicate-account risk)",
+   "failures_raw": 3,
+   "failures_after_cleaning": 3,
+   "action": "kept out of joins; flagged to Sales Ops for account merge",
+   "severity": "medium"
+  },
+  {
+   "table": "formulation_lines",
+   "check": "rm_code exists in RM master",
+   "failures_raw": 326,
+   "failures_after_cleaning": 0,
+   "action": "upper-case codes before join",
+   "severity": "high"
+  },
+  {
+   "table": "formulation_lines",
+   "check": "formula percentages sum to 100 (+/-0.05)",
+   "failures_raw": 0,
+   "failures_after_cleaning": 0,
+   "action": "flag formulas that do not balance",
+   "severity": "high"
+  },
+  {
+   "table": "erp_sales_orders",
+   "check": "unit price present",
+   "failures_raw": 29,
+   "failures_after_cleaning": 29,
+   "action": "kept; excluded from revenue and margin",
+   "severity": "medium"
+  },
+  {
+   "table": "erp_sales_orders",
+   "check": "quantity positive (returns flagged)",
+   "failures_raw": 28,
+   "failures_after_cleaning": 28,
+   "action": "returns kept with is_return flag; excluded from volume-elasticity model",
+   "severity": "medium"
+  },
+  {
+   "table": "erp_sales_orders",
+   "check": "customer resolves to CRM master",
+   "failures_raw": 0,
+   "failures_after_cleaning": 0,
+   "action": "join through primary crosswalk",
+   "severity": "high"
+  },
+  {
+   "table": "erp_sales_orders",
+   "check": "compound resolves to formula",
+   "failures_raw": 0,
+   "failures_after_cleaning": 0,
+   "action": "none expected",
+   "severity": "high"
+  },
+  {
+   "table": "rm_price_feed",
+   "check": "prices present and positive",
+   "failures_raw": 0,
+   "failures_after_cleaning": 0,
+   "action": "none expected",
+   "severity": "high"
+  }
+ ]
+}

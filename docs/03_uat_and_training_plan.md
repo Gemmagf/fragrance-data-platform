@@ -10,7 +10,7 @@ The BRD asks the BA to "organise and conduct tests of newly developed functional
 | Recovery of truth | Analyses recover the planted effects within their CI | `tests/test_case.py` | BA |
 | Data quality | Planted dirt is detected; high-severity rules pass after cleaning | `gold/dq_report.csv` | Data steward |
 | UAT | Business users confirm each page answers its question | Section 3 below | Named business owner per page |
-| Dashboard smoke | Every page renders with no exceptions | Streamlit AppTest (manual run, see §4) | BA |
+| Dashboard build and render | Production build passes; every page renders with no console errors | `npm run build` and browser check (see §4) | BA |
 
 ## 2. Automated test results (current run)
 
@@ -57,20 +57,19 @@ A release needs no open blockers and no open majors in the pages each owner uses
 | 5. Sustainability ledger | Head of Sustainability | | | |
 | 6. Data quality | Head of BI | | | |
 
-## 4. Dashboard smoke test
+## 4. Dashboard build and render check
 
-The smoke test loads each page and checks there are no exceptions. It was run for this case (all six pages rendered with no exceptions). To repeat it:
+The dashboard is a Next.js static site in `web/`. The check has two parts:
 
 ```bash
-PYTHONPATH=src python -c "
-from streamlit.testing.v1 import AppTest
-at = AppTest.from_file('dashboard/app.py', default_timeout=120).run()
-for p in ['1. Executive one-page','2. Brief-to-win','3. Margin & pricing',
-          '4. Raw-material risk & IFRA','5. Sustainability ledger','6. Data quality']:
-    at.sidebar.radio[0].set_value(p).run()
-    print(p, 'exceptions:', [e.value for e in at.exception])
-"
+cd web
+npm install
+npm run typecheck      # TypeScript, no errors expected
+npm run build          # static export to web/out, all six routes prerendered
+npx next start        # not used: the export is static; serve web/out with any static server
 ```
+
+Then open each route (`/`, `/win/`, `/pricing/`, `/risk/`, `/sustainability/`, `/data-quality/`) and confirm the browser console shows no errors. This was done for this case: all six pages render, and the figures on the pages match `data/gold/findings.json`.
 
 ## 5. Training plan
 

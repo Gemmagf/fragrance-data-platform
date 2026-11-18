@@ -27,7 +27,7 @@ Source: LUZI job posting "Business Analyst, 80–100%, Dietlikon HQ" and the Dat
 |---|---|---|---|
 | R1 (experience) | Not applicable | — | This case cannot prove years of BA practice. |
 | R2 (process and data) | `pipeline.py`: silver rules, DQ report with raw vs after-cleaning counts; `simulate.py` injects realistic dirt (duplicates, key whitespace, label variants, missing values) | Strong | Only CSV and pandas. Production would be dbt + a warehouse. |
-| R3 (BI capability) | Six dashboard pages mapped to the BRD suite, each with owner, refresh SLA and primary action | Medium-strong | Dashboards are Streamlit, not Power BI; no row-level security. |
+| R3 (BI capability) | Six dashboard pages mapped to the BRD suite, each with owner, refresh SLA and primary action | Medium-strong | Dashboards are a static Next.js site (same stack as the shoe-retail app), not Power BI; no row-level security. |
 | R4 (testing) | 15 tests: data contracts plus recovery of the planted truth (elasticities, premium, win drivers, single-source flags, IFRA breaches) | Strong | Tests check the case's own logic, not a real system's integration. |
 | R5 (training and support) | `03_uat_and_training_plan.md`: training plan per audience and support model | Medium | Not yet delivered to real users. |
 | R6 (breadth) | Covers commercial, R&D, operations, finance, sustainability in one model | Medium-strong | Depth is limited to what the BRD prioritises. |
