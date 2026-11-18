@@ -5,6 +5,7 @@ import { Card } from "@/components/Card";
 import { DataTable } from "@/components/DataTable";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { IfraWhatIf } from "@/components/charts/IfraWhatIf";
 import { chfMillions, num, pct } from "@/lib/format";
 
@@ -85,6 +86,8 @@ export default function RiskPage() {
           </Card>
         </section>
       </div>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/risk" />
     </>

@@ -30,7 +30,12 @@ export default function StartPage() {
         </p>
         <div className="mt-5 max-w-3xl rounded-lg border border-accent/40 bg-accent/10 p-4 text-sm">
           <strong>About the data.</strong> Everything here is simulated. Customers, suppliers, formulas and sales are
-          invented to behave like a real fragrance business. Nothing on these pages is LUZI&apos;s real data.
+          invented to behave like a real fragrance business. Nothing on these pages is LUZI&apos;s real data. The only real
+          figures are public benchmarks from other companies, and each is cited.{" "}
+          <Link href="/sources" className="font-medium underline underline-offset-2">
+            See where every number comes from
+          </Link>
+          .
         </div>
       </section>
 

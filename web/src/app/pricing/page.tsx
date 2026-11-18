@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Card } from "@/components/Card";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { ElasticityChart } from "@/components/charts/ElasticityChart";
 import { RepricingPanel } from "@/components/charts/RepricingPanel";
 
@@ -28,6 +29,8 @@ export default function PricingPage() {
           reacts least to price, measure what happens to volume, and only then decide on a wider move.
         </div>
       </div>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/pricing" />
     </>

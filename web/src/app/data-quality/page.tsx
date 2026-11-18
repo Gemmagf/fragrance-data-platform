@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { DataTable } from "@/components/DataTable";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { num } from "@/lib/format";
 
 const SEVERITY_LABEL: Record<string, string> = { high: "High", medium: "Medium", low: "Low" };
@@ -54,6 +55,8 @@ export default function DataQualityPage() {
           }))}
         />
       </div>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/data-quality" />
     </>

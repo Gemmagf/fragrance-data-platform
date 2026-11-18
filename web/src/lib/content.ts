@@ -15,6 +15,7 @@ export type Section = {
   forLuzi: string;
   decision: string;
   limit: string;
+  sources: string[];
   owner: string;
   sla: string;
   action: string;
@@ -23,6 +24,7 @@ export type Section = {
 export const DASHBOARD_SECTIONS: Section[] = [
   {
     slug: "executive",
+    sources: ["S1", "S2", "L1", "L2"],
     href: "/executive",
     nav: "Executive",
     title: "Executive one-page",
@@ -42,6 +44,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
   },
   {
     slug: "win",
+    sources: [],
     href: "/win",
     nav: "Brief-to-win",
     title: "Brief-to-win",
@@ -61,6 +64,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
   },
   {
     slug: "pricing",
+    sources: [],
     href: "/pricing",
     nav: "Margin & pricing",
     title: "Margin & pricing",
@@ -80,6 +84,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
   },
   {
     slug: "risk",
+    sources: [],
     href: "/risk",
     nav: "Raw materials & IFRA",
     title: "Raw-material risk & IFRA",
@@ -100,6 +105,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
   },
   {
     slug: "sustainability",
+    sources: [],
     href: "/sustainability",
     nav: "Sustainability",
     title: "Sustainability ledger",
@@ -119,6 +125,7 @@ export const DASHBOARD_SECTIONS: Section[] = [
   },
   {
     slug: "data-quality",
+    sources: [],
     href: "/data-quality",
     nav: "Data quality",
     title: "Data quality",
@@ -141,7 +148,9 @@ export const DASHBOARD_SECTIONS: Section[] = [
 export const ALL_PAGES = [
   { href: "/", nav: "Start here" },
   ...DASHBOARD_SECTIONS.map((s) => ({ href: s.href, nav: s.nav })),
+  { href: "/platform", nav: "Data platform" },
   { href: "/value", nav: "What I bring" },
+  { href: "/sources", nav: "Sources & method" },
   { href: "/glossary", nav: "Glossary" },
 ];
 
@@ -163,6 +172,11 @@ export const GLOSSARY: { term: string; meaning: string }[] = [
   { term: "Pipeline (bronze, silver, gold)", meaning: "Three stages of the data. Bronze: raw data as received. Silver: cleaned and matched. Gold: ready for business questions." },
   { term: "UAT (user acceptance testing)", meaning: "The final check by business users that a tool does what they need, before it is used for real decisions." },
   { term: "SLA (service level agreement)", meaning: "How fresh the data is and how quickly a problem is answered. For example, 'updated daily by 06:00'." },
+  { term: "Simulated data", meaning: "Invented data that behaves like a real business. Every customer, supplier, formula and sale in this case is simulated, so no figure here is LUZI's." },
+  { term: "Like-for-like growth (LFL)", meaning: "Growth measured at constant exchange rates and without the effect of acquisitions or disposals. Used by listed companies to compare years fairly." },
+  { term: "EBITDA", meaning: "Earnings before interest, tax, depreciation and amortisation. A common measure of operating profit, used when comparing companies." },
+  { term: "Third-party estimate", meaning: "A figure modelled by a data company rather than reported by the company. It can be far from the real value, so treat it as a rough guide." },
+  { term: "Public benchmark", meaning: "A real figure published by another company, used to put the case in context. Each one is cited on the Sources page." },
   { term: "Steering Committee", meaning: "The group of senior leaders who review the data programme each month and decide on priorities." },
 ];
 
@@ -212,6 +226,14 @@ export const VALUE_ROWS: ValueRow[] = [
     proofHref: "/pricing",
   },
   {
+    need: "Build and maintain data pipelines and a central platform",
+    bring:
+      "Refactored production Python data pipelines for scalability, testing and deployment readiness. Strong in SQL, Python and Power BI, and used to building the data model behind a dashboard.",
+    proof:
+      "A three-layer pipeline (bronze, silver, gold) with automated checks, and a plan for the same structure on Microsoft Fabric.",
+    proofHref: "/platform",
+  },
+  {
     need: "Be prepared to step into varied tasks, and work across languages",
     bring:
       "Native Catalan and Spanish, fluent English and French, intermediate German. Comfortable moving between finance, commercial, operations and sustainability topics.",
@@ -258,3 +280,93 @@ export function getSection(slug: string): Section {
   if (!s) throw new Error(`Unknown section: ${slug}`);
   return s;
 }
+
+/**
+ * Data Engineer responsibilities (Microsoft Fabric role), mapped to what this case actually contains.
+ * status: "built" = done in this repo; "partial" = same logic, not yet on the target platform;
+ * "simulated" = data stands in for the real source.
+ */
+export type PlatformTask = {
+  task: string;
+  status: "built" | "partial" | "simulated";
+  caseEvidence: string;
+  fabricEquivalent: string;
+  gap: string;
+};
+
+export const PLATFORM_TASKS: PlatformTask[] = [
+  {
+    task: "Build and maintain the central data platform on Microsoft Fabric and OneLake",
+    status: "partial",
+    caseEvidence:
+      "A three-layer lake (bronze, silver, gold) stored as files, with one entry point per layer and a repeatable build (run_all).",
+    fabricEquivalent:
+      "One Fabric Lakehouse per layer, on OneLake, with tables in Delta format, and workspace roles for each domain.",
+    gap: "Not deployed to Fabric. The same structure is ready to move, but I have not built the workspace here.",
+  },
+  {
+    task: "Build pipelines from Abacus / c-tree, MS SQL Server and MySQL",
+    status: "simulated",
+    caseEvidence:
+      "The ERP extracts (orders, customers, raw materials) play the role of Abacus. Each source is a separate export, with its own quirks (duplicates, inconsistent codes, missing values).",
+    fabricEquivalent:
+      "Data Pipeline with Copy activities for SQL Server and MySQL, and an on-premises data gateway for sources inside the company network.",
+    gap:
+      "No live connection exists. c-tree connectivity would need checking with the vendor before the first pipeline is planned.",
+  },
+  {
+    task: "ETL / ELT processes and the Medallion architecture (bronze, silver, gold)",
+    status: "built",
+    caseEvidence:
+      "The pipeline cleans and matches the data (bronze to silver), then builds the business tables and analyses (silver to gold). Every issue is logged in a data-quality report, and 15 automated tests check the results.",
+    fabricEquivalent:
+      "Dataflows Gen2 or PySpark notebooks for the transformations, with the medallion layers as separate Lakehouses.",
+    gap: "The logic is in Python and pandas, not yet in Fabric notebooks.",
+  },
+  {
+    task: "Semantic models and Power BI reports",
+    status: "partial",
+    caseEvidence:
+      "Business definitions are written down (KPI dictionary with owner, refresh and formula), and the dashboards read the gold tables.",
+    fabricEquivalent:
+      "A Direct Lake semantic model over the gold Lakehouse, with measures defined once and reused by every Power BI report.",
+    gap: "No Power BI model exists yet. The dashboards are a web application, not Power BI.",
+  },
+  {
+    task: "Work with Business Analysts and contribute to data governance",
+    status: "built",
+    caseEvidence:
+      "Requirements, user stories with acceptance criteria, a KPI dictionary, a UAT plan, and a data-quality report with named owners for each check.",
+    fabricEquivalent:
+      "Microsoft Purview for the catalogue and lineage, plus data-owner approval for access requests.",
+    gap: "No catalogue or access control has been set up. The owners are roles in the documents, not real people in a system.",
+  },
+];
+
+export const PLATFORM_LAYERS = [
+  {
+    name: "Sources",
+    detail: "ERP (Abacus-type), SQL Server, MySQL, CRM, formulation system, price feeds",
+    tone: "bg-muted",
+  },
+  {
+    name: "Bronze",
+    detail: "Raw data exactly as received. Never edited, so every number can be traced back.",
+    tone: "bg-amber-100",
+  },
+  {
+    name: "Silver",
+    detail: "Cleaned, de-duplicated, keys matched between systems, types enforced.",
+    tone: "bg-slate-200",
+  },
+  {
+    name: "Gold",
+    detail: "Business tables and analyses: margins, win rates, risk, sustainability.",
+    tone: "bg-yellow-200",
+  },
+  {
+    name: "Consume",
+    detail: "Dashboards, the semantic layer and the reports the business uses to decide.",
+    tone: "bg-accent/20",
+  },
+];

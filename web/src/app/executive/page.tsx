@@ -5,6 +5,7 @@ import { KPICard } from "@/components/KPICard";
 import { Card } from "@/components/Card";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { MonthlyRevenueChart } from "@/components/charts/MonthlyRevenueChart";
 import { chfMillions, pct } from "@/lib/format";
 
@@ -34,10 +35,30 @@ export default function ExecutivePage() {
       </div>
 
       <div className="mt-6">
+        <Card
+          title="Public context: the largest fragrance company"
+          subtitle="Real figures, for context only. They are not comparable with the simulated business above."
+        >
+          <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed">
+            <li>
+              Givaudan&apos;s Fragrance &amp; Beauty division reached CHF 3.83bn of sales in 2025, up 7.9% like-for-like, with an
+              EBITDA margin of 25.7% [S1].
+            </li>
+            <li>
+              Within it, Fine Fragrance grew 18.3% like-for-like, while Fragrance Ingredients fell 1.4% [S2]. For a mid-size
+              supplier, that gap in the market is the context for the win-rate and pricing questions in this case.
+            </li>
+          </ul>
+        </Card>
+      </div>
+
+      <div className="mt-6">
         <Card title="Revenue and gross margin, month by month" subtitle="CHF, all customers, January 2023 to October 2026">
           <MonthlyRevenueChart data={monthly} />
         </Card>
       </div>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/executive" />
     </>

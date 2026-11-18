@@ -5,6 +5,7 @@ import { Card } from "@/components/Card";
 import { DataTable } from "@/components/DataTable";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { WinRateTrendChart } from "@/components/charts/FunnelChart";
 import { WinByDimensionChart } from "@/components/charts/WinByDimensionChart";
 import { WinDriversChart } from "@/components/charts/WinDriversChart";
@@ -66,6 +67,8 @@ export default function WinPage() {
           </div>
         </div>
       </div>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/win" />
     </>

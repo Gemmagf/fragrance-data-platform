@@ -5,6 +5,7 @@ import { Card } from "@/components/Card";
 import { KPICard } from "@/components/KPICard";
 import { Explain } from "@/components/Explain";
 import { PrevNext } from "@/components/PrevNext";
+import { Citations } from "@/components/Citations";
 import { LedgerScatter } from "@/components/charts/LedgerScatter";
 import { SlaChart } from "@/components/charts/SlaChart";
 import { mean, median, num, pct } from "@/lib/format";
@@ -57,6 +58,8 @@ export default function SustainabilityPage() {
         conventional products, adjusting for each customer and each month. Without that adjustment the estimate would be
         too low.
       </p>
+
+      <Citations ids={s.sources} />
 
       <PrevNext href="/sustainability" />
     </>
