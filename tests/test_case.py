@@ -142,6 +142,118 @@ def test_repricing_is_positive_and_bounded():
     assert 0 < f["gm_pct_after"] - f["ltm_gross_margin_pct"] < 0.05
 
 
+# ----------------------------------------- 3. data engineering controls ----
+def test_silver_contracts_pass_on_current_data():
+    from luzi_case import contracts
+    v = contracts.validate_all()
+    assert v.empty, v.to_string()
+
+
+def test_contract_validator_catches_planted_violations():
+    """The validator must fail on bad data, otherwise a passing result means nothing."""
+    import numpy as np
+    from luzi_case import contracts
+    bad = pd.DataFrame({
+        "brief_id": ["BR-00001", "BR-00001", "bad-id"],       # duplicate + pattern
+        "crm_id": ["CRM-0001", "CRM-0002", None],             # null in a not-null column
+        "outcome": ["won", "maybe", "lost"],                  # not allowed
+        "response_hours": [10.0, -1.0, np.nan],               # below min
+        "sample_iterations": [1, 2, 3],
+        "quoted_price_chf_kg": [10.0, 11.0, 12.0],
+        "received_date": pd.to_datetime(["2024-01-01", "2024-01-02", "2024-01-03"]),
+        "is_won": [1, 0, 2],                                  # not allowed
+    })
+    contract = contracts.load_contracts()["briefs"]
+    rules = {(r["column"], r["rule"].split(" ")[0]) for r in contracts.validate_table("briefs", bad, contract)}
+    assert ("brief_id", "unique") in rules
+    assert ("brief_id", "pattern") in rules
+    assert ("crm_id", "not") in rules
+    assert ("outcome", "allowed") in rules
+    assert ("response_hours", "min") in rules
+    assert ("is_won", "allowed") in rules
+
+
+def test_metrics_catalogue_references_real_tables_and_pages():
+    import yaml
+    cat = yaml.safe_load(open(C.ROOT / "metrics" / "metrics.yml"))["metrics"]
+    names = {m["name"] for m in cat}
+    assert len(names) == len(cat), "metric names must be unique"
+    for m in cat:
+        src = m["source"]
+        exists = (C.SILVER_DIR / f"{src}.parquet").exists() or (C.GOLD_DIR / f"{src}.parquet").exists() \
+            or (C.GOLD_DIR / f"{src}.csv").exists()
+        assert exists, f"{m['name']}: source {src} not found"
+        page = m["page"].strip("/") or "page"
+        assert (C.ROOT / "web" / "src" / "app" / page / "page.tsx").exists() or page == "page", \
+            f"{m['name']}: page {m['page']} not found"
+
+
+def test_connector_ingests_into_bronze_and_logs_each_table(tmp_path=None):
+    """Same SQLAlchemy path as the SQL Server and MySQL connectors, run against SQLite."""
+    import tempfile
+    from pathlib import Path
+    from luzi_case import connectors
+    from sqlalchemy import create_engine, text
+
+    tmp = Path(tempfile.mkdtemp())
+    db = tmp / "source.db"
+    url = f"sqlite:///{db}"
+    eng = create_engine(url)
+    src_rows = pd.read_csv(C.BRONZE_DIR / "erp_customers.csv", dtype=str)
+    with eng.begin() as conn:
+        src_rows.to_sql("erp_customers", conn, index=False)
+        conn.execute(text("CREATE TABLE broken (x INT)"))  # exists but not in the spec below
+    eng.dispose()
+
+    spec = connectors.SourceSpec(
+        name="erp", kind="sqlite",
+        tables=[connectors.TableSpec("erp_customers"), connectors.TableSpec("missing_table")],
+    )
+    saved_log = connectors.LOAD_LOG
+    connectors.LOAD_LOG = tmp / "load_log.json"
+    try:
+        recs = connectors.ingest(spec, tmp / "bronze", url=url)
+    finally:
+        connectors.LOAD_LOG = saved_log
+    by_table = {r.table: r for r in recs}
+    assert by_table["erp_customers"].status == "ok"
+    assert by_table["erp_customers"].rows == len(src_rows)
+    assert (tmp / "bronze" / "erp__erp_customers.parquet").exists()
+    assert by_table["missing_table"].status == "failed"  # one failure does not stop the others
+    log = json.loads((tmp / "load_log.json").read_text())
+    assert len(log) == 2
+
+
+def test_connector_without_credentials_fails_clearly():
+    import os
+    from luzi_case import connectors
+    os.environ.pop(connectors.ENV_VARS["sqlserver"], None)
+    try:
+        connectors.engine_for(connectors.SourceSpec(name="erp", kind="sqlserver"))
+        raise AssertionError("expected RuntimeError when the URL variable is not set")
+    except RuntimeError as exc:
+        assert "LUZI_SQLSERVER_URL" in str(exc)
+
+
+def test_quality_gate_blocks_on_high_severity_failure():
+    from luzi_case.gate import evaluate_gate
+    dq = pd.DataFrame([
+        dict(table="t", check="c1", severity="high", failures_after_cleaning=3, failures_raw=3),
+        dict(table="t", check="c2", severity="low", failures_after_cleaning=9, failures_raw=9),
+    ])
+    gate = evaluate_gate(dq, pd.DataFrame(columns=["table", "column", "rule", "violations"]))
+    assert gate["passed"] is False
+    assert [c["check"] for c in gate["blocking_dq_checks"]] == ["c1"]  # low severity does not block
+
+
+def test_quality_gate_blocks_on_contract_violation():
+    from luzi_case.gate import evaluate_gate
+    dq = pd.DataFrame(columns=["table", "check", "severity", "failures_after_cleaning", "failures_raw"])
+    viol = pd.DataFrame([dict(table="briefs", column="brief_id", rule="unique", violations=2)])
+    assert evaluate_gate(dq, viol)["passed"] is False
+    assert evaluate_gate(dq, viol.iloc[:0])["passed"] is True
+
+
 # ------------------------------------------------------------- runner --------
 if __name__ == "__main__":
     tests = [v for k, v in dict(globals()).items() if k.startswith("test_")]

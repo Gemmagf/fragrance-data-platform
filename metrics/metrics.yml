@@ -1,0 +1,123 @@
+# Metrics catalogue: every number shown on the dashboard, defined once.
+#
+# A metric has one definition, one owner and one source table. Reports and pages
+# reuse it rather than re-deriving it, which is the purpose of the semantic layer.
+# tests/test_case.py checks that each source table exists and that each page exists.
+
+metrics:
+  - name: revenue_ltm
+    label: Revenue, last 12 months
+    definition: Sum of qty_kg x unit_price_chf_kg for orders with qty > 0 and a price, over the last 12 complete months.
+    grain: month
+    owner: CFO (Finance)
+    source: fct_orders
+    refresh: daily
+    page: /executive
+
+  - name: gross_margin_pct
+    label: Gross margin
+    definition: Sum of (revenue - qty x standard cost per kg) divided by revenue. Standard cost is the sum of pct x raw-material price in the order month.
+    grain: month
+    owner: CFO (Finance)
+    source: fct_orders
+    refresh: daily
+    page: /executive
+
+  - name: win_rate
+    label: Brief-to-win rate
+    definition: Won briefs divided by decided briefs (won plus lost). Open and no-decision briefs are excluded.
+    grain: brief, quarter
+    owner: Head of Commercial (CCO)
+    source: fct_briefs
+    refresh: weekly
+    page: /win
+
+  - name: elasticity_by_tier
+    label: Price elasticity of volume, by tier
+    definition: Coefficient on log unit price in log(quantity) with compound and month fixed effects, estimated per customer tier.
+    grain: tier
+    owner: CFO (Finance)
+    source: fct_orders
+    refresh: quarterly
+    page: /pricing
+
+  - name: gm_uplift_bps
+    label: Gross-margin uplift from a price rise
+    definition: Change in last-12-month gross margin for a list-price increase, using the tier elasticity for volume. Before churn.
+    grain: tier
+    owner: CFO (Finance)
+    source: fct_orders
+    refresh: weekly
+    page: /pricing
+
+  - name: single_source_rm_count
+    label: Single-source raw materials
+    definition: Raw materials with no qualified second supplier.
+    grain: raw material
+    owner: COO (Operations)
+    source: raw_materials
+    refresh: monthly
+    page: /risk
+
+  - name: revenue_exposed_rm
+    label: Revenue depending on a raw material
+    definition: Sum of revenue of orders whose formula contains the raw material. Not additive across raw materials.
+    grain: raw material
+    owner: COO (Operations)
+    source: fct_orders
+    refresh: monthly
+    page: /risk
+
+  - name: revenue_at_risk_supplier_8w
+    label: Revenue at risk, supplier outage for 8 weeks
+    definition: Revenue exposed through single-source raw materials of one supplier, multiplied by 8/52.
+    grain: supplier
+    owner: COO (Operations)
+    source: raw_materials
+    refresh: monthly
+    page: /risk
+
+  - name: ifra_breaches
+    label: Formulas breaching a raw-material limit
+    definition: Formula lines where the raw-material share of weight is above its regulatory limit.
+    grain: formula line
+    owner: Head of Regulatory
+    source: formula_lines
+    refresh: monthly
+    page: /risk
+
+  - name: circular_premium
+    label: Circular price premium
+    definition: Relative extra price on circular products, from log(realised price / quote) with customer and month fixed effects.
+    grain: order
+    owner: CFO (Finance)
+    source: fct_orders
+    refresh: quarterly
+    page: /sustainability
+
+  - name: co2e_per_kg
+    label: CO2e per kg of compound
+    definition: Sum of pct x raw-material CO2e factor, divided by 100.
+    grain: compound
+    owner: Head of Sustainability
+    source: mart_formula_sustainability
+    refresh: monthly
+    page: /sustainability
+
+  - name: disclosure_lead_time
+    label: Days to answer a sustainability request
+    definition: Days between the customer request date and the delivery date.
+    grain: request
+    owner: Head of Sustainability
+    source: sust_requests
+    refresh: monthly
+    page: /sustainability
+
+  - name: dq_high_open
+    label: High-severity data-quality checks still failing
+    definition: Count of high-severity checks with failures after cleaning. The goal is zero.
+    grain: check
+    owner: Head of BI
+    source: dq_report
+    refresh: every load
+    page: /data-quality

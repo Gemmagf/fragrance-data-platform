@@ -6,3 +6,5 @@ web/.next/
 web/out/
 web/.claude/
 web/*.tsbuildinfo
+data/gold/run_log.json
+data/load_log.json

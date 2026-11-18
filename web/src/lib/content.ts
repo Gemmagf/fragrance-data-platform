@@ -193,7 +193,7 @@ export const VALUE_ROWS: ValueRow[] = [
     need: "Turn raw data into a reliable process, not one-off spreadsheets",
     bring:
       "Product owner of a risk data-quality product and of a statistical validation engine at UBS. I designed data models for governance and automated manual reporting.",
-    proof: "A repeatable pipeline from raw exports to clean, checked tables, with a data-quality report showing every issue found and fixed.",
+    proof: "A repeatable pipeline from raw exports to clean, checked tables, with data contracts, a quality gate and a data-quality report showing every issue found and fixed.",
     proofHref: "/data-quality",
   },
   {
@@ -299,26 +299,26 @@ export const PLATFORM_TASKS: PlatformTask[] = [
     task: "Build and maintain the central data platform on Microsoft Fabric and OneLake",
     status: "partial",
     caseEvidence:
-      "A three-layer lake (bronze, silver, gold) stored as files, with one entry point per layer and a repeatable build (run_all).",
+      "A three-layer lake (bronze, silver, gold) stored as files, one repeatable build (run_all), and a run log that records every load and whether the quality gate passed.",
     fabricEquivalent:
       "One Fabric Lakehouse per layer, on OneLake, with tables in Delta format, and workspace roles for each domain.",
     gap: "Not deployed to Fabric. The same structure is ready to move, but I have not built the workspace here.",
   },
   {
     task: "Build pipelines from Abacus / c-tree, MS SQL Server and MySQL",
-    status: "simulated",
+    status: "partial",
     caseEvidence:
-      "The ERP extracts (orders, customers, raw materials) play the role of Abacus. Each source is a separate export, with its own quirks (duplicates, inconsistent codes, missing values).",
+      "Source connectors for SQL Server, MySQL and c-tree are written. Each extracts tables into bronze and logs every load, including failures. They are tested against SQLite, which uses the same code path. The case data stands in for the ERP.",
     fabricEquivalent:
       "Data Pipeline with Copy activities for SQL Server and MySQL, and an on-premises data gateway for sources inside the company network.",
     gap:
-      "No live connection exists. c-tree connectivity would need checking with the vendor before the first pipeline is planned.",
+      "Not tested against a live SQL Server or MySQL server. c-tree needs its vendor driver, and the table names must be confirmed with the ERP super-user.",
   },
   {
     task: "ETL / ELT processes and the Medallion architecture (bronze, silver, gold)",
     status: "built",
     caseEvidence:
-      "The pipeline cleans and matches the data (bronze to silver), then builds the business tables and analyses (silver to gold). Every issue is logged in a data-quality report, and 15 automated tests check the results.",
+      "The pipeline cleans and matches the data (bronze to silver), then builds the business tables and analyses (silver to gold). Every issue is logged in a data-quality report, 22 automated tests check the results, and the quality gate stops any load that breaks a contract.",
     fabricEquivalent:
       "Dataflows Gen2 or PySpark notebooks for the transformations, with the medallion layers as separate Lakehouses.",
     gap: "The logic is in Python and pandas, not yet in Fabric notebooks.",
@@ -327,19 +327,19 @@ export const PLATFORM_TASKS: PlatformTask[] = [
     task: "Semantic models and Power BI reports",
     status: "partial",
     caseEvidence:
-      "Business definitions are written down (KPI dictionary with owner, refresh and formula), and the dashboards read the gold tables.",
+      "A metrics catalogue defines each number once, with owner, source table, refresh and the page that shows it. The dashboards read the gold tables, and a test checks that every source and page in the catalogue exists.",
     fabricEquivalent:
       "A Direct Lake semantic model over the gold Lakehouse, with measures defined once and reused by every Power BI report.",
-    gap: "No Power BI model exists yet. The dashboards are a web application, not Power BI.",
+    gap: "No Power BI model exists yet. The catalogue is a file, not yet a semantic model in Fabric. The dashboards are a web application, not Power BI.",
   },
   {
     task: "Work with Business Analysts and contribute to data governance",
-    status: "built",
+    status: "partial",
     caseEvidence:
-      "Requirements, user stories with acceptance criteria, a KPI dictionary, a UAT plan, and a data-quality report with named owners for each check.",
+      "Requirements, user stories with acceptance criteria, a KPI dictionary, a UAT plan, a data-quality report with named owners, data contracts that name an owner and sensitivity for every table, and a run log of every load.",
     fabricEquivalent:
       "Microsoft Purview for the catalogue and lineage, plus data-owner approval for access requests.",
-    gap: "No catalogue or access control has been set up. The owners are roles in the documents, not real people in a system.",
+    gap: "No Purview catalogue, lineage or access control has been set up. The owners are roles in the contracts and documents, not accounts in a system.",
   },
 ];
 

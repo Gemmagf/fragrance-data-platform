@@ -2,3 +2,7 @@ numpy>=1.26,<2.1
 pandas>=2.1
 statsmodels>=0.14
 pyarrow>=15.0
+pyyaml>=6.0
+sqlalchemy>=2.0
+pymysql>=1.1
+# SQL Server (mssql+pyodbc) needs Microsoft ODBC Driver 18 installed on the machine; add pyodbc when connecting.

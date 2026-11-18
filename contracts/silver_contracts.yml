@@ -1,0 +1,62 @@
+# Data contracts for the silver layer.
+#
+# Each table states who owns it, what one row means, its key, and the rules every
+# load must satisfy. The pipeline checks these on every run (see contracts.py), and
+# a failing contract stops the load before the gold layer is rebuilt.
+#
+# Types: str | int | float | bool | datetime
+# Keys: 'unique: true' means no duplicates. 'nullable: false' means no blanks.
+
+briefs:
+  owner: Head of Commercial (CCO)
+  grain: one row per customer brief
+  refresh: daily
+  sensitivity: internal
+  key: [brief_id]
+  columns:
+    brief_id: {type: str, nullable: false, unique: true, pattern: "^BR-\\d{5}$"}
+    crm_id: {type: str, nullable: false, pattern: "^CRM-\\d{4}$"}
+    outcome: {type: str, nullable: false, allowed: [won, lost, open, no_decision]}
+    response_hours: {type: float, nullable: true, min: 0}
+    sample_iterations: {type: int, nullable: false, min: 1, max: 20}
+    quoted_price_chf_kg: {type: float, nullable: false, min: 0}
+    received_date: {type: datetime, nullable: false}
+    is_won: {type: int, nullable: false, allowed: [0, 1]}
+
+orders:
+  owner: CFO (Finance)
+  grain: one row per customer order line
+  refresh: daily
+  sensitivity: internal
+  key: [order_id]
+  columns:
+    order_id: {type: str, nullable: false, unique: true}
+    erp_customer_id: {type: str, nullable: false}
+    compound_id: {type: str, nullable: false, pattern: "^CMP-\\d{5}$"}
+    order_date: {type: datetime, nullable: false}
+    qty_kg: {type: float, nullable: false}
+    unit_price_chf_kg: {type: float, nullable: true, min: 0}
+    is_return: {type: bool, nullable: false}
+
+formula_lines:
+  owner: Head of R&D
+  grain: one row per raw material inside one formula
+  refresh: nightly
+  sensitivity: restricted (formula IP)
+  key: [formula_id, rm_code]
+  columns:
+    formula_id: {type: str, nullable: false}
+    rm_code: {type: str, nullable: false, pattern: "^RM-\\d{3}$"}
+    pct: {type: float, nullable: false, min: 0, max: 100}
+
+raw_materials:
+  owner: COO (Operations)
+  grain: one row per raw material
+  refresh: monthly
+  sensitivity: internal
+  key: [rm_code]
+  columns:
+    rm_code: {type: str, nullable: false, unique: true, pattern: "^RM-\\d{3}$"}
+    rm_type: {type: str, nullable: false, allowed: [natural, synthetic, solvent]}
+    co2e_kg_per_kg: {type: float, nullable: false, min: 0}
+    climate_exposed: {type: bool, nullable: false}

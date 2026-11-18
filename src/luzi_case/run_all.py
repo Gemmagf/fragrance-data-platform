@@ -12,7 +12,8 @@ import pandas as pd
 
 from luzi_case import analyses as A
 from luzi_case import config as C
-from luzi_case import pipeline, simulate
+from luzi_case import contracts, pipeline, simulate
+from luzi_case.gate import QualityGateError, evaluate_gate, write_run_log
 
 
 def _load(name: str, layer: str) -> pd.DataFrame:
@@ -23,6 +24,17 @@ def _load(name: str, layer: str) -> pd.DataFrame:
 def run() -> dict:
     simulate.run()
     res = pipeline.run()
+
+    # Quality gate: contracts and high-severity checks must pass before anything is published.
+    violations = contracts.validate_all()
+    gate = evaluate_gate(res["dq"], violations)
+    row_counts = {name: len(df) for name, df in res["silver"].items()}
+    if not gate["passed"]:
+        write_run_log("failed", gate, row_counts)
+        raise QualityGateError(
+            f"Load stopped by the quality gate: {len(gate['blocking_dq_checks'])} blocking DQ check(s), "
+            f"{len(gate['contract_violations'])} contract violation(s). See data/gold/run_log.json."
+        )
 
     s, g = res["silver"], res["gold"]
     briefs, customers = s["briefs"], s["customers"]
@@ -88,6 +100,7 @@ def run() -> dict:
         json.dump(findings, fh, indent=2, default=str)
     print(json.dumps({k: findings[k] for k in ["exec", "repricing", "circular_premium",
                                                "ifra_whatif"]}, indent=2, default=str))
+    write_run_log("passed", gate, row_counts)
     return findings
 
 
