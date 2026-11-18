@@ -1,11 +1,15 @@
 import { site } from "@/lib/data";
+import { getSection } from "@/lib/content";
 import { PageHeader } from "@/components/PageHeader";
 import { Card } from "@/components/Card";
 import { DataTable } from "@/components/DataTable";
+import { Explain } from "@/components/Explain";
+import { PrevNext } from "@/components/PrevNext";
 import { IfraWhatIf } from "@/components/charts/IfraWhatIf";
 import { chfMillions, num, pct } from "@/lib/format";
 
 export default function RiskPage() {
+  const s = getSection("risk");
   const single = site.rmRisk
     .filter((r) => r.single_source)
     .sort((a, b) => b.ltm_revenue_exposed_chf - a.ltm_revenue_exposed_chf);
@@ -15,73 +19,74 @@ export default function RiskPage() {
 
   return (
     <>
-      <PageHeader
-        title="Raw-material risk & IFRA"
-        subtitle="Single-source raw materials, supplier outage exposure and a regulatory what-if."
-        owner="COO (Operations) with Head of Regulatory"
-        sla="Monthly, 1st working day"
-        action="Qualify a second source for every single-source raw material with more than CHF 1M exposure"
-      />
+      <PageHeader title={s.title} subtitle={s.question} owner={s.owner} sla={s.sla} action={s.action} />
+      <Explain section={s} />
 
-      <section className="space-y-3">
-        <h2 className="text-sm font-semibold tracking-tight">Single-source raw materials, by LTM revenue exposed</h2>
-        <DataTable
-          columns={[
-            { key: "rm", label: "RM" },
-            { key: "name", label: "Name" },
-            { key: "type", label: "Type" },
-            { key: "origin", label: "Origin" },
-            { key: "climate", label: "Climate exposed" },
-            { key: "formulas", label: "Formulas", align: "right" },
-            { key: "exposed", label: "LTM revenue exposed", align: "right" },
-            { key: "vol", label: "Price volatility (monthly)", align: "right" },
-          ]}
-          rows={single.map((r) => ({
-            rm: r.rm_code,
-            name: r.rm_name,
-            type: r.rm_type,
-            origin: r.origin,
-            climate: r.climate_exposed ? "yes" : "no",
-            formulas: num(r.formulas_using),
-            exposed: chfMillions(r.ltm_revenue_exposed_chf),
-            vol: pct(r.price_volatility_monthly),
-          }))}
-        />
-        <p className="text-xs text-muted-foreground">
-          Revenue exposed is not additive: one order counts for every raw material in its formula.
-        </p>
-      </section>
+      <div className="mt-8 space-y-10">
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold tracking-tight">Ingredients with a single supplier</h2>
+          <p className="text-sm text-muted-foreground">
+            Ranked by the revenue that depends on each ingredient. Price volatility shows how much its cost moves each month.
+          </p>
+          <DataTable
+            columns={[
+              { key: "rm", label: "Ingredient" },
+              { key: "name", label: "Name" },
+              { key: "type", label: "Type" },
+              { key: "origin", label: "Origin" },
+              { key: "climate", label: "Exposed to climate?" },
+              { key: "formulas", label: "Formulas using it", align: "right" },
+              { key: "exposed", label: "Revenue depending on it", align: "right" },
+              { key: "vol", label: "Monthly price swing", align: "right" },
+            ]}
+            rows={single.map((r) => ({
+              rm: r.rm_code,
+              name: r.rm_name,
+              type: r.rm_type,
+              origin: r.origin,
+              climate: r.climate_exposed ? "yes" : "no",
+              formulas: num(r.formulas_using),
+              exposed: chfMillions(r.ltm_revenue_exposed_chf),
+              vol: pct(r.price_volatility_monthly),
+            }))}
+          />
+          <p className="text-xs text-muted-foreground">
+            The same revenue can depend on several ingredients, so these figures cannot be added up.
+          </p>
+        </section>
 
-      <section className="mt-8 space-y-3">
-        <h2 className="text-sm font-semibold tracking-tight">Supplier outage stress test, 8 weeks (top 10)</h2>
-        <DataTable
-          columns={[
-            { key: "supplier", label: "Supplier" },
-            { key: "country", label: "Country" },
-            { key: "category", label: "Category" },
-            { key: "otif", label: "OTIF", align: "right" },
-            { key: "single", label: "Single-source RMs", align: "right" },
-            { key: "risk", label: "Revenue at risk, 8 weeks", align: "right" },
-          ]}
-          rows={stress.map((s) => ({
-            supplier: s.supplier_name,
-            country: s.country,
-            category: s.category,
-            otif: `${num(s.otif_pct, 1)}%`,
-            single: num(s.single_source_rms),
-            risk: chfMillions(s.revenue_at_risk_8w_chf),
-          }))}
-        />
-      </section>
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold tracking-tight">If a supplier stopped for 8 weeks</h2>
+          <p className="text-sm text-muted-foreground">Top 10 suppliers by the revenue that would be at risk. Only ingredients with no second supplier are counted.</p>
+          <DataTable
+            columns={[
+              { key: "supplier", label: "Supplier" },
+              { key: "country", label: "Country" },
+              { key: "category", label: "Ingredient type" },
+              { key: "otif", label: "On-time delivery", align: "right" },
+              { key: "single", label: "Single-source ingredients", align: "right" },
+              { key: "risk", label: "Revenue at risk", align: "right" },
+            ]}
+            rows={stress.map((x) => ({
+              supplier: x.supplier_name,
+              country: x.country,
+              category: x.category,
+              otif: `${num(x.otif_pct, 1)}%`,
+              single: num(x.single_source_rms),
+              risk: chfMillions(x.revenue_at_risk_8w_chf),
+            }))}
+          />
+        </section>
 
-      <section className="mt-8 space-y-3">
-        <h2 className="text-sm font-semibold tracking-tight">IFRA amendment what-if</h2>
-        <Card
-          subtitle={`Current position: ${site.ifraNow.formulas} formulas already exceed their raw-material limit (${site.ifraNow.breaches} breach lines). A perfumer signs off every reformulation; the engine ranks and never submits.`}
-        >
-          <IfraWhatIf items={site.ifra} />
-        </Card>
-      </section>
+        <section className="space-y-3">
+          <h2 className="text-lg font-semibold tracking-tight">What if a safety rule tightened?</h2>
+          <Card subtitle={`Today, ${site.ifraNow.formulas} formulas already exceed their ingredient limit (${site.ifraNow.breaches} breach lines). Choose an ingredient and a new limit to see the impact. A perfumer approves every change.`}>
+            <IfraWhatIf items={site.ifra} />
+          </Card>
+        </section>
+      </div>
+
+      <PrevNext href="/risk" />
     </>
   );
 }

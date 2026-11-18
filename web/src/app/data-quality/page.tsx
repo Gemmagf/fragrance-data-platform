@@ -1,8 +1,12 @@
 import { site } from "@/lib/data";
+import { getSection } from "@/lib/content";
 import { PageHeader } from "@/components/PageHeader";
 import { DataTable } from "@/components/DataTable";
+import { Explain } from "@/components/Explain";
+import { PrevNext } from "@/components/PrevNext";
 import { num } from "@/lib/format";
 
+const SEVERITY_LABEL: Record<string, string> = { high: "High", medium: "Medium", low: "Low" };
 const SEVERITY_CLASS: Record<string, string> = {
   high: "font-semibold text-rose-600",
   medium: "text-amber-700",
@@ -10,52 +14,48 @@ const SEVERITY_CLASS: Record<string, string> = {
 };
 
 export default function DataQualityPage() {
+  const s = getSection("data-quality");
   const rows = site.dq;
   const blocking = rows.filter((r) => r.severity === "high" && r.failures_after_cleaning > 0).length;
 
   return (
     <>
-      <PageHeader
-        title="Data quality"
-        subtitle="Every check, with the failures the source sent and the failures still left after cleaning."
-        owner="Domain data stewards; monitored by Head of BI"
-        sla="Every load"
-        action="Clear high-severity items before any number goes to the Steering Committee"
-      />
+      <PageHeader title={s.title} subtitle={s.question} owner={s.owner} sla={s.sla} action={s.action} />
+      <Explain section={s} />
 
-      <p className="mb-4 text-sm">
-        High-severity checks still failing after cleaning:{" "}
-        <strong className={blocking === 0 ? "text-emerald-600" : "text-rose-600"}>{blocking}</strong>
-      </p>
+      <div className="mt-8 space-y-4">
+        <p className="rounded-lg border border-border bg-background p-4 text-sm">
+          Important checks still failing after cleaning:{" "}
+          <strong className={blocking === 0 ? "text-emerald-600" : "text-rose-600"}>{blocking}</strong>
+          {blocking === 0 ? " (the goal is zero)" : ""}
+        </p>
 
-      <DataTable
-        columns={[
-          { key: "table", label: "Table" },
-          { key: "check", label: "Check" },
-          { key: "severity", label: "Severity" },
-          { key: "raw", label: "Raw failures", align: "right" },
-          { key: "after", label: "After cleaning", align: "right" },
-          { key: "action", label: "Action" },
-        ]}
-        rows={rows.map((r) => ({
-          table: r.table,
-          check: r.check,
-          severity: <span className={SEVERITY_CLASS[r.severity]}>{r.severity}</span>,
-          raw: num(r.failures_raw),
-          after:
-            r.failures_after_cleaning === 0 ? (
-              <span className="font-semibold text-emerald-600">0</span>
-            ) : (
-              num(r.failures_after_cleaning)
-            ),
-          action: r.action,
-        }))}
-      />
+        <DataTable
+          columns={[
+            { key: "table", label: "Data source" },
+            { key: "check", label: "What is checked" },
+            { key: "severity", label: "Importance" },
+            { key: "raw", label: "Found in source", align: "right" },
+            { key: "after", label: "Still wrong after cleaning", align: "right" },
+            { key: "action", label: "What we do" },
+          ]}
+          rows={rows.map((r) => ({
+            table: r.table,
+            check: r.check,
+            severity: <span className={SEVERITY_CLASS[r.severity]}>{SEVERITY_LABEL[r.severity] ?? r.severity}</span>,
+            raw: num(r.failures_raw),
+            after:
+              r.failures_after_cleaning === 0 ? (
+                <span className="font-semibold text-emerald-600">0</span>
+              ) : (
+                num(r.failures_after_cleaning)
+              ),
+            action: r.action,
+          }))}
+        />
+      </div>
 
-      <p className="mt-4 text-sm text-muted-foreground">
-        Raw failures are what the source sent. Failures after cleaning are what is still wrong after the silver rules.
-        Anything left is a steward action, not a silent fix.
-      </p>
+      <PrevNext href="/data-quality" />
     </>
   );
 }

@@ -4,6 +4,21 @@ A portfolio case built around the **Business Analyst** role at a mid-size Swiss 
 
 > **Everything here is simulated.** Customers, suppliers, raw materials, formulas, prices and sales are invented to mirror the shape of the business. Nothing comes from LUZI AG's real systems or data. The planted business logic (win drivers, price elasticity, circular premium, regulatory limits) is known to the test suite, so each analysis can be checked against an answer.
 
+## Read this first (no technical background needed)
+
+**The question this case answers:** how can a fragrance manufacturer use its data to decide faster: which customer
+requests to chase, how to set prices, which ingredients could stop production, and how to answer sustainability questions?
+
+**How to explore it:** open the web dashboard (`web/`) and start with the home page, *Start here*. It links to six
+sections, each answering one business question in plain language, plus a glossary and a page on what I would bring to LUZI.
+
+**What is real and what is not:** everything is simulated. Customers, suppliers, ingredients, formulas and sales are
+invented to behave like a real fragrance business. Nothing here is LUZI AG's data. The logic is built in on purpose, so
+the analyses can be checked against a known answer.
+
+**What I would bring:** a Business Analyst who connects data work to decisions. The mapping between each need of the
+role and my experience is on the *What I bring* page, including the gaps I have and how I would close them.
+
 ## What it demonstrates against the job
 
 | Role requirement (posting) | Where it is evidenced |

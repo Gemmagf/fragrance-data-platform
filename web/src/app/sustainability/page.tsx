@@ -1,12 +1,16 @@
 import { site } from "@/lib/data";
+import { getSection } from "@/lib/content";
 import { PageHeader } from "@/components/PageHeader";
 import { Card } from "@/components/Card";
 import { KPICard } from "@/components/KPICard";
+import { Explain } from "@/components/Explain";
+import { PrevNext } from "@/components/PrevNext";
 import { LedgerScatter } from "@/components/charts/LedgerScatter";
 import { SlaChart } from "@/components/charts/SlaChart";
 import { mean, median, num, pct } from "@/lib/format";
 
 export default function SustainabilityPage() {
+  const s = getSection("sustainability");
   const c = site.circular;
   const ledger = site.ledger;
   const points = ledger.map((r) => ({
@@ -20,49 +24,41 @@ export default function SustainabilityPage() {
   const conventional = points.filter((p) => !p.is_circular);
   const circular = points.filter((p) => p.is_circular);
   const sla = site.sustSla;
-  const baseline = median(sla.map((s) => s.median_lead_time_days)) ?? 0;
+  const baseline = median(sla.map((x) => x.median_lead_time_days)) ?? 0;
 
   return (
     <>
-      <PageHeader
-        title="Sustainability ledger"
-        subtitle="CO2e and naturals share per compound, and the premium customers pay for circular compounds."
-        owner="Head of Sustainability"
-        sla="Monthly"
-        action="Answer a customer's CO2e or naturals request from source in under two clicks"
-      />
+      <PageHeader title={s.title} subtitle={s.question} owner={s.owner} sla={s.sla} action={s.action} />
+      <Explain section={s} />
 
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+      <h2 className="mt-8 text-sm font-semibold uppercase tracking-wide text-muted-foreground">The numbers</h2>
+      <div className="mt-3 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         <KPICard
-          label="Circular price premium"
+          label="Extra price for circular products"
           value={pct(c.premium_pct)}
-          help={`95% CI ${pct(c.premium_ci_low)} to ${pct(c.premium_ci_high)}`}
+          help={`We are 95% confident it lies between ${pct(c.premium_ci_low)} and ${pct(c.premium_ci_high)}`}
           accent="positive"
         />
-        <KPICard
-          label="Median CO2e per kg"
-          value={`${num(median(ledger.map((r) => Number(r.co2e_kg_per_kg_compound))), 1)} kg`}
-          help="Per compound, unweighted"
-        />
-        <KPICard
-          label="Average naturals share"
-          value={`${num(mean(ledger.map((r) => Number(r.naturals_pct))), 1)}%`}
-          help="Of formula weight, per compound"
-        />
+        <KPICard label="Typical footprint per kg" value={`${num(median(ledger.map((r) => Number(r.co2e_kg_per_kg_compound))), 1)} kg CO2e`} help="Median product, unweighted" />
+        <KPICard label="Natural ingredients" value={`${num(mean(ledger.map((r) => Number(r.naturals_pct))), 1)}%`} help="Average share of formula weight" />
       </div>
 
-      <Card className="mt-6" title="CO2e per kg vs realised price, per compound (LTM)" subtitle="Each dot is one compound. Green = circular.">
-        <LedgerScatter conventional={conventional} circular={circular} />
-      </Card>
-
-      <Card className="mt-6" title="Disclosure request turnaround" subtitle={`Median days to answer a customer request, by quarter. Dashed line: 30% of the current median (the BRD -70% target).`}>
-        <SlaChart data={sla} baseline={baseline} />
-      </Card>
+      <div className="mt-6 space-y-6">
+        <Card title="Footprint against price, product by product" subtitle="Each dot is one product. Green = circular. Lower dots have a smaller carbon footprint.">
+          <LedgerScatter conventional={conventional} circular={circular} />
+        </Card>
+        <Card title="How fast do we answer customer requests?" subtitle={`Typical days to answer a sustainability request, by quarter. Target: 70% faster (dashed line).`}>
+          <SlaChart data={sla} baseline={baseline} />
+        </Card>
+      </div>
 
       <p className="mt-4 text-sm text-muted-foreground">
-        Premium method: log(realised price / quote) on a circular flag, with customer and month fixed effects. Without the
-        customer effect the estimate is biased down (about 5.4% against the planted 6%).
+        How the premium is measured: we compare the price customers actually paid with the quoted price, for circular and
+        conventional products, adjusting for each customer and each month. Without that adjustment the estimate would be
+        too low.
       </p>
+
+      <PrevNext href="/sustainability" />
     </>
   );
 }
