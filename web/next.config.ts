@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // GitHub Pages serves a project site under /<repo-name>. The deploy workflow sets
-// NEXT_BASE_PATH=/luzi-data-case; local builds leave it empty and serve from /.
+// NEXT_BASE_PATH=/fragrance-data-platform; local builds leave it empty and serve from /.
 const basePath = process.env.NEXT_BASE_PATH || undefined;
 
 const nextConfig: NextConfig = {

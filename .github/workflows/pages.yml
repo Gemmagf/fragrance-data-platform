@@ -1,4 +1,4 @@
-name: Deploy LUZI case to GitHub Pages
+name: Deploy case to GitHub Pages
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
       - name: Build static site
         working-directory: web
         env:
-          NEXT_BASE_PATH: /luzi-data-case
+          NEXT_BASE_PATH: /fragrance-data-platform
         run: npm run build
 
       - name: Disable Jekyll processing

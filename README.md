@@ -17,7 +17,6 @@ invented to behave like a real fragrance business. Nothing here is LUZI AG's dat
 the analyses can be checked against a known answer.
 
 **What I would bring:** a Data Engineer who builds pipelines that are tested and redeployable, puts quality checks inside the pipeline, and serves Power BI from one clean model. The mapping to each responsibility of the role, with the gaps stated, is on the *What I would bring* page.
-role and my experience is on the *What I bring* page, including the gaps I have and how I would close them.
 
 ## What it demonstrates against the job
 
@@ -64,10 +63,10 @@ The repo runs on Python and parquet so it works anywhere. The BRD's target stack
 ## Quick start
 
 ```bash
-cd luzi-data-case
+cd fragrance-data-platform
 pip install -r requirements.txt
 PYTHONPATH=src python -m luzi_case.run_all        # simulate -> pipeline -> analyses -> export
-PYTHONPATH=src python tests/test_case.py          # 15 tests
+PYTHONPATH=src python tests/test_case.py          # 22 tests
 
 cd web
 npm install
